@@ -30,7 +30,7 @@ div.navbar {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* position: relative; */
+    /* position: fixed; */
 
 }
 
@@ -47,6 +47,12 @@ div.navbar {
     color: #172460;
     text-decoration: none;
 
+}
+
+.banner {
+    background-image: url(../image/slider-1.jpg);
+    height: 505px;
+    margin-top: -100px;
 }
 
 
@@ -104,6 +110,9 @@ div.navbar {
     left: 0px;
     top: 0px;
     width: 100%;
+    background-image: url(../image/choose-dot.png);
+    padding-top: 100px;
+
 
 }
 
@@ -141,6 +150,69 @@ div.navbar {
     margin-bottom: 0px;
 }
 
+.video_icon {
+    text-align: center;
+    margin-top: -130px;
+    margin-left: 70px;
+}
+
+.video_icon a {
+    position: relative;
+    max-width: 272px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.video_icon i {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    font-size: 45px;
+    line-height: 100px;
+
+}
+
+.video_icon a:before {
+    content: "";
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .45);
+    position: absolute;
+    left: 25px;
+    top: -60px;
+    animation: animate 2s linear infinite
+}
+
+.video_icon a:after {
+    content: "";
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .45);
+    position: absolute;
+    left: 56px;
+    top: -30px;
+    animation: animate 2s linear infinite
+}
+
+
+.video_icon:after {
+    animation-delay: 1s;
+}
+
+@keyframes animate {
+    100% {
+        transform: scale(1.0);
+    }
+
+    0% {
+        transform: scale(0.5);
+    }
+}
 
 
 .company_item .company_text h4 {
@@ -218,6 +290,14 @@ div.navbar {
     margin-bottom: 33px;
 }
 
+
+
+.banner5 {
+    background: #eceff3;
+    background-image: url(../image/what-we-are-shape-1.png);
+    height: 550px;
+}
+
 .case_item .case_text h4 {
     font-size: 16px;
     color: #172460;
@@ -258,8 +338,9 @@ div.navbar {
 }
 
 .section-title p {
-    color: #333333;
-    font-size: 16px;
+    /* color: #333333; */
+    color: #797979;
+    font-size: 20px;
     line-height: 24px;
 }
 
@@ -337,6 +418,7 @@ div.navbar {
     height: 535px;
     margin-left: 70px;
     margin-right: 70px;
+    background-image: url(../image/bg-banner-home5.png);
 }
 
 .services-title-area .services-title-item .title {
@@ -348,6 +430,7 @@ div.navbar {
     font-family: "GilroyBold";
     font-weight: 700;
 }
+
 
 .s_h {
     font-size: 26px;
@@ -372,4 +455,24 @@ div.navbar {
     background: #0c59db;
     color: #fff;
     border-color: #0c59db;
+}
+
+.header11 {
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../image/testimonials-bg.jpg);
+}
+
+.appointment .form-group .btn {
+    width: 100%;
+    display: block !important;
+}
+
+.btn.btn-primary {
+    background: #323edd !important;
+    border: 1px solid #323edd !important;
+    color: #fff !important;
 }
