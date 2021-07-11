@@ -105,6 +105,10 @@ div.navbar {
     font-size: 13px;
 }
 
+.main_btn:hover {
+    color: #3fb698 !important;
+}
+
 .our_company {
 
     content: "";
@@ -234,6 +238,11 @@ div.navbar {
     margin-bottom: 0px;
 }
 
+.more_btn:hover {
+    color: #3fb698 !important;
+    text-decoration: none;
+}
+
 .company_item {
     background: #fff;
 }
@@ -244,13 +253,22 @@ div.navbar {
     z-index: 2;
 }
 
-.text {
+.text_p {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #766e86;
     margin-bottom: 0px;
 }
+
+.text_p a {
+    color: #f14141 !important;
+}
+
+.text_p a:hover {
+    color: #3fb698 !important;
+}
+
 
 .mission_img .company_about {
     background: #172460;
@@ -476,20 +494,21 @@ div.navbar {
 
 .btn.btn-primary {
     background: #3fb698 !important;
-    border: 1px solid #323edd !important;
+    border: 1px solid #3fb698 !important;
     color: #fff !important;
 }
 
 .footer-color {
     background: #302c38;
     height: 400px;
+    margin-top: -20px;
 }
 
 .green {
     color: #3fb698 !important;
 }
 
-.parag {
+.p_a {
     color: #fff;
     font-size: 40px;
     font-weight: 500;
@@ -498,7 +517,7 @@ div.navbar {
     /* margin: 0 0 39px; */
 }
 
-.parag span {
+.p_a span {
     color: #3fb698;
     font-family: "Poppins", sans-serif;
 }
@@ -510,7 +529,7 @@ div.navbar {
 .social li a {
     background: #fff none repeat scroll 0 0;
     border-radius: 100px;
-    color: #333333;
+    color: #3fb698;
     display: block;
     font-size: 16px;
     height: 40px;
@@ -540,4 +559,17 @@ div.navbar {
     /* margin-left: 20px; */
     font-weight: 500;
     font-size: 25px;
+}
+
+.separator-f {
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
+}
+
+.hvc li a:hover {
+    color: #3fb698;
+    text-decoration: none;
 }
