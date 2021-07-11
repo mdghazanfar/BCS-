@@ -30,6 +30,7 @@ div.navbar {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    background: #302c38 !important;
     /* position: fixed; */
 
 }
@@ -37,14 +38,14 @@ div.navbar {
 .fwc_pa {
     /* font white color on p and a */
     text-decoration: none;
-    color: #242424;
+    color: azure;
     margin-left: 20px;
     font-weight: 500;
     font-size: 20px;
 }
 
 .navbar-nav a:hover {
-    color: #172460;
+    color: #f14141;
     text-decoration: none;
 
 }
@@ -62,7 +63,7 @@ div.navbar {
     position: relative;
     width: 250px;
     height: 5px;
-    background: linear-gradient(to right, #0c59db 25%, #47b2e4 100%);
+    background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
 }
 
 .digit_text {
@@ -446,7 +447,7 @@ div.navbar {
     color: #232323;
     line-height: 50px;
     padding: 0 30px;
-    border: 3px solid #0c59db;
+    border: 3px solid #3fb698;
     border-radius: 5px;
     margin-top: 37px;
     display: inline-block;
@@ -454,9 +455,9 @@ div.navbar {
 }
 
 .company_item .read-btn a:hover {
-    background: #0c59db;
+    background: #3fb698;
     color: #fff;
-    border-color: #0c59db;
+    border-color: #3fb698;
 }
 
 .header11 {
@@ -465,16 +466,78 @@ div.navbar {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../image/testimonials-bg.jpg);
+    background-image: url(../image/counter-bg.jpg);
 }
 
 .appointment .form-group .btn {
-    width: 100%;
+    /* width: 100%; */
     display: block !important;
 }
 
 .btn.btn-primary {
-    background: #323edd !important;
+    background: #3fb698 !important;
     border: 1px solid #323edd !important;
     color: #fff !important;
+}
+
+.footer-color {
+    background: #302c38;
+    height: 400px;
+}
+
+.green {
+    color: #3fb698 !important;
+}
+
+.parag {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 50px;
+    /* margin: 0 0 39px; */
+}
+
+.parag span {
+    color: #3fb698;
+    font-family: "Poppins", sans-serif;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social li a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 100px;
+    color: #333333;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 8px;
+    text-align: center;
+    width: 40px;
+}
+
+.social li a:hover {
+    background: #3fb698 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.f_pa {
+    /* font white color on p and a */
+    text-decoration: none;
+    color: azure;
+    /* margin-left: 20px; */
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.subtf_pa {
+    text-decoration: none;
+    color: azure;
+    /* margin-left: 20px; */
+    font-weight: 500;
+    font-size: 25px;
 }
