@@ -119,8 +119,6 @@ div.navbar {
     width: 100%;
     background-image: url(../image/choose-dot.png);
     padding-top: 100px;
-
-
 }
 
 .company_sub_title h5 {
@@ -269,7 +267,6 @@ div.navbar {
     color: #3fb698 !important;
 }
 
-
 .mission_img .company_about {
     background: #172460;
     position: absolute;
@@ -311,7 +308,20 @@ div.navbar {
     margin-bottom: 33px;
 }
 
+.banner3 {
+    background: #eceff3;
+    height: 350px;
+}
 
+.banner4 {
+    background: #fff;
+    height: 550px;
+}
+
+.b3_text {
+    margin-top: 270px;
+    margin-left: 260px;
+}
 
 .banner5 {
     background: #eceff3;
@@ -327,11 +337,24 @@ div.navbar {
     margin-top: 25px;
 }
 
+.case-items_p {
+    color: #797979;
+    margin-top: 10px;
+}
+
 .case_item .case_img {
     position: relative;
     overflow: hidden;
     z-index: 3;
 }
+
+.banner7 {
+    background: #eceff3;
+    height: 800px;
+    margin-top: -150px;
+}
+
+
 
 .section-title {
     text-align: center;
@@ -419,12 +442,26 @@ div.navbar {
 
 .bi-color {
     padding-bottom: center;
-
-
 }
 
 .icon-img {
-    color: #3fb698 !important
+    color: #3fb698 !important;
+}
+
+.banner8 {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/solution-bg.jpg);
+}
+
+.solution-box {
+    margin-top: -150px;
+}
+
+.b-col {
+    background: rgba(16, 16, 40, 0.8);
+    padding: 320px;
 }
 
 .solution-box .solution-content {
@@ -487,6 +524,17 @@ div.navbar {
     background-image: url(../image/counter-bg.jpg);
 }
 
+.h_bch {
+    background: rgba(16, 16, 40, 0.8);
+    height: 700px;
+}
+
+.m_cf {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 25%;
+}
+
 .appointment .form-group .btn {
     /* width: 100%; */
     display: block !important;
@@ -497,6 +545,7 @@ div.navbar {
     border: 1px solid #3fb698 !important;
     color: #fff !important;
 }
+
 
 .footer-color {
     background: #302c38;
