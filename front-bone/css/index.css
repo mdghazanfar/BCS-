@@ -4,6 +4,39 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+
+.navbar-toggler.custom-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    margin-left: 70%;
+}
+
+.top-m-100 {
+    margin-top: 100px;
+
+}
+
+.margin-right-40 {
+    margin-right: 20%;
+}
+
+button.custom-btn div.line-menubar {
+    height: 3px;
+    width: 30px;
+    margin: 5px 0px;
+    background-color: #f14141;
+}
+
+button.navbar-toggler {
+    border: azure 2px solid !important;
+}
+
+button.navbar-toggler:hover {
+    border: #f14141 2px solid !important;
+}
+
+
 .header {
     background: #283178;
     color: #8c94d1;
@@ -21,6 +54,25 @@
     font-size: 20px;
     margin-right: 12px;
     border-radius: 50%;
+
+}
+
+.nav li a:after {
+    content: '|';
+    font-family: 'FontAwesome';
+    position: relative;
+    /* width: 252px; */
+    text-align: center;
+    line-height: 3rem;
+    height: 5rem;
+    opacity: .5;
+    right: -.4rem;
+
+}
+
+.navbar-brand {
+    width: 35%;
+    height: auto;
 }
 
 div.navbar {
@@ -39,9 +91,10 @@ div.navbar {
     /* font white color on p and a */
     text-decoration: none;
     color: azure;
-    margin-left: 20px;
+    margin-left: 1rem;
     font-weight: 500;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.2rem;
 }
 
 .navbar-nav a:hover {
@@ -51,7 +104,7 @@ div.navbar {
 }
 
 .banner {
-    background-image: url(../image/slider-1.jpg);
+    background-image: url(../images/slider-1.jpg);
     height: 505px;
     /* margin-top: -100px; */
     margin-left: -10px;
@@ -117,7 +170,7 @@ div.navbar {
     left: 0px;
     top: 0px;
     width: 100%;
-    background-image: url(../image/choose-dot.png);
+    background-image: url(../images/choose-dot.png);
     padding-top: 100px;
 }
 
@@ -219,6 +272,16 @@ div.navbar {
     }
 }
 
+.company_text a {
+    text-decoration: none;
+}
+
+.company_text a h4:hover {
+    color: #f14141 !important;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
 
 .company_item .company_text h4 {
     color: #172460;
@@ -253,8 +316,8 @@ div.navbar {
 
 .text_p {
     font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    /* font-weight: 600; */
     color: #766e86;
     margin-bottom: 0px;
 }
@@ -325,7 +388,7 @@ div.navbar {
 
 .banner5 {
     background: #eceff3;
-    background-image: url(../image/what-we-are-shape-1.png);
+    background-image: url(../images/what-we-are-shape-1.png);
     height: 550px;
 }
 
@@ -452,7 +515,7 @@ div.navbar {
     margin-bottom: 50px;
     width: 100%;
     height: 100%;
-    background-image: url(../image/solution-bg.jpg);
+    background-image: url(../images/solution-bg.jpg);
 }
 
 .solution-box {
@@ -476,7 +539,7 @@ div.navbar {
     height: 535px;
     margin-left: 70px;
     margin-right: 70px;
-    background-image: url(../image/bg-banner-home5.png);
+    background-image: url(../images/bg-banner-home5.png);
 }
 
 .services-title-area .services-title-item .title {
@@ -521,7 +584,7 @@ div.navbar {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../image/counter-bg.jpg);
+    background-image: url(../images/counter-bg.jpg);
 }
 
 .h_bch {
@@ -604,8 +667,7 @@ div.navbar {
 
 .subtf_pa {
     text-decoration: none;
-    color: azure;
-    /* margin-left: 20px; */
+    color: azure !important;
     font-weight: 500;
     font-size: 25px;
 }
@@ -621,4 +683,56 @@ div.navbar {
 .hvc li a:hover {
     color: #3fb698;
     text-decoration: none;
+}
+
+
+.rotate-right {
+    transform: rotate(270deg);
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-l-20 {
+    padding-left: 20px;
+}
+
+.padding-r-20 {
+    padding-right: 20px;
+}
+
+.padding-t-20 {
+    padding-top: 20px;
+}
+
+.padding-b-20 {
+    padding-bottom: 20px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.padding-0 {
+    padding: 0px;
+}
+
+.left-m-10 {
+    margin-left: 10px;
+}
+
+.auto-hide-downcursor {
+    display: none;
+}
+
+.subtf {
+    text-decoration: none;
+    color: azure !important;
+    font-weight: 500;
+    font-size: 15px;
 }

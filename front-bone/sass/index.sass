@@ -1,0 +1,13 @@
+
+$margins: ("l-10": "10", "l-20": "20", "l-40": "40")
+
+@media screen and (max-width: 720px)
+
+    .mx-auto
+        margin: 0% !important
+
+    .margin-right-40
+
+    @each $key, $value in $margins
+    .margin-#{$name}:before
+        margin-right: $value !important
