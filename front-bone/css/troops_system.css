@@ -16,6 +16,38 @@ html {
     background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
 }
 
+.top-m-100 {
+    margin-top: 10rem;
+
+}
+
+.top-m-150 {
+    margin-top: 150px;
+
+}
+
+.margin-right-40 {
+    margin-right: 20%;
+}
+
+.size-15 {
+    font-size: 2rem !important;
+}
+
+.h4 {
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+}
+
+.bottom-m-100 {
+    margin-bottom: 100px;
+}
+
+/* *******************************************Resusable************************************************** */
+
 .nav li a:after {
     content: '|';
     font-family: 'FontAwesome';
@@ -35,19 +67,6 @@ html {
     top: 1rem;
     margin-left: 80%;
 
-}
-
-.top-m-100 {
-    margin-top: 10rem;
-
-}
-
-.margin-right-40 {
-    margin-right: 20%;
-}
-
-.size-15 {
-    font-size: 2rem !important;
 }
 
 button.custom-btn div.line-menubar {
@@ -90,6 +109,7 @@ button.navbar-toggler:hover {
     font-size: 2rem;
     margin-right: 1.2rem;
     border-radius: 50%;
+    text-decoration: none;
 
 }
 
@@ -167,7 +187,7 @@ div.navbar {
 /************************* START:- BANNER SECTION ***************************** */
 .banner {
     background-image: url(../images/image-1.jpg);
-    height: 50rem;
+    height: 60rem;
     position: relative;
     overflow: hidden;
     padding: 160px 0px 160px;
@@ -186,21 +206,394 @@ div.navbar {
     background-color: rgba(0, 0, 0, 0.40);
 }
 
+.digit_text {
+    z-index: 11;
+    font-family: Roboto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    white-space: normal;
+    width: 650px;
+    line-height: 26px;
+    font-weight: 700;
+    font-size: 17px;
+}
 
-@media screen and (max-width: 740px) {}
+.first_text {
+
+    z-index: 12;
+    font-family: Barlow;
+    height: auto;
+    color: rgb(255, 255, 255);
+    white-space: normal;
+    max-width: 75rem;
+    line-height: 85px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 6.7rem;
+}
+
+.main_btn {
+    background: #f14141;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 58px;
+    padding: 0px 33px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 5rem;
+}
+
+.main_btn:hover {
+    background-color: #3fb698 !important;
+    color: azure;
+}
+
+/***************************** START:1ST SECTION **********************************/
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.banner1 {
+    position: relative;
+    padding: 100px 0px 70px;
+    background-color: #302c38;
+}
+
+.banner1 .content-column {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sec-title h2 {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #ffffff;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sec-title.centered {
+    text-align: center !important;
+}
+
+.sec-title .title {
+    position: relative;
+    color: #f14141;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .sec-title .icon {
+    position: relative;
+    font-size: 70px;
+    color: #f14141;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.banner1 .content-column h3 {
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.banner1 .content-column .inner-column {
+    position: relative;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+
+.banner1 .content-column .inner-column h3 {
+    position: relative;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2em;
+}
+
+.banner1 .content-column .text {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.banner1 .content-column .text p {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 18px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+.banner1 .content-column .text p:last-child {
+    margin-bottom: 0px;
+}
+
+.banner1 .content-column .author-box {
+    position: relative;
+}
+
+.banner1 .images-column {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner1 .images-column .border-layer {
+    position: absolute;
+    left: 135px;
+    top: 50px;
+    width: 378px;
+    height: 450px;
+    border: 8px solid #f14141;
+}
+
+.banner1 .images-column .inner-column {
+    position: relative;
+    margin-left: -50px;
+}
+
+.banner1 .images-column .image {
+    position: relative;
+    display: inline-block;
+}
+
+.banner1 .images-column .box {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.banner1 .images-column .box .box-inner {
+    position: relative;
+    padding: 25px 15px;
+    text-align: center;
+    background-color: #f14141;
+}
+
+.banner1 .images-column .count-box {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .images-column .counter-title {
+    position: relative;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .images-column .image-two {
+    position: absolute;
+    right: 15px;
+    top: 100px;
+}
 
 
 
 
+.services-section {
+    position: relative;
+    padding: 20px 0px 70px;
+    background-color: #302c38;
+
+}
+
+.service-block {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.service-block .inner-box {
+    position: relative;
+    text-align: center;
+    padding: 50px 40px 50px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+}
+
+.service-block .inner-box .icon {
+    position: relative;
+    font-size: 70px;
+    color: #f14141;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.service-block .inner-box h4 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.service-block .inner-box h4 a {
+    position: relative;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.service-block .inner-box .text {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+.service-block .inner-box:hover {
+    border-color: #f14141;
+    text-decoration: none;
+}
+
+.service-block .inner-box:hover h4 a {
+    color: #f14141;
+    text-decoration: none;
+
+}
+
+.service-block .inner-box .border-box {
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #f14141;
+    border-bottom: 5px solid #f14141;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+.service-block .inner-box:hover .border-box {
+    width: 101%;
+    height: 101%;
+}
+
+/****************************** START:-BANNER-2 SECTION ***************************** */
+
+.banner2 {
+    position: relative;
+    padding: 100px 0px 70px;
+    background-color: #ffffff;
+}
+
+.banner2 .sec-title .text {
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #302c38;
+    /* margin-top: 10px; */
+    /* text-transform: uppercase; */
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.banner2 .sec-title p {
+
+    margin-bottom: 60px;
+    font-size: 2rem;
+    font-weight: 400;
+    align-items: center;
+    color: #333;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
 
 
+}
 
+.ban2-image1 {
+    width: 620px;
+    height: 425px;
+}
 
+.ban2-image2 {
+    width: 620px;
+    height: 425px;
+    margin-left: 7rem;
+    margin-top: 15rem;
+}
 
+.banner2 .count-number {
+    color: #E8E4D9;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin-left: 7rem;
+    margin-top: 8rem;
+}
 
+.banner2 .count-number2 {
+    color: #E8E4D9;
+    font-size: 6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.2rem;
+    margin-top: 23rem;
+    margin-bottom: 6rem;
+}
 
+.banner2 .heading-title {
+    position: relative;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #302c38;
+    width: 620px;
+    font-family: 'Oswald', sans-serif;
 
+}
 
+.banner2 .marg-heig {
+    margin-left: 7rem;
+    margin-top: 6rem;
+}
+
+.banner2 .heading-text {
+    font-size: 2rem;
+    font-weight: 400;
+    align-items: center;
+    color: #333;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    width: 620px;
+
+}
 
 /************************* START:- FOOTER SECTION ***************************** */
 

@@ -16,6 +16,37 @@ html {
     background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
 }
 
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-right-15 {
+    margin-right: 15px;
+}
+
+.top-m-50 {
+    margin-top: 50px;
+
+}
+
+.top-m-100 {
+    margin-top: 100px;
+
+}
+
+.top-m-150 {
+    margin-top: 150px;
+
+}
+
+.top-m-170 {
+    margin-top: 170px;
+
+}
+
+
+/* *******************************************Resusable************************************************** */
+
 .nav li a:after {
     content: '|';
     font-family: 'FontAwesome';
@@ -164,17 +195,18 @@ div.navbar {
     }
 }
 
+
 /************************* START:- BANNER SECTION ***************************** */
-.banner {
-    background-image: url(../images/image-1.jpg);
-    height: 50rem;
+.ban-img {
+    background-image: url(../images/FRESHER_WORLD.jpg);
+    height: 60rem;
     position: relative;
     overflow: hidden;
     padding: 160px 0px 160px;
     background-size: cover;
+    width: 100%;
 
 }
-
 
 .banner-color {
     position: absolute;
@@ -183,23 +215,213 @@ div.navbar {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.40);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
-@media screen and (max-width: 740px) {}
+.digit_text {
+    z-index: 12;
+    font-family: Barlow;
+    height: auto;
+    color: rgb(255, 255, 255);
+    white-space: normal;
+    max-width: 75rem;
+    line-height: 85px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 6.7rem;
+
+}
 
 
+.first_text {
+
+    z-index: 11;
+    font-family: Roboto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    white-space: normal;
+    width: 650px;
+    line-height: 26px;
+    font-weight: 700;
+    font-size: 17px;
+
+}
 
 
+.main_btn {
+    background: #f14141;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 58px;
+    padding: 0px 33px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 5rem;
+}
 
+.main_btn:hover {
+    background-color: #3fb698 !important;
+    color: azure;
+}
 
+/************************* END:- BANNER SECTION ***************************** */
 
+/*************************** START:- 1ST SECTION ********************************/
 
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
 
+.banner1 {
+    position: relative;
+    padding: 100px 0px 70px;
+    background-color: #302c38;
+}
 
+.banner1 .content-column {
+    position: relative;
+    margin-bottom: 30px;
+}
 
+.sec-title h2 {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #ffffff;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
 
+.sec-title.centered {
+    text-align: center !important;
+}
+
+.sec-title .title {
+    position: relative;
+    color: #f14141;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .image1 {
+    width: 756px;
+    height: 454px;
+
+}
+
+.banner1 .sec-title .icon {
+    position: relative;
+    font-size: 70px;
+    color: #f14141;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.banner1 .sec-title h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2em;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: livvic, sans-serif;
+}
+
+.banner1 h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner1 .text {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+    width: 756px;
+    font-weight: 400;
+}
+
+.banner1 .icon li {
+    position: relative;
+    font-size: 20px;
+    color: #f14141;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner1 .icon li:hover {
+    position: relative;
+    font-size: 20px;
+    color: #3fb698;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner1 .side-bar-area .icon li i {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid #f14141;
+    border-radius: 50px;
+    padding: 1px 3px 1px 2.5px;
+}
+
+.banner1 .service-article-another-img img {
+    border-radius: 15px;
+    width: 366px;
+    height: 306px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.banner1 .icon li a {
+    text-decoration: none;
+    color: #f14141;
+}
+
+.banner1 .icon li a:hover {
+    color: #3fb698;
+}
+
+.banner1 .blog-gallery {
+    text-decoration: none;
+}
+
+.banner1 .blog-gallery a img {
+    max-width: 126%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/*************************** END:- 1ST SECTION ********************************/
 
 
 /************************* START:- FOOTER SECTION ***************************** */
@@ -500,3 +722,5 @@ div.navbar {
         margin-top: 2rem;
     }
 }
+
+/************************* END:- FOOTER SECTION ***************************** */

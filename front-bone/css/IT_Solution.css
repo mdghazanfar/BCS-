@@ -164,17 +164,18 @@ div.navbar {
     }
 }
 
+
 /************************* START:- BANNER SECTION ***************************** */
-.banner {
-    background-image: url(../images/image-1.jpg);
-    height: 50rem;
+.ban-img {
+    background-image: url(../images/IT\ Solution.jpg);
+    height: 60rem;
     position: relative;
     overflow: hidden;
     padding: 160px 0px 160px;
     background-size: cover;
+    width: 100%;
 
 }
-
 
 .banner-color {
     position: absolute;
@@ -183,12 +184,58 @@ div.navbar {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.40);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
-@media screen and (max-width: 740px) {}
+.digit_text {
+    z-index: 12;
+    font-family: Barlow;
+    height: auto;
+    color: #fff;
+    white-space: normal;
+    max-width: 75rem;
+    line-height: 85px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 6.7rem;
 
+}
+
+
+.first_text {
+
+    z-index: 11;
+    font-family: Roboto;
+    height: auto;
+    color: #fff;
+    white-space: normal;
+    width: 650px;
+    line-height: 26px;
+    font-weight: 700;
+    font-size: 17px;
+
+}
+
+
+.main_btn {
+    background: #f14141;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 58px;
+    padding: 0px 33px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 5rem;
+}
+
+.main_btn:hover {
+    background-color: #3fb698 !important;
+    color: azure;
+}
+
+/************************* END:- BANNER SECTION ***************************** */
 
 
 
