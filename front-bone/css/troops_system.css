@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 html {
@@ -73,7 +73,7 @@ button.custom-btn div.line-menubar {
     height: .3rem;
     width: 3rem;
     margin: .5rem 0rem;
-    background-color: #f14141;
+    background-color: #bd6f29;
 }
 
 button.navbar-toggler {
@@ -81,7 +81,7 @@ button.navbar-toggler {
 }
 
 button.navbar-toggler:hover {
-    border: #f14141 .2rem solid !important;
+    border: #bd6f29 .2rem solid !important;
 }
 
 .dropdown-menu {
@@ -93,17 +93,20 @@ button.navbar-toggler:hover {
 }
 
 .header {
-    background: #283178;
-    color: #8c94d1;
+    background: #bd6f29;
+    color: azure;
     z-index: 2;
     font-weight: 300;
     font-size: 1.5rem;
-    color: #8c94d1;
     line-height: 4.4rem;
 }
 
+.header .fa {
+    transform: rotate(45deg);
+}
+
 .nav li a {
-    color: #8c94d1;
+    color: azure;
     width: .2rem;
     font-weight: 300;
     font-size: 2rem;
@@ -141,7 +144,7 @@ div.navbar {
 }
 
 .navbar-nav a:hover {
-    color: #f14141;
+    color: #bd6f29;
     text-decoration: none;
 
 }
@@ -160,7 +163,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.7rem !important;
+        font-size: 1.6rem !important;
     }
 
     .top-marg-10 {
@@ -204,6 +207,7 @@ div.navbar {
     right: 0px;
     bottom: 0px;
     background-color: rgba(0, 0, 0, 0.40);
+
 }
 
 .digit_text {
@@ -214,7 +218,6 @@ div.navbar {
     white-space: normal;
     width: 650px;
     line-height: 26px;
-    font-weight: 700;
     font-size: 17px;
 }
 
@@ -233,7 +236,7 @@ div.navbar {
 }
 
 .main_btn {
-    background: #f14141;
+    background: #bd6f29;
     color: #fff;
     display: inline-block;
     text-transform: uppercase;
@@ -262,6 +265,7 @@ div.navbar {
     position: relative;
     padding: 100px 0px 70px;
     background-color: #302c38;
+    /* background-color: rgb(122, 112, 143); */
 }
 
 .banner1 .content-column {
@@ -275,7 +279,7 @@ div.navbar {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2em;
-    color: #ffffff;
+    color: #fff;
     margin-top: 10px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -287,7 +291,7 @@ div.navbar {
 
 .sec-title .title {
     position: relative;
-    color: #f14141;
+    color: #bd6f29;
     font-size: 16px;
     font-weight: 700;
     display: block;
@@ -300,14 +304,14 @@ div.navbar {
 .banner1 .sec-title .icon {
     position: relative;
     font-size: 70px;
-    color: #f14141;
+    color: #bd6f29;
     display: block;
     line-height: 1em;
     margin-bottom: 15px;
 }
 
 .banner1 .content-column h3 {
-    color: #ffffff;
+    color: #fff;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -323,6 +327,7 @@ div.navbar {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.2em;
+    font-family: 'Oswald', sans-serif;
 }
 
 .banner1 .content-column .text {
@@ -357,7 +362,7 @@ div.navbar {
     top: 50px;
     width: 378px;
     height: 450px;
-    border: 8px solid #f14141;
+    border: 8px solid #bd6f29;
 }
 
 .banner1 .images-column .inner-column {
@@ -380,11 +385,11 @@ div.navbar {
     position: relative;
     padding: 25px 15px;
     text-align: center;
-    background-color: #f14141;
+    background-color: #bd6f29;
 }
 
 .banner1 .images-column .count-box {
-    color: #ffffff;
+    color: #fff;
     font-size: 80px;
     font-weight: 700;
     line-height: 1em;
@@ -393,7 +398,7 @@ div.navbar {
 
 .banner1 .images-column .counter-title {
     position: relative;
-    color: #ffffff;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -438,7 +443,7 @@ div.navbar {
 .service-block .inner-box .icon {
     position: relative;
     font-size: 70px;
-    color: #f14141;
+    color: #bd6f29;
     display: block;
     line-height: 1em;
     margin-bottom: 15px;
@@ -456,7 +461,7 @@ div.navbar {
 
 .service-block .inner-box h4 a {
     position: relative;
-    color: #ffffff;
+    color: #fff;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -472,15 +477,16 @@ div.navbar {
 }
 
 .service-block .inner-box:hover {
-    border-color: #f14141;
+    border-color: #bd6f29;
     text-decoration: none;
 }
 
 .service-block .inner-box:hover h4 a {
-    color: #f14141;
+    color: #bd6f29;
     text-decoration: none;
 
 }
+
 
 .service-block .inner-box .border-box {
     position: absolute;
@@ -488,8 +494,23 @@ div.navbar {
     bottom: -2px;
     width: 50px;
     height: 50px;
-    border-right: 5px solid #f14141;
-    border-bottom: 5px solid #f14141;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+.border-box1 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
     transition: all 600ms ease;
     -moz-transition: all 600ms ease;
     -webkit-transition: all 600ms ease;
@@ -502,12 +523,19 @@ div.navbar {
     height: 101%;
 }
 
+.service-block .inner-box:hover .border-box1 {
+    width: 101%;
+    height: 101%;
+}
+
 /****************************** START:-BANNER-2 SECTION ***************************** */
 
 .banner2 {
     position: relative;
     padding: 100px 0px 70px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #232323;
+    margin-bottom: 20px;
 }
 
 .banner2 .sec-title .text {
@@ -516,7 +544,8 @@ div.navbar {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2em;
-    color: #302c38;
+    /* color: #302c38; */
+    color: #bd6f29;
     /* margin-top: 10px; */
     /* text-transform: uppercase; */
     font-family: 'Oswald', sans-serif;
@@ -529,21 +558,20 @@ div.navbar {
     font-size: 2rem;
     font-weight: 400;
     align-items: center;
-    color: #333;
+    /* color: #333; */
+    color: #fff;
     margin-top: 10px;
     font-family: "Poppins", sans-serif;
-
-
 }
 
 .ban2-image1 {
-    width: 620px;
-    height: 425px;
+    max-width: 100%;
+    max-height: auto;
 }
 
 .ban2-image2 {
-    width: 620px;
-    height: 425px;
+    max-width: 100%;
+    max-height: auto;
     margin-left: 7rem;
     margin-top: 15rem;
 }
@@ -573,8 +601,9 @@ div.navbar {
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 1.2em;
-    color: #302c38;
-    width: 620px;
+    /* color: #302c38; */
+    color: #fff;
+    width: 100%;
     font-family: 'Oswald', sans-serif;
 
 }
@@ -588,12 +617,195 @@ div.navbar {
     font-size: 2rem;
     font-weight: 400;
     align-items: center;
-    color: #333;
+    /* color: #333; */
+    color: #bbbbbb;
     margin-top: 10px;
     font-family: "Poppins", sans-serif;
-    width: 620px;
+    width: 100%;
 
 }
+
+
+
+
+/*************************** START:- MOBILE RESPONSIVE  ********************************/
+
+/************************* START:- BANNER SECTION ***************************** */
+
+
+@media screen and (max-width: 740px) {
+
+    /* START */
+    .margin-right-40 {
+        margin-right: 125px !important;
+    }
+
+    .dropdown-menu {
+        background-color: #302c38 !important;
+    }
+
+    .dropdown-menu a {
+        color: azure !important;
+    }
+
+    .top-m-150 {
+        margin-top: 100px;
+    }
+
+    .banner {
+        height: 50rem;
+        width: 100%;
+    }
+
+    .left-m-15 {
+        margin-left: 15px;
+    }
+
+    .first_text {
+        line-height: 50px;
+        font-size: 5rem;
+        margin-bottom: 30px;
+    }
+
+
+
+    .digit_text {
+        width: 100%;
+        line-height: 26px;
+        font-size: 22px;
+    }
+
+    .main_btn {
+        margin-top: 10px;
+        margin-left: 26px;
+        font-size: 12px;
+
+    }
+}
+
+/************************* END:- BANNER SECTION ***************************** */
+
+/********************* START:- 1ST SECTION ********************************** */
+
+@media screen and (max-width: 768px) {
+
+    .banner1 {
+        height: 1760px;
+    }
+
+
+
+    .sec-title h2 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        font-family: livvic, sans-serif;
+    }
+
+    .banner1 .content-column .inner-column h3 {
+        font-size: 26px;
+    }
+
+    .banner1 .content-column .inner-column {
+        padding-right: 0px;
+    }
+
+    .banner1 .content-column .text p {
+        font-size: 16px;
+    }
+
+    .banner1 .images-column .image-one {
+        position: absolute;
+        left: 95px;
+
+    }
+
+    .banner1 .images-column .image-one img {
+        max-width: 100%;
+        max-height: auto;
+        border-radius: 20px;
+
+    }
+
+    .banner1 .images-column .image-two img {
+        max-width: 100%;
+        max-height: auto;
+        border-radius: 20px;
+    }
+
+    .banner1 .images-column .image-two {
+        position: absolute;
+        left: 95px;
+        top: 552px;
+
+    }
+
+    .banner1 .images-column .box .box-inner {
+        border-radius: 20px;
+
+    }
+
+    .banner1 .images-column .border-layer {
+        display: none;
+    }
+
+
+    .services-section {
+        margin-top: -10px;
+    }
+}
+
+/********************* START:- 2nd SECTION ********************************** */
+
+@media screen and (max-width: 1200px) {
+
+    .banner2 .heading-text {
+        font-size: 1.7rem;
+    }
+
+    .banner2 .count-number {
+        margin-left: 0rem;
+
+    }
+
+    .banner2 .count-number {
+        margin-top: 0rem;
+        font-size: 5rem;
+    }
+
+    .banner2 .marg-heig {
+        margin-left: 0rem;
+
+    }
+
+    .banner2 .heading-title {
+        font-size: 2.4rem;
+    }
+
+    .banner2 .count-number2 {
+        font-size: 5rem;
+        margin-top: 5rem;
+    }
+
+    .banner2 .top-m-10 {
+        margin-top: 5rem !important;
+    }
+
+    .banner2 .ban2-image1 {
+        border-radius: 20px;
+    }
+
+
+    .ban2-image2 {
+        border-radius: 20px;
+        margin-left: 0rem;
+        margin-top: 5rem;
+    }
+
+
+}
+
+
+
 
 /************************* START:- FOOTER SECTION ***************************** */
 
@@ -754,14 +966,14 @@ div.navbar {
 }
 
 .dropdown-content a:hover {
-    color: #f14141;
+    color: #bd6f29;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1200px) {
     .auto-hide {
         display: none;
     }
@@ -782,7 +994,7 @@ div.navbar {
     }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1200px) {
 
     .subtf_pa {
         text-decoration: none;
@@ -886,10 +1098,59 @@ div.navbar {
 
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1200px) {
     .dropdown-content {
         display: none;
         position: relative;
         margin-top: 2rem;
     }
+}
+
+/************************* END:- FOOTER SECTION ***************************** */
+
+@media screen and (min-width: 320px) {
+
+    .digit_text {
+        max-width: 100%;
+    }
+
+    .first_text {
+        width: 100%;
+    }
+
+    .btn-border {
+        width: 80%;
+    }
+
+    .block-image img {
+
+        width: 200%;
+    }
+
+    .mar-img1 {
+        margin-left: -17px;
+    }
+
+    .mar-img2 {
+        margin-left: -34px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .block-image img {
+        width: 240%;
+    }
+
+    .mar-img1 {
+        margin-left: 5px;
+    }
+
+    .mar-img2 {
+        margin-left: 10px;
+    }
+
+    .btn-border {
+        width: 95%;
+    }
+
 }

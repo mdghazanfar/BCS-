@@ -1,15 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
+/* html {
+    font-family: 'Oswald', sans-serif;
+} */
 
 .navbar-toggler.custom-btn {
     position: absolute;
     cursor: pointer;
     top: 15px;
     margin-left: 70%;
+}
+
+.bot-m-40 {
+    margin-bottom: 40px;
 }
 
 .top-m-100 {
@@ -25,7 +32,7 @@ button.custom-btn div.line-menubar {
     height: 3px;
     width: 30px;
     margin: 5px 0px;
-    background-color: #f14141;
+    background-color: #bd6f29;
 }
 
 button.navbar-toggler {
@@ -33,28 +40,39 @@ button.navbar-toggler {
 }
 
 button.navbar-toggler:hover {
-    border: #f14141 2px solid !important;
+    border: #bd6f29 2px solid !important;
 }
 
 
 .header {
-    background: #283178;
-    color: #8c94d1;
+
+    background: #bd6f29;
+    color: azure;
     z-index: 2;
     font-weight: 300;
-    font-size: 15px;
-    color: #8c94d1;
+    font-size: 16px;
+
     line-height: 44px;
+
 }
 
 .nav li a {
-    color: #8c94d1;
+    color: azure;
     width: 2px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 12px;
     border-radius: 50%;
+    text-decoration: none;
 
+}
+
+.header .fa {
+    transform: rotate(45deg);
+}
+
+.nav li a:hover {
+    color: #3fb698;
 }
 
 .nav li a:after {
@@ -98,17 +116,34 @@ div.navbar {
 }
 
 .navbar-nav a:hover {
-    color: #f14141;
+    color: #bd6f29;
     text-decoration: none;
 
 }
 
 .banner {
-    background-image: url(../images/slider-1.jpg);
-    height: 505px;
-    /* margin-top: -100px; */
-    margin-left: -10px;
+    background-image: url(../images/image-1.jpg);
+    height: 36rem;
+    position: relative;
+    overflow: hidden;
+    padding: 160px 0px 160px;
+    background-size: cover;
+
 }
+
+
+.banner-color {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.40);
+
+}
+
+
 
 
 .separator {
@@ -120,35 +155,39 @@ div.navbar {
 }
 
 .digit_text {
-    color: #172460;
+    color: #fff;
     font-size: 16px;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold !important;
     letter-spacing: 3.2px;
 
 }
 
 .first_text {
+    color: #fff;
+    z-index: 12;
+    font-family: Barlow;
+    height: auto;
+    white-space: normal;
+    max-width: 75rem;
+    line-height: 85px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 4.7rem;
 
-    line-height: 68px;
-    font-size: 55px;
-    min-width: 640px;
-    max-width: 640px;
-    color: #172460;
-    font-weight: 600 !important;
-    font-family: "Poppins", sans-serif;
 }
 
 .second_text {
-    color: #1c1c1c;
-    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
     visibility: inherit;
     font-size: 20px;
+    line-height: 20px;
 }
 
 .main_btn {
-    background: #f14141;
+    background: #3fb698;
     color: #fff;
     display: inline-block;
     text-transform: uppercase;
@@ -156,10 +195,13 @@ div.navbar {
     padding: 0px 33px;
     font-weight: 600;
     font-size: 13px;
+    margin-top: 30px;
+
 }
 
 .main_btn:hover {
-    color: #3fb698 !important;
+    background-color: #bd6f29 !important;
+    color: azure;
 }
 
 .our_company {
@@ -175,8 +217,8 @@ div.navbar {
 }
 
 .company_sub_title h5 {
-    color: #f14141;
-    font-family: "Playfair Display", serif;
+    color: #bd6f29;
+    font-family: 'Oswald', sans-serif;
     font-style: italic;
     font-size: 22px;
     font-weight: normal;
@@ -186,7 +228,7 @@ div.navbar {
 .company_sub_title h4 {
     color: #fff;
     font-size: 26px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 500;
     margin-right: -14px;
     margin-bottom: 56px;
@@ -194,14 +236,14 @@ div.navbar {
 
 .p-c {
     text-align: center;
-    padding: 32px 20px 32px 20px;
+    padding: 32px 20px 10px 20px;
 }
 
 .our_company_inner .company_desc p {
     color: #fff;
     opacity: .6;
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: normal;
     line-height: 28px;
     margin-top: 18px;
@@ -215,6 +257,7 @@ div.navbar {
 }
 
 .video_icon a {
+    color: #bd6f29;
     position: relative;
     max-width: 272px;
     width: 100%;
@@ -277,24 +320,24 @@ div.navbar {
 }
 
 .company_text a h4:hover {
-    color: #f14141 !important;
+    color: #bd6f29 !important;
     -webkit-transition: all 300ms linear 0s;
     -o-transition: all 300ms linear 0s;
     transition: all 300ms linear 0s;
 }
 
 .company_item .company_text h4 {
-    color: #172460;
+    color: #232323;
     font-size: 20px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin-bottom: 15px;
 }
 
 .more_btn {
-    color: #f14141;
+    color: #bd6f29;
     text-transform: uppercase;
     font-size: 13px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 600;
     margin-bottom: 0px;
 }
@@ -304,8 +347,72 @@ div.navbar {
     text-decoration: none;
 }
 
-.company_item {
+.card-world {
     background: #fff;
+    border: 1px solid #3fb698;
+}
+
+
+.border-box {
+    position: absolute;
+    right: 12px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+
+}
+
+.border-box1 {
+    position: absolute;
+    top: -2px;
+    left: 12px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
+
+}
+
+.s_h {
+    font-size: 26px;
+    color: #232323;
+    font-family: "GilroyBold";
+    font-weight: 700;
+}
+
+div.company_text:hover .border-box {
+    width: 91%;
+    height: 101%;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+
+
+div.company_text:hover .border-box1 {
+    width: 91%;
+    height: 101%;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+
+}
+
+.center-details {
+    margin-left: 30%;
+    padding-bottom: 22px;
+}
+
+.company_item .width_height {
+    width: 255px;
+    height: 193px;
 }
 
 .area {
@@ -315,7 +422,7 @@ div.navbar {
 }
 
 .text_p {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
     /* font-weight: 600; */
     color: #766e86;
@@ -323,15 +430,66 @@ div.navbar {
 }
 
 .text_p a {
-    color: #f14141 !important;
+    color: #bd6f29 !important;
 }
 
 .text_p a:hover {
     color: #3fb698 !important;
 }
 
+.border-box2 {
+    position: absolute;
+    top: -1px;
+    left: 12px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+.border-box3 {
+    position: absolute;
+    right: -1px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+.banner7 .text-box:hover .border-box2 {
+    width: 96%;
+    height: 101%;
+}
+
+.text-box:hover .border-box3 {
+    width: 96%;
+    height: 101%;
+
+}
+
+.banner7 .text-box {
+    border: 1px solid #3fb698;
+    padding: 40px;
+    margin: 0px 0px 0px;
+    width: 270px;
+    height: 270px;
+    align-items: center;
+}
+
+
 .mission_img .company_about {
-    background: #172460;
+    background: #bd6f29;
     position: absolute;
     right: 0px;
     bottom: -20px;
@@ -344,30 +502,30 @@ div.navbar {
     color: #fff;
     margin-bottom: 15px;
     font-size: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 500;
 }
 
 .mission_img .company_about p {
     margin-bottom: 0px;
-    color: #fff;
-    opacity: .45;
+    color: #fff !important;
+
 }
 
 .mission_text h3 {
     font-size: 32px;
     line-height: 40px;
-    color: #172460;
-    font-family: "Poppins", sans-serif;
+    color: #232323;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
     margin-bottom: 18px;
 }
 
 .mission_text h5 {
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Oswald', sans-serif;
     line-height: 26px;
-    color: #172460;
+    color: #bd6f29;
     margin-bottom: 33px;
 }
 
@@ -394,8 +552,8 @@ div.navbar {
 
 .case_item .case_text h4 {
     font-size: 16px;
-    color: #172460;
-    font-family: "Poppins", sans-serif;
+    color: #bd6f29;
+    font-family: 'Oswald', sans-serif;
     font-weight: 600;
     margin-top: 25px;
 }
@@ -432,16 +590,18 @@ div.navbar {
     letter-spacing: 0;
     line-height: 20px;
     margin: 0 0 4px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .section-title h2 {
-    color: #00324c;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #232323;
     font-size: 40px;
-    font-weight: 500;
     letter-spacing: 0;
     line-height: 44px;
     margin: 0 0 26px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .section-title p {
@@ -503,6 +663,7 @@ div.navbar {
     width: 80px;
 }
 
+
 .bi-color {
     padding-bottom: center;
 }
@@ -548,14 +709,6 @@ div.navbar {
     color: #fff;
     padding: 0 210px;
     padding-top: 15px;
-    font-family: "GilroyBold";
-    font-weight: 700;
-}
-
-
-.s_h {
-    font-size: 26px;
-    color: #232323;
     font-family: "GilroyBold";
     font-weight: 700;
 }
@@ -626,12 +779,13 @@ div.navbar {
     font-weight: 500;
     letter-spacing: 0;
     line-height: 50px;
+    font-family: 'Oswald', sans-serif;
     /* margin: 0 0 39px; */
 }
 
 .p_a span {
     color: #3fb698;
-    font-family: "Poppins", sans-serif;
+
 }
 
 .social li {
@@ -664,6 +818,8 @@ div.navbar {
     font-weight: 200;
     font-size: 15px;
 }
+
+
 
 .subtf_pa {
     text-decoration: none;
@@ -735,4 +891,27 @@ div.navbar {
     color: azure !important;
     font-weight: 500;
     font-size: 15px;
+}
+
+/* .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+} */
+
+.dropdown-content a {
+    color: azure;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content span:hover {
+    color: #bd6f29;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

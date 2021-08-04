@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 html {
@@ -54,7 +54,7 @@ button.custom-btn div.line-menubar {
     height: .3rem;
     width: 3rem;
     margin: .5rem 0rem;
-    background-color: #f14141;
+    background-color: #bd6f29;
 }
 
 button.navbar-toggler {
@@ -62,7 +62,7 @@ button.navbar-toggler {
 }
 
 button.navbar-toggler:hover {
-    border: #f14141 .2rem solid !important;
+    border: #bd6f29 .2rem solid !important;
 }
 
 .dropdown-menu {
@@ -74,17 +74,20 @@ button.navbar-toggler:hover {
 }
 
 .header {
-    background: #283178;
-    color: #8c94d1;
+    background: #bd6f29;
+    color: azure;
     z-index: 2;
     font-weight: 300;
     font-size: 1.5rem;
-    color: #8c94d1;
     line-height: 4.4rem;
 }
 
+.header .fa {
+    transform: rotate(45deg);
+}
+
 .nav li a {
-    color: #8c94d1;
+    color: azure;
     width: .2rem;
     font-weight: 300;
     font-size: 2rem;
@@ -121,7 +124,7 @@ div.navbar {
 }
 
 .navbar-nav a:hover {
-    color: #f14141;
+    color: #bd6f29;
     text-decoration: none;
 
 }
@@ -206,20 +209,19 @@ div.navbar {
 .first_text {
 
     z-index: 11;
-    font-family: Roboto;
+    font-family: 'Oswald', sans-serif;
     height: auto;
     color: #fff;
     white-space: normal;
     width: 650px;
     line-height: 26px;
-    font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
 
 }
 
 
 .main_btn {
-    background: #f14141;
+    background: #bd6f29;
     color: #fff;
     display: inline-block;
     text-transform: uppercase;
@@ -274,7 +276,7 @@ div.navbar {
 
 .p_a span {
     color: #3fb698;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .social li {
@@ -408,7 +410,7 @@ div.navbar {
 }
 
 .dropdown-content a:hover {
-    color: #f14141;
+    color: #bd6f29;
 }
 
 .dropdown:hover .dropdown-content {
