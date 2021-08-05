@@ -8,6 +8,34 @@ html {
     font-size: 10px;
 }
 
+.top-m-100 {
+    margin-top: 10rem;
+
+}
+
+.margin-right-40 {
+    margin-right: 20%;
+}
+
+.size-15 {
+    font-size: 2rem !important;
+}
+
+.top-m-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-m-25 {
+    margin-top: 25px;
+}
+
+.top-m-50 {
+    margin-top: 50px;
+}
+
+/* *******************************************Resusable************************************************** */
+
 .separator {
     margin-bottom: 15px;
     position: relative;
@@ -15,37 +43,6 @@ html {
     height: 5px;
     background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
 }
-
-.margin-right-10 {
-    margin-right: 10px;
-}
-
-.margin-right-15 {
-    margin-right: 15px;
-}
-
-.top-m-50 {
-    margin-top: 50px;
-
-}
-
-.top-m-100 {
-    margin-top: 100px;
-
-}
-
-.top-m-150 {
-    margin-top: 150px;
-
-}
-
-.top-m-170 {
-    margin-top: 170px;
-
-}
-
-
-/* *******************************************Resusable************************************************** */
 
 .nav li a:after {
     content: '|';
@@ -66,19 +63,6 @@ html {
     top: 1rem;
     margin-left: 80%;
 
-}
-
-.top-m-100 {
-    margin-top: 10rem;
-
-}
-
-.margin-right-40 {
-    margin-right: 20%;
-}
-
-.size-15 {
-    font-size: 1.9rem !important;
 }
 
 button.custom-btn div.line-menubar {
@@ -114,7 +98,8 @@ button.navbar-toggler:hover {
 }
 
 .header .fa {
-    transform: rotate(45deg);
+    transform: rotate(105deg);
+    margin-right: 10px;
 }
 
 .nav li a {
@@ -131,8 +116,6 @@ button.navbar-toggler:hover {
     width: 35%;
     height: auto;
 }
-
-
 
 div.navbar {
     background-color: #f2f2f2 !important;
@@ -162,7 +145,7 @@ div.navbar {
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:740px) {
     .margin-right-40 {
         margin-right: 100% !important;
     }
@@ -176,7 +159,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.6rem !important;
+        font-size: 1.7rem !important;
     }
 
     .top-marg-10 {
@@ -203,7 +186,7 @@ div.navbar {
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
-    background-image: url(../images/FRESHER_WORLD.jpg);
+    background-image: url(../images/technology_banner.png);
     height: 60rem;
     position: relative;
     overflow: hidden;
@@ -220,7 +203,7 @@ div.navbar {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
 }
 
 
@@ -228,13 +211,13 @@ div.navbar {
     z-index: 12;
     font-family: Barlow;
     height: auto;
-    color: rgb(255, 255, 255);
+    color: #fff;
     white-space: normal;
-    max-width: 100%;
+    max-width: 75rem;
     line-height: 85px;
     letter-spacing: 0px;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 6.7rem;
 
 }
 
@@ -242,14 +225,13 @@ div.navbar {
 .first_text {
 
     z-index: 11;
-    font-family: Roboto;
+    font-family: 'Oswald', sans-serif;
     height: auto;
-    color: rgb(255, 255, 255);
+    color: #fff;
     white-space: normal;
-    width: 100%;
+    width: 650px;
     line-height: 26px;
-    font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 16px;
 
 }
 
@@ -268,223 +250,37 @@ div.navbar {
 
 .main_btn:hover {
     background-color: #3fb698 !important;
-    color: #fff;
-
+    color: azure;
 }
-
-
 
 /************************* END:- BANNER SECTION ***************************** */
 
-/*************************** START:- 1ST SECTION ********************************/
-
-.auto-container {
-    position: static;
-    max-width: 1200px;
-    padding: 0px 15px;
-    margin: 0 auto;
-}
-
-.banner1 {
-    position: relative;
-    padding: 100px 0px 70px;
-    /* background-color: #7a708f; */
-    background-color: #232323;
-}
-
-.banner1 .content-column {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.sec-title h2 {
-    margin-bottom: 30px;
-    position: relative;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2em;
-    color: #ffffff;
-    margin-top: 10px;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-}
-
-.sec-title.centered {
-    text-align: center !important;
-}
-
-.sec-title .title {
-    position: relative;
-    color: #bd6f29;
-    font-size: 16px;
-    font-weight: 700;
-    display: block;
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-}
-
-.banner1 .image1 {
-    width: 756px;
-    height: 454px;
-    border-radius: 15px;
-
-}
-
-.banner1 .sec-title .icon {
-    position: relative;
-    font-size: 70px;
-    color: #bd6f29;
-    display: block;
-    line-height: 1em;
-    margin-bottom: 15px;
-}
-
-.banner1 .sec-title h1 {
-    position: relative;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.2em;
-    color: #fff;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-family: livvic, sans-serif;
-}
-
-.banner1 h2 {
-    position: relative;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.2em;
-    color: #fff;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.banner1 .text {
-    position: relative;
-    color: #bbbbbb;
-    font-size: 16px;
-    line-height: 1.7em;
-    margin-bottom: 20px;
-    width: 756px;
-    font-weight: 400;
-}
-
-.banner1 .icon li {
-    position: relative;
-    font-size: 20px;
-    color: #bd6f29;
-    display: block;
-    line-height: 1em;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.banner1 .icon-border li {
-    position: relative;
-    font-size: 20px;
-    color: #bbbbbb;
-    display: block;
-    line-height: 1em;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.banner1 .icon-border li i {
-    background-color: #bd6f29;
-
-    color: #fff;
-    margin-right: 20px;
-    font-size: 14px;
-    padding: 3px;
-    border-radius: 10px;
-}
-
-/* .banner1 .icon li:hover {
-    position: relative;
-    font-size: 20px;
-    color: #3fb698;
-    display: block;
-    line-height: 1em;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
-
-.banner1 .side-bar-area .icon li i {
-    width: 24px;
-    height: 24px;
-    background-color: transparent;
-    border: 1px solid #bd6f29;
-    border-radius: 50px;
-    padding: 1px 3px 1px 2.5px;
-}
-
-.banner1 .service-article-another-img img {
-    border-radius: 15px;
-    width: 100%;
-    height: 100%;
-    margin-top: 15px;
-    margin-bottom: 30px;
-
-}
-
-.banner1 .icon li a {
-    font-weight: 600;
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-}
 
 
 
 
-.banner1 .icon li a:hover {
-    color: #bd6f29;
-}
-
-.block-image {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.33%;
-    flex: 0 0 33.33%;
-    max-width: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px;
-}
-
-.mar-img1 {
-    margin-left: 20px;
-}
-
-.mar-img2 {
-    margin-left: 40px;
-}
-
-.block-image img {
-    border-radius: 20px;
-    width: 280%;
-    height: 100%;
-
-}
-
-.banner1 .blog-gallery {
-    display: grid;
-    grid-template-columns: 100px 100px 100px
-}
 
 
-/*************************** END:- 1ST SECTION ********************************/
-
-/*************************** START:- MOBILE RESPONSIVE  ********************************/
-
-/************************* START:- BANNER SECTION ***************************** */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************* START:-BANNER MOBILE SECTION ******************************** */
+
+/* ************************ START:- BANNER SECTION ***************************** * */
 @media screen and (max-width: 768px) {
 
     /* START */
@@ -502,7 +298,7 @@ div.navbar {
 
     /* END */
     .ban-img {
-        height: 53rem;
+        height: 50rem;
     }
 
     .left-m-25 {
@@ -541,97 +337,20 @@ div.navbar {
 
 /************************* END:- BANNER SECTION ***************************** */
 
-/********************* START:- 1ST SECTION ********************************** */
-@media screen and (max-width: 1200px) {
 
 
 
-    .banner1 .image1 {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-
-    }
-
-    .banner1 .text {
-        max-width: 100%;
-
-    }
-
-    .banner1 .icon li {
-        position: relative;
-        font-size: 19px;
-        color: #bd6f29;
-        display: block;
-        margin-bottom: 10px;
-        margin-bottom: 0px;
-    }
-
-    .banner1 h2 {
-        position: relative;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 1.2em;
-        color: #fff;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .banner1 .icon-border li i {
-        font-size: 15px;
-    }
-
-    .banner1 .icon-border li {
-        margin-top: 10px;
-        margin-bottom: 0px;
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-    .banner1 .top-mm-10 {
-        margin-top: -10px;
-    }
-
-    .banner1 .top-m-100 {
-        margin-top: 30px;
-    }
-
-    .top-m-150 {
-        margin-top: 30px;
-    }
-
-
-    .banner1 .side-bar-area {
-        text-decoration: none;
-        border: 1px solid #bbbbbb;
-        padding: 20px;
-
-    }
-
-    .mar-img1 {
-        margin-left: 15px;
-    }
-
-    .mar-img2 {
-        margin-left: 30px;
-    }
-
-    .block-image img {
-        border-radius: 20px;
-        width: 250%;
-        height: 100%;
-
-    }
-
-
-}
 
 
 
-/*************************** END:- 1ST SECTION *****************************  */
 
 
-/*************************** END:-MOBILE RESPONSIVE  ********************************/
+
+
+
+
+
+/********************* END:-BANNER MOBILE SECTION ******************************** */
 
 /************************* START:- FOOTER SECTION ***************************** */
 
@@ -775,12 +494,14 @@ div.navbar {
     font-family: 'Oswald', sans-serif;
 }
 
-.dropdown-content span:hover {
+.footer-color .dropdown-content span:hover {
     color: #bd6f29;
 }
 
+
+
 /********************* START:- FOOTER MOBILE SECTION ******************************** */
-.dropdown {
+.footer-color .dropdown {
     position: relative;
     display: inline-block;
     width: 36.5rem;
@@ -917,25 +638,24 @@ div.navbar {
 }
 
 @media screen and (max-width:1200px) {
-    .dropdown-content {
+    .footer-color .dropdown-content {
         display: none;
         position: relative;
         margin-top: 20px;
     }
 
-    .dropdown {
+    .footer-color.dropdown {
         position: relative;
         display: inline-block;
         width: 365px;
     }
 
-    .dropdown:hover .dropdown-content {
+    .footer-color .dropdown:hover .dropdown-content {
         display: block;
     }
 }
 
 /************************* END:- FOOTER SECTION ***************************** */
-
 
 @media screen and (min-width: 320px) {
 
@@ -984,58 +704,3 @@ div.navbar {
     }
 
 }
-
-
-/* @media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .top-m-150 {
-
-        margin-top: 40px;
-        margin-left: -650px;
-    }
-
-    .scr-1024 {
-
-        margin-top: 2100px;
-        margin-left: -650px;
-    }
-
-    .banner1 .top-m-100 {
-        margin-left: -650px;
-    }
-} */
-
-/* @media screen and (max-width: 1024px) {
-    .top-m-150 {
-
-        margin-top: 40px;
-        margin-left: 0px;
-    }
-
-    .scr-1024 {
-
-        margin-top: 2100px;
-        margin-left: 0px;
-    }
-
-    .banner1 .top-m-100 {
-        margin-left: 0px;
-    }
-} */
-
-/* @media screen and (max-width: 768px) {
-    .top-m-150 {
-
-        margin-top: 40px;
-        margin-left: 0px;
-    }
-
-    .scr-1024 {
-
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-
-    .banner1 .top-m-100 {
-        margin-left: 0px;
-    }
-} */

@@ -68,7 +68,8 @@ button.navbar-toggler:hover {
 }
 
 .header .fa {
-    transform: rotate(45deg);
+    transform: rotate(18deg);
+    margin-right: 10px;
 }
 
 .nav li a:hover {
@@ -353,56 +354,13 @@ div.navbar {
 }
 
 
-.border-box {
-    position: absolute;
-    right: 12px;
-    bottom: -2px;
-    width: 50px;
-    height: 50px;
-    border-right: 5px solid #bd6f29;
-    border-bottom: 5px solid #bd6f29;
 
-}
-
-.border-box1 {
-    position: absolute;
-    top: -2px;
-    left: 12px;
-    width: 50px;
-    height: 50px;
-    border-top: 5px solid #bd6f29;
-    border-left: 5px solid #bd6f29;
-
-}
 
 .s_h {
     font-size: 26px;
     color: #232323;
     font-family: "GilroyBold";
     font-weight: 700;
-}
-
-div.company_text:hover .border-box {
-    width: 91%;
-    height: 101%;
-    transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
-}
-
-
-
-div.company_text:hover .border-box1 {
-    width: 91%;
-    height: 101%;
-    transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
-
 }
 
 .center-details {
@@ -713,6 +671,8 @@ div.company_text:hover .border-box1 {
     font-weight: 700;
 }
 
+/************************* START:- 10th SECTION ***************************** */
+
 .company_item .read-btn a {
     font-weight: 700;
     color: #232323;
@@ -730,6 +690,56 @@ div.company_text:hover .border-box1 {
     color: #fff;
     border-color: #3fb698;
 }
+
+.border-box {
+    position: absolute;
+    right: 12px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+
+}
+
+.border-box1 {
+    position: absolute;
+    top: -2px;
+    left: 12px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
+
+}
+
+div.company_text:hover .border-box {
+    width: 91%;
+    height: 101%;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+
+
+div.company_text:hover .border-box1 {
+    width: 91%;
+    height: 101%;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+
+}
+
+
+/************************* END:- 10th SECTION ***************************** */
+
+/************************* START:- 11TH SECTION ***************************** */
 
 .header11 {
     width: 100%;
@@ -761,6 +771,10 @@ div.company_text:hover .border-box1 {
     border: 1px solid #3fb698 !important;
     color: #fff !important;
 }
+
+/************************* END:- 11th SECTION ***************************** */
+
+/************************* START:- FOOTER SECTION ***************************** */
 
 
 .footer-color {
@@ -893,25 +907,15 @@ div.company_text:hover .border-box1 {
     font-size: 15px;
 }
 
-/* .dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-} */
-
-.dropdown-content a {
+.footer-color .footer-list ul li a {
     color: azure;
-    /* padding: 12px 16px; */
     text-decoration: none;
-    display: block;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .dropdown-content span:hover {
     color: #bd6f29;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+/************************* END:- FOOTER SECTION ***************************** */

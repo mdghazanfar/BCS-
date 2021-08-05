@@ -34,7 +34,6 @@ html {
 
 .top-m-20 {
     margin-top: 20px;
-
 }
 
 .top-m-40 {
@@ -995,6 +994,17 @@ div.navbar {
     font-size: 1.6rem;
 }
 
+.footer-color .footer-list ul li a {
+    color: azure;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.dropdown-content span:hover {
+    color: #bd6f29;
+}
+
 /********************* START:- FOOTER MOBILE SECTION ******************************** */
 .dropdown {
     position: relative;
@@ -1002,29 +1012,6 @@ div.navbar {
     width: 36.5rem;
 }
 
-.dropdown-content1 {
-    /* display: none; */
-    position: absolute;
-    background-color: #302c38;
-    min-width: 16rem;
-    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: azure;
-    /* padding: 12px 16px; */
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    color: #bd6f29;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 @media screen and (max-width: 1200px) {
     .auto-hide {
@@ -1048,6 +1035,9 @@ div.navbar {
 }
 
 @media screen and (max-width:1200px) {
+    .footer-list ul {
+        margin-left: 10px;
+    }
 
     .subtf_pa {
         text-decoration: none;
@@ -1062,7 +1052,7 @@ div.navbar {
     }
 
     .footer-color {
-        height: 38rem;
+        height: auto;
     }
 
     .col_d {
@@ -1151,10 +1141,21 @@ div.navbar {
 
 }
 
+
 @media screen and (max-width:1200px) {
     .dropdown-content {
         display: none;
         position: relative;
-        margin-top: 2rem;
+        margin-top: 20px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 365px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
     }
 }
