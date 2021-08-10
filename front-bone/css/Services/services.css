@@ -8,21 +8,12 @@ html {
     font-size: 10px;
 }
 
-.separator {
-    margin-bottom: 15px;
-    position: relative;
-    width: 250px;
-    height: 5px;
-    background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
+.top-m-200 {
+    margin-top: 200px;
 }
 
 .top-m-100 {
     margin-top: 10rem;
-
-}
-
-.top-m-150 {
-    margin-top: 150px;
 
 }
 
@@ -34,23 +25,36 @@ html {
     font-size: 2rem !important;
 }
 
-.h4 {
-    margin-bottom: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #000;
+.top-m-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.bottom-m-100 {
-    margin-bottom: 100px;
+.top-m-25 {
+    margin-top: 25px;
+}
+
+.top-m-50 {
+    margin-top: 50px;
 }
 
 .remove-line a {
     text-decoration: none;
 }
 
+.centered {
+    text-align: center;
+}
+
 /* *******************************************Resusable************************************************** */
+
+.separator {
+    margin-bottom: 15px;
+    position: relative;
+    width: 250px;
+    height: 5px;
+    background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
+}
 
 .nav li a:after {
     content: '|';
@@ -106,7 +110,8 @@ button.navbar-toggler:hover {
 }
 
 .header .fa {
-    transform: rotate(45deg);
+    transform: rotate(105deg);
+    margin-right: 10px;
 }
 
 .nav li a {
@@ -116,7 +121,6 @@ button.navbar-toggler:hover {
     font-size: 2rem;
     margin-right: 1.2rem;
     border-radius: 50%;
-    text-decoration: none;
 
 }
 
@@ -167,7 +171,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.6rem !important;
+        font-size: 1.7rem !important;
     }
 
     .top-marg-10 {
@@ -191,17 +195,25 @@ div.navbar {
     }
 }
 
+
 /************************* START:- BANNER SECTION ***************************** */
-.banner {
-    background-image: url(../images/image-1.jpg);
-    height: 60rem;
+
+.ban-img {
+    background-image: url(../../images/Servies\ -banner-\ img-01.jpg);
+    /* height: 60rem; */
+    height: 100%;
     position: relative;
     overflow: hidden;
     padding: 160px 0px 160px;
     background-size: cover;
+    width: 100%;
 
 }
 
+.banner {
+    width: 100%;
+    height: 60rem;
+}
 
 .banner-color {
     position: absolute;
@@ -210,34 +222,38 @@ div.navbar {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.40);
-
+    background-color: rgba(0, 0, 0, 0.4);
 }
+
 
 .digit_text {
-    z-index: 11;
-    font-family: Roboto;
-    height: auto;
-    color: rgb(255, 255, 255);
-    white-space: normal;
-    width: 650px;
-    line-height: 26px;
-    font-size: 17px;
-}
-
-.first_text {
-
     z-index: 12;
     font-family: Barlow;
     height: auto;
-    color: rgb(255, 255, 255);
+    color: #fff;
     white-space: normal;
     max-width: 75rem;
     line-height: 85px;
     letter-spacing: 0px;
     font-weight: 700;
     font-size: 6.7rem;
+
 }
+
+
+.first_text {
+
+    z-index: 11;
+    font-family: 'Oswald', sans-serif;
+    height: auto;
+    color: #fff;
+    white-space: normal;
+    width: 650px;
+    line-height: 26px;
+    font-size: 16px;
+
+}
+
 
 .main_btn {
     background: #bd6f29;
@@ -256,388 +272,240 @@ div.navbar {
     color: azure;
 }
 
-/***************************** START:1ST SECTION **********************************/
+/************************* END:- BANNER SECTION ***************************** */
 
-.auto-container {
-    position: static;
-    max-width: 1200px;
-    padding: 0px 15px;
-    margin: 0 auto;
-}
+
+/********************* START:-1st SECTION ******************************** */
+
 
 .banner1 {
-    position: relative;
-    padding: 100px 0px 70px;
-    background-color: #302c38;
-    /* background-color: rgb(122, 112, 143); */
-}
 
-.banner1 .content-column {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.sec-title h2 {
-    margin-bottom: 30px;
-    position: relative;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2em;
-    color: #fff;
-    margin-top: 10px;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-}
-
-.sec-title.centered {
-    text-align: center !important;
-}
-
-.sec-title .title {
-    position: relative;
-    color: #bd6f29;
-    font-size: 16px;
-    font-weight: 700;
-    display: block;
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-}
-
-.banner1 .sec-title .icon {
-    position: relative;
-    font-size: 70px;
-    color: #bd6f29;
-    display: block;
-    line-height: 1em;
-    margin-bottom: 15px;
-}
-
-.banner1 .content-column h3 {
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
-.banner1 .content-column .inner-column {
-    position: relative;
-    padding-right: 60px;
-    padding-top: 50px;
-}
-
-.banner1 .content-column .inner-column h3 {
-    position: relative;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.2em;
-    font-family: 'Oswald', sans-serif;
-}
-
-.banner1 .content-column .text {
-    position: relative;
-    margin-bottom: 40px;
-}
-
-.banner1 .content-column .text p {
-    position: relative;
-    color: #bbbbbb;
-    font-size: 18px;
-    line-height: 1.7em;
-    margin-bottom: 20px;
-}
-
-.banner1 .content-column .text p:last-child {
-    margin-bottom: 0px;
-}
-
-.banner1 .content-column .author-box {
-    position: relative;
-}
-
-.banner1 .images-column {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.banner1 .images-column .border-layer {
-    position: absolute;
-    left: 135px;
-    top: 50px;
-    width: 378px;
-    height: 450px;
-    border: 8px solid #bd6f29;
-}
-
-.banner1 .images-column .inner-column {
-    position: relative;
-    margin-left: -50px;
-}
-
-.banner1 .images-column .image {
-    position: relative;
-    display: inline-block;
-}
-
-.banner1 .images-column .box {
-    position: relative;
     width: 100%;
-    margin-top: 25px;
-}
-
-.banner1 .images-column .box .box-inner {
-    position: relative;
-    padding: 25px 15px;
-    text-align: center;
-    background-color: #bd6f29;
-}
-
-.banner1 .images-column .count-box {
-    color: #fff;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 1em;
-    font-family: 'Oswald', sans-serif;
-}
-
-.banner1 .images-column .counter-title {
-    position: relative;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    margin-top: 15px;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-}
-
-.banner1 .images-column .image-two {
-    position: absolute;
-    right: 15px;
-    top: 100px;
-}
-
-
-
-
-.services-section {
-    position: relative;
-    padding: 20px 0px 70px;
+    height: 100%;
     background-color: #302c38;
 
 }
 
-.service-block {
-    position: relative;
+.banner1 .content-title h2 {
     margin-bottom: 30px;
-}
-
-.service-block .inner-box {
-    position: relative;
-    text-align: center;
-    padding: 50px 40px 50px;
-    transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    border: 2px solid rgba(255, 255, 255, 0.20);
-}
-
-.service-block .inner-box .icon {
-    position: relative;
-    font-size: 70px;
-    color: #bd6f29;
-    display: block;
-    line-height: 1em;
-    margin-bottom: 15px;
-}
-
-.service-block .inner-box h4 {
-    margin-bottom: 15px;
+    /* position: relative; */
+    font-size: 40px;
     font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    position: relative;
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-.service-block .inner-box h4 a {
-    position: relative;
+    line-height: 1.2em;
+    /* color: #232323; */
     color: #fff;
-    transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
+    font-family: 'Oswald', sans-serif;
 }
 
-.service-block .inner-box .text {
+.banner1 .content-title h6 {
+    margin-bottom: 10px;
     position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2em;
+    /* color: #232323; */
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .services-section .text p {
+    position: relative;
+    /* color: #333333; */
     color: #bbbbbb;
     font-size: 16px;
     line-height: 1.7em;
+    margin-bottom: 40px;
+    font-weight: 400;
 }
 
-.service-block .inner-box:hover {
-    border-color: #bd6f29;
+
+.banner1 .services-section h6 a {
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    /* color: #232323; */
+    color: #fff;
+    font-size: 18px;
 }
 
-.service-block .inner-box:hover h4 a {
+.banner1 .services-section h6 a:hover {
     color: #bd6f29;
-    text-decoration: none;
-
 }
 
 
-.service-block .inner-box .border-box {
+.banner1 .icon .fa {
+    /* color: #bd6f29;
+    font-size: 30px; */
+    background-color: #bd6f29;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 35px;
     position: absolute;
-    right: -2px;
-    bottom: -2px;
-    width: 50px;
-    height: 50px;
-    border-right: 5px solid #bd6f29;
-    border-bottom: 5px solid #bd6f29;
-    transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
+    left: 0;
+    top: 8px;
 }
 
-.border-box1 {
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    width: 50px;
-    height: 50px;
-    border-top: 5px solid #bd6f29;
-    border-left: 5px solid #bd6f29;
-    transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
+
+/* .banner1 .services-section  {
+    background-color: #fff;
+} */
+
+.banner1 .services-section p {
+    position: relative;
+    /* color: #232323; */
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
 }
 
-.service-block .inner-box:hover .border-box {
-    width: 101%;
-    height: 101%;
+.banner1 .services-grid .grid {
+    width: calc(33.33% - 30px);
+    float: left;
+    margin: 0 15px 40px;
+    position: relative;
+    padding-left: 60px;
+    padding-right: 30px;
 }
 
-.service-block .inner-box:hover .border-box1 {
-    width: 101%;
-    height: 101%;
-}
-
-/****************************** START:-BANNER-2 SECTION ***************************** */
+/* ***********************************START:- 2ND SECTION **************************** */
 
 .banner2 {
+    /* background-image: url(../../images/banking-&-fn-Ser-sec-03-img01.jpg); */
+    height: 70rem;
     position: relative;
-    padding: 100px 0px 70px;
-    /* background-color: #ffffff; */
-    background-color: #232323;
-    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: azure;
 }
 
-.banner2 .sec-title .text {
-    margin-bottom: 20px;
+.banner2 .section2-block {
+    background-color: #fff;
+    padding: 55px 45px;
+    box-shadow: 0px 0px 35.77px 13.23px rgb(11 91 224 / 20%);
+    border-radius: 5px;
+    margin-right: 45px;
+}
+
+
+
+.banner2 .section2-block .content-title h2 {
+    margin-bottom: 30px;
     position: relative;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2em;
-    /* color: #302c38; */
-    color: #bd6f29;
-    /* margin-top: 10px; */
-    /* text-transform: uppercase; */
+    color: #232323;
+    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-
 }
 
-.banner2 .sec-title p {
-
-    margin-bottom: 60px;
-    font-size: 2rem;
-    font-weight: 400;
-    align-items: center;
-    /* color: #333; */
-    color: #fff;
-    margin-top: 10px;
-    font-family: "Poppins", sans-serif;
-}
-
-.ban2-image1 {
-    max-width: 100%;
-    max-height: auto;
-}
-
-.ban2-image2 {
-    max-width: 100%;
-    max-height: auto;
-    margin-left: 7rem;
-    margin-top: 15rem;
-}
-
-.banner2 .count-number {
-    color: #E8E4D9;
-    font-size: 60px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    line-height: 1.2rem;
-    margin-left: 7rem;
-    margin-top: 8rem;
-}
-
-.banner2 .count-number2 {
-    color: #E8E4D9;
-    font-size: 6rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    line-height: 1.2rem;
-    margin-top: 23rem;
-    margin-bottom: 6rem;
-}
-
-.banner2 .heading-title {
+.banner2 .section2-block .text p {
     position: relative;
-    font-size: 2.8rem;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+
+.banner2 .box-container h6 {
+    font-family: Poppins;
+    text-transform: capitalize;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    color: #232323;
+    font-size: 18px;
+}
+
+.banner2 .box-container .point i {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    color: #bd6f29;
+    background-color: transparent;
+    /* border: 1px solid #bd6f29; */
+    border-radius: 50px;
+    padding: 1px 3px 1px 2.5px;
+    font-size: 16px;
+
+}
+
+
+
+.banner2 .section2-block .box-container p {
+    position: relative;
+    color: #232323;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+
+.banner2 .section-text h6 {
+
+    position: relative;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1.2em;
-    /* color: #302c38; */
-    color: #fff;
-    width: 100%;
+    color: #333;
+    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-
 }
 
-.banner2 .marg-heig {
-    margin-left: 7rem;
-    margin-top: 6rem;
+.banner2 .section-text h1 {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #232323;
+    font-family: 'Oswald', sans-serif;
 }
 
-.banner2 .heading-text {
-    font-size: 2rem;
+.banner2 .section-text .text p {
+    position: relative;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.7em;
     font-weight: 400;
-    align-items: center;
-    /* color: #333; */
-    color: #bbbbbb;
-    margin-top: 10px;
-    font-family: "Poppins", sans-serif;
-    width: 100%;
+    margin-bottom: 35px;
+}
 
+.banner2 .section-text .quotes p {
+    position: relative;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 700;
+    margin-bottom: 35px;
 }
 
 
+.banner2 .section-text .quotes blockquote {
+    font-style: italic;
+    padding: 0 20px 0 30px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 3px solid #333;
+    margin: 35px 0;
+    line-height: 1.6em;
+}
 
+/********************* END:-2nd SECTION ******************************** */
 
-/*************************** START:- MOBILE RESPONSIVE  ********************************/
+/********************* START:-BANNER MOBILE SECTION ******************************** */
 
-/************************* START:- BANNER SECTION ***************************** */
-
-
-@media screen and (max-width: 740px) {
+/* ************************ START:- BANNER SECTION ***************************** * */
+@media screen and (max-width: 768px) {
 
     /* START */
     .margin-right-40 {
@@ -652,31 +520,35 @@ div.navbar {
         color: azure !important;
     }
 
-    .top-m-150 {
-        margin-top: 100px;
-    }
-
-    .banner {
+    /* END */
+    .ban-img {
         height: 50rem;
-        width: 100%;
     }
 
-    .left-m-15 {
-        margin-left: 15px;
+    .left-m-25 {
+        margin-left: 25px;
+    }
+
+    .digit_text {
+        z-index: 12;
+        font-family: Barlow;
+        max-width: 100%;
+        line-height: 45px;
+        letter-spacing: 0px;
+        font-weight: 700;
+        font-size: 3.7rem;
+
     }
 
     .first_text {
-        line-height: 50px;
-        font-size: 5rem;
-        margin-bottom: 30px;
-    }
-
-
-
-    .digit_text {
+        color: #fff;
+        z-index: 12;
+        font-family: 'Oswald', sans-serif;
         width: 100%;
         line-height: 26px;
-        font-size: 22px;
+        font-weight: 700;
+        font-size: 16px;
+
     }
 
     .main_btn {
@@ -689,127 +561,20 @@ div.navbar {
 
 /************************* END:- BANNER SECTION ***************************** */
 
-/********************* START:- 1ST SECTION ********************************** */
-
-@media screen and (max-width: 768px) {
-
-    .banner1 {
-        height: 1760px;
-    }
 
 
 
-    .sec-title h2 {
-        margin-bottom: 10px;
-        font-size: 32px;
-        font-family: livvic, sans-serif;
-    }
-
-    .banner1 .content-column .inner-column h3 {
-        font-size: 26px;
-    }
-
-    .banner1 .content-column .inner-column {
-        padding-right: 0px;
-    }
-
-    .banner1 .content-column .text p {
-        font-size: 16px;
-    }
-
-    .banner1 .images-column .image-one {
-        position: absolute;
-        left: 95px;
-
-    }
-
-    .banner1 .images-column .image-one img {
-        max-width: 100%;
-        max-height: auto;
-        border-radius: 20px;
-
-    }
-
-    .banner1 .images-column .image-two img {
-        max-width: 100%;
-        max-height: auto;
-        border-radius: 20px;
-    }
-
-    .banner1 .images-column .image-two {
-        position: absolute;
-        left: 95px;
-        top: 552px;
-
-    }
-
-    .banner1 .images-column .box .box-inner {
-        border-radius: 20px;
-
-    }
-
-    .banner1 .images-column .border-layer {
-        display: none;
-    }
-
-
-    .services-section {
-        margin-top: -10px;
-    }
-}
-
-/********************* START:- 2nd SECTION ********************************** */
-
-@media screen and (max-width: 1200px) {
-
-    .banner2 .heading-text {
-        font-size: 1.7rem;
-    }
-
-    .banner2 .count-number {
-        margin-left: 0rem;
-
-    }
-
-    .banner2 .count-number {
-        margin-top: 0rem;
-        font-size: 5rem;
-    }
-
-    .banner2 .marg-heig {
-        margin-left: 0rem;
-
-    }
-
-    .banner2 .heading-title {
-        font-size: 2.4rem;
-    }
-
-    .banner2 .count-number2 {
-        font-size: 5rem;
-        margin-top: 5rem;
-    }
-
-    .banner2 .top-m-10 {
-        margin-top: 5rem !important;
-    }
-
-    .banner2 .ban2-image1 {
-        border-radius: 20px;
-    }
-
-
-    .ban2-image2 {
-        border-radius: 20px;
-        margin-left: 0rem;
-        margin-top: 5rem;
-    }
-
-
-}
 
 
 
+
+
+
+
+
+
+
+/********************* END:-BANNER MOBILE SECTION ******************************** */
 
 /************************* START:- FOOTER SECTION ***************************** */
 
@@ -953,7 +718,11 @@ div.navbar {
     font-family: 'Oswald', sans-serif;
 }
 
-.dropdown-content span:hover {
+.footer-color .dropdown-content span:hover {
+    color: #bd6f29;
+}
+
+.footer-color .remove-line a span:hover {
     color: #bd6f29;
 }
 
@@ -975,6 +744,7 @@ div.navbar {
     font-family: 'Oswald', sans-serif;
 }
 
+
 .footer-section li a:hover {
     color: #bd6f29 !important;
 }
@@ -993,11 +763,12 @@ div.navbar {
 }
 
 /********************* START:- FOOTER MOBILE SECTION ******************************** */
-.dropdown {
+.footer-color .dropdown {
     position: relative;
     display: inline-block;
     width: 36.5rem;
 }
+
 
 
 @media screen and (max-width: 1200px) {
@@ -1025,7 +796,6 @@ div.navbar {
     .footer-list ul {
         margin-left: 10px;
     }
-
 
     .subtf_pa {
         text-decoration: none;
@@ -1130,19 +900,19 @@ div.navbar {
 }
 
 @media screen and (max-width:1200px) {
-    .dropdown-content {
+    .footer-color .dropdown-content {
         display: none;
         position: relative;
         margin-top: 20px;
     }
 
-    .dropdown {
+    .footer-color.dropdown {
         position: relative;
         display: inline-block;
         width: 365px;
     }
 
-    .dropdown:hover .dropdown-content {
+    .footer-color .dropdown:hover .dropdown-content {
         display: block;
     }
 }
@@ -1152,11 +922,11 @@ div.navbar {
 @media screen and (min-width: 320px) {
 
     .digit_text {
-        max-width: 100%;
+        width: 100%;
     }
 
     .first_text {
-        width: 100%;
+        max-width: 100%;
     }
 
     .btn-border {
@@ -1179,6 +949,7 @@ div.navbar {
 
 @media screen and (min-width: 375px) {
     .block-image img {
+
         width: 240%;
     }
 

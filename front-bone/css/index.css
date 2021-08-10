@@ -24,6 +24,10 @@
 
 }
 
+.remove-line a {
+    text-decoration: none;
+}
+
 .margin-right-40 {
     margin-right: 20%;
 }
@@ -143,9 +147,6 @@ div.navbar {
     background-color: rgba(0, 0, 0, 0.40);
 
 }
-
-
-
 
 .separator {
     margin-bottom: 15px;
@@ -916,6 +917,42 @@ div.company_text:hover .border-box1 {
 
 .dropdown-content span:hover {
     color: #bd6f29;
+}
+
+.footer-color .remove-line a span:hover {
+    color: #bd6f29;
+}
+
+.footer-color .left-m-40 {
+    margin-left: 38%;
+}
+
+.footer-color .footer-section li a {
+    color: azure;
+    width: 2px;
+    font-weight: 300;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.footer-section li a:hover {
+    color: #bd6f29 !important;
+}
+
+.footer-section li a:after {
+    content: '|';
+    font-family: 'FontAwesome';
+    position: relative;
+    /* width: 252px; */
+    text-align: center;
+    line-height: 3rem;
+    height: 5rem;
+    opacity: .5;
+    right: -.4rem;
+
 }
 
 /************************* END:- FOOTER SECTION ***************************** */

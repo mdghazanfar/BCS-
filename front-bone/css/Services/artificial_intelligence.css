@@ -8,6 +8,10 @@ html {
     font-size: 10px;
 }
 
+.top-m-200 {
+    margin-top: 200px;
+}
+
 .top-m-100 {
     margin-top: 10rem;
 
@@ -32,6 +36,14 @@ html {
 
 .top-m-50 {
     margin-top: 50px;
+}
+
+.remove-line a {
+    text-decoration: none;
+}
+
+.centered {
+    text-align: center;
 }
 
 /* *******************************************Resusable************************************************** */
@@ -185,39 +197,33 @@ div.navbar {
 
 
 /************************* START:- BANNER SECTION ***************************** */
-.ban-img {
-    background-image: url(../images/technology_banner.png);
-    height: 60rem;
-    position: relative;
-    overflow: hidden;
-    padding: 160px 0px 160px;
-    background-size: cover;
+.banner {
     width: 100%;
-
+    height: 60rem;
+    color: azure;
 }
 
-.banner-color {
-    position: absolute;
-    content: '';
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    /* background-color: rgba(0, 0, 0, 0.7); */
-}
+.banner .banner_title {
+    color: #333;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
 
+}
 
 .digit_text {
     z-index: 12;
     font-family: Barlow;
     height: auto;
-    color: #fff;
+    /* color: #fff; */
+    color: #232323;
     white-space: normal;
     max-width: 75rem;
     line-height: 85px;
     letter-spacing: 0px;
     font-weight: 700;
-    font-size: 6.7rem;
+    font-size: 7.7rem;
 
 }
 
@@ -227,7 +233,8 @@ div.navbar {
     z-index: 11;
     font-family: 'Oswald', sans-serif;
     height: auto;
-    color: #fff;
+    /* color: #fff; */
+    color: #333;
     white-space: normal;
     width: 650px;
     line-height: 26px;
@@ -253,30 +260,442 @@ div.navbar {
     color: azure;
 }
 
+.banner .banner_img img {
+    max-width: 120%;
+    height: auto;
+}
+
 /************************* END:- BANNER SECTION ***************************** */
 
 
+/********************* START:-1st SECTION ******************************** */
+
+
+.banner1 {
+
+    width: 100%;
+    height: 100%;
+    background-color: #302c38;
+
+}
+
+.banner1 .content-title h2 {
+    margin-bottom: 30px;
+    /* position: relative; */
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+    /* color: #232323; */
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .content-title h6 {
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2em;
+    /* color: #232323; */
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .services-section .text p {
+    position: relative;
+    /* color: #333333; */
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+
+.banner1 .services-section h6 a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    /* color: #232323; */
+    color: #fff;
+    font-size: 18px;
+}
+
+.banner1 .services-section h6 a:hover {
+    color: #bd6f29;
+}
+
+
+.banner1 .icon .fa {
+    /* color: #bd6f29;
+    font-size: 30px; */
+    background-color: #bd6f29;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 35px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+
+/* .banner1 .services-section  {
+    background-color: #fff;
+} */
+
+.banner1 .services-section p {
+    position: relative;
+    /* color: #232323; */
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+
+.banner1 .services-grid .grid {
+    width: calc(33.33% - 30px);
+    float: left;
+    margin: 0 15px 40px;
+    position: relative;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+/* ***********************************START:- 2ND SECTION **************************** */
+
+.banner2 {
+    /* background-image: url(../../images/banking-&-fn-Ser-sec-03-img01.jpg); */
+    height: 70rem;
+    position: relative;
+    overflow: hidden;
+    background-color: azure;
+}
+
+.banner2 .section-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+.banner2 .section2-block .box-container p {
+    position: relative;
+    color: #232323;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+
+.banner2 .section-text h6 {
+
+    position: relative;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner2 .section-text h1 {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #232323;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner2 .section-text .text p {
+    position: relative;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.banner2 .section-text .quotes p {
+    position: relative;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+
+.banner2 .section-text .quotes blockquote {
+    font-style: italic;
+    padding: 0 20px 0 30px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 3px solid #333;
+    margin: 35px 0;
+    line-height: 1.6em;
+}
+
+/********************* END:-2nd SECTION ******************************** */
+/*************************** START:- 3rd SECTION ***************************** * */
+.banner3 {
+    width: 100%;
+    /* margin-top: -100px; */
+    height: auto;
+    /* background-color: #302c38; */
+    background-color: #232323;
+}
+
+.banner3 .bot-m-50 {
+    margin-bottom: 50px;
+}
+
+.banner3 .centered {
+    text-align: center !important;
+}
+
+.banner3 .heading-title h6 {
+    color: #3fb698;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 0 0 4px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.banner3 .heading-title h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    font-size: 36px;
+    margin-top: 20px;
+
+}
+
+/* .banner3 .text p {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+
+} */
+/* copy */
+.banner3 .text p {
+    font-size: 16px;
+    color: #bbbbbb;
+    line-height: 28px;
+    text-transform: none;
+    font-weight: 400;
+
+}
+
+.banner3 .content h2 {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner3 .content-img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+/*************************** END:- 3rd SECTION ***************************** * */
+/* *************************START:-4TH SECTIONN **************************** */
+
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+/* 
+.shape-fixed {
+    color:#333;
+} */
+.banner4 .services-section {
+    position: relative;
+    padding: 20px 0px 70px;
+    /* background-color: #302c38; */
+    background-color: azure
+}
+
+.shape-fixed img {
+    animation: rotate-animation 30s infinite linear;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.banner4 .services-section .heading_title h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    /* color: #fff; */
+    color: #232323;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.banner4 .services-section .text p {
+    font-size: 16px;
+    /* color: #bbbbbb; */
+    color: #333;
+    line-height: 28px;
+    text-transform: none;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.banner4 .service-block {
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.banner4 .service-block .inner-box {
+    position: relative;
+    /* text-align: center; */
+    padding: 50px 40px 50px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    background-color: #232323;
+    height: 382px;
+}
+
+.banner4 .service-block .inner-box .icon img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+
+.banner4 .service-block .inner-box h4 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.banner4 .service-block .inner-box h4 {
+    position: relative;
+    color: #fff;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.banner4 .service-block .inner-box .text {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+.banner4 .service-block .inner-box:hover {
+    border-color: #bd6f29;
+    text-decoration: none;
+}
+
+/* .service-block .inner-box:hover h4 a {
+    color: #bd6f29;
+    text-decoration: none;
+
+} */
+
+
+.banner4 .service-block .inner-box .border-box {
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+.banner4 .border-box1 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+.banner4 .service-block .inner-box:hover .border-box {
+    width: 101%;
+    height: 101%;
+}
+
+.banner4 .service-block .inner-box:hover .border-box1 {
+    width: 101%;
+    height: 101%;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* *************************START:-4TH SECTIONN **************************** */
 
 /********************* START:-BANNER MOBILE SECTION ******************************** */
 
@@ -498,7 +917,45 @@ div.navbar {
     color: #bd6f29;
 }
 
+.footer-color .remove-line a span:hover {
+    color: #bd6f29;
+}
 
+
+.footer-color .remove-line a span:hover {
+    color: #bd6f29;
+}
+
+.footer-color .left-m-40 {
+    margin-left: 38%;
+}
+
+.footer-color .footer-section li a {
+    color: azure;
+    width: 2px;
+    font-weight: 300;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.footer-section li a:hover {
+    color: #bd6f29 !important;
+}
+
+.footer-section li a:after {
+    content: '|';
+    font-family: 'FontAwesome';
+    position: relative;
+    /* width: 252px; */
+    text-align: center;
+    line-height: 3rem;
+    height: 5rem;
+    opacity: .5;
+    right: -.4rem;
+
+}
 
 /********************* START:- FOOTER MOBILE SECTION ******************************** */
 .footer-color .dropdown {
@@ -660,7 +1117,7 @@ div.navbar {
 @media screen and (min-width: 320px) {
 
     .digit_text {
-        max-width: 100%;
+        width: 100%;
     }
 
     .first_text {
