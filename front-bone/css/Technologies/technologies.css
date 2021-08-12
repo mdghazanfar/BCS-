@@ -106,7 +106,7 @@ button.navbar-toggler:hover {
 }
 
 .header .fa {
-    transform: rotate(105deg);
+    transform: rotate(19deg);
     margin-right: 10px;
 }
 
@@ -270,6 +270,184 @@ div.navbar {
 
 
 
+/*************************** START:- 1ST SECTION ********************************/
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.banner1 {
+    position: relative;
+    /* padding: 100px 0px 70px; */
+    background-color: #302c38;
+}
+
+.banner1 .content-column {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sec-title h2 {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #ffffff;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.centered {
+    text-align: center !important;
+}
+
+.sec-title .title {
+    position: relative;
+    color: #bd6f29;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .image1 {
+    width: 100%;
+    height: auto;
+
+}
+
+.banner1 .box-container .icon .fa {
+    color: #bd6f29;
+    font-size: 50px;
+}
+
+.banner1 .box-container h6 {
+    font-family: Poppins;
+    text-transform: capitalize;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    font-size: 18px;
+}
+
+.banner1 .box-container p {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+
+.banner1 .sec-title .icon {
+    position: relative;
+    font-size: 70px;
+    color: #bd6f29;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.banner1 .sec-title h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.2em;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: livvic, sans-serif;
+}
+
+.banner1 h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .text {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.banner1 .icon li {
+    font-weight: 500;
+    position: relative;
+    font-size: 15px;
+    /* color: #bd6f29; */
+    /* color: #fff; */
+    color: #bbbbbb;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 252px;
+}
+
+.banner1 .icon li i {
+    /* background-color: #bd6f29;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px; */
+    background-color: #bd6f29;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+
+.banner1 .icon li:hover {
+    position: relative;
+    font-size: 15px;
+    color: #3fb698;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner1 .subtitle p {
+    color: #3fb698;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 0 0 4px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .subtitle h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 700;
+}
 
 
 
@@ -281,6 +459,133 @@ div.navbar {
 
 
 
+/*************************** START:- 1ST SECTION ********************************/
+
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.banner2 {
+    position: relative;
+    padding: 100px 0px 70px;
+    background-color: #232323;
+    /* background-color: rgb(122, 112, 143); */
+}
+
+.banner2 .content-column {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner2 .sec-title h2 {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #fff;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner2 .sec-title.centered {
+    text-align: center !important;
+}
+
+.banner2 .sec-title .title {
+    position: relative;
+    color: #bd6f29;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner2 .sec-title p {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+.banner2 .inner-column .icon li {
+    font-weight: 500;
+    position: relative;
+    font-size: 15px;
+    /* color: #bd6f29; */
+    /* color: #fff; */
+    color: #bbbbbb;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner2 .inner-column .icon li i {
+    background-color: #bd6f29;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.banner2 .content-column h3 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.banner2 .content-column .inner-column {
+    position: relative;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+
+.banner2 .content-column .inner-column h3 {
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.6em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner2 .content-column .text {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.banner2 .content-column .text p {
+    position: relative;
+    color: #bbbbbb;
+    font-size: 18px;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+.banner2 .content-column .text p:last-child {
+    margin-bottom: 0px;
+}
+
+.banner2 .content-column .author-box {
+    position: relative;
+}
+
+.banner2 .inner-image img {
+    width: 120%;
+    height: auto;
+    /* margin-bottom: 30px; */
+}
 
 
 

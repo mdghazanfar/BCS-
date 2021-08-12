@@ -139,7 +139,8 @@ button.navbar-toggler:hover {
 }
 
 .header .fa {
-    transform: rotate(45deg);
+    transform: rotate(19deg);
+    margin-right: 10px;
 }
 
 .nav li a {
@@ -592,9 +593,9 @@ div.navbar {
 }
 
 .banner3 .section-img img {
-    max-width: 100%;
+    width: 100%;
     margin-top: 35px;
-    max-height: auto;
+    height: auto;
 }
 
 .section-title h2 {
@@ -839,13 +840,18 @@ div.navbar {
 
 /********************* START:- 3rd SECTION ********************************** */
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
 
 
-    .banner3 .section-img img {
+    /* .banner3 .section-img img {
         width: 382px;
         height: 310px !important;
         border-radius: 10px;
+    } */
+    .banner3 .section-img img {
+
+        margin-top: 5px;
+        border-radius: 20px ! important;
     }
 
     .banner3 .box-container {
@@ -855,6 +861,7 @@ div.navbar {
     .banner3 .text p {
         margin-right: 15px;
     }
+
 }
 
 /*************************** END:- MOBILE RESPONSIVE  ********************************/
@@ -1180,6 +1187,7 @@ div.navbar {
         margin-left: -.2rem;
     }
 
+
 }
 
 
@@ -1198,5 +1206,9 @@ div.navbar {
 
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 10%;
     }
 }

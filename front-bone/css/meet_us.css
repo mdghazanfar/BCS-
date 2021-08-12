@@ -4,7 +4,8 @@
     font-family: 'Oswald', sans-serif;
 }
 
-/* html {
+/* 
+html {
     font-size: 16px;
 } */
 
@@ -35,6 +36,7 @@
 }
 
 .centered {
+
     text-align: center !important;
 }
 
@@ -194,8 +196,8 @@ div.navbar {
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
-    background-image: url(../images/meet_us\ -banner.jpeg);
-    height: 600px;
+    background-image: url(../images/Meets_us-banner-img.jpg);
+    height: auto;
     position: relative;
     overflow: hidden;
     padding: 160px 0px 160px;
@@ -204,7 +206,7 @@ div.navbar {
 
 }
 
-.banner-color {
+/* .banner-color {
     position: absolute;
     content: '';
     left: 0px;
@@ -212,16 +214,16 @@ div.navbar {
     right: 0px;
     bottom: 0px;
     background-color: rgba(0, 0, 0, 0.4);
-}
+} */
 
 
 .digit_text {
+
     z-index: 12;
     font-family: Barlow;
     height: auto;
     color: #fff;
     white-space: normal;
-    max-width: 750px;
     line-height: 85px;
     letter-spacing: 0px;
     font-weight: 700;
@@ -229,7 +231,29 @@ div.navbar {
 
 }
 
+.banner .menu li {
+    display: inline-block;
+    position: relative;
+    padding: 0 19px;
+    color: #fff;
+}
 
+.banner .menu li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.banner .menu li span:before {
+    content: "||";
+    display: inline-block;
+    padding-bottom: 0;
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    left: -7px;
+}
+
+/* 
 .first_text {
 
     z-index: 11;
@@ -237,15 +261,71 @@ div.navbar {
     height: auto;
     color: #fff;
     white-space: normal;
-    /* width: 650px; */
     line-height: 26px;
     font-size: 20px;
     margin-top: 20px;
 
+} */
+
+
+
+
+/************************* END:- BANNER SECTION ***************************** */
+
+
+/* ***********************************START:- About_Us SECTION **************************** */
+
+.banner1 {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    /* background-color: azure; */
+    background-color: #232323;
 }
 
+.banner1 .section-img img {
+    width: 100%;
+    height: auto;
+}
 
-.main_btn {
+.banner1 .bottom-m {
+    margin-bottom: 50px;
+}
+
+.banner1 .section-text h6 {
+
+    position: relative;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    /* color: #333; */
+    color: #bbbbbb;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .section-text h1 {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    /* color: #232323; */
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .section-text .text p {
+    position: relative;
+    /* color: #333; */
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.banner1 .main_btn a {
     background: #bd6f29;
     color: #fff;
     display: inline-block;
@@ -254,37 +334,482 @@ div.navbar {
     padding: 0px 33px;
     font-weight: 600;
     font-size: 13px;
-    margin-top: 5rem;
+    border-radius: 5px;
 }
 
-.main_btn:hover {
+.banner1 .main_btn a:hover {
     background-color: #3fb698 !important;
     color: azure;
 }
 
-/************************* END:- BANNER SECTION ***************************** */
 
 
 
 
+/********************* END:-About_Us SECTION ******************************** */
+/* *********************************** START:- Team SECTION **************************** */
+
+
+.banner2 {
+    background-color: azure;
+    height: auto;
+    width: 100%;
+}
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+.banner2 .subtitle h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    color: #232323;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.banner2 .subtitle text p {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.team-block .image-box {
+    position: absolute;
+    left: -70px;
+    top: -40px;
+    width: 210px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0px 10px 40px 0px rgb(8 13 62 / 20%);
+}
+
+.banner2 .image-wrapper {
+    position: relative;
+}
+
+.banner2 .image-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.banner2 .image-hover:hover {
+    opacity: 1;
+}
+
+.banner2 .box-container {
+    margin-top: -35%;
+    background-color: #fff;
+    padding: 17px 42px 17px 42px;
+    box-shadow: 0px 10px 40px 0px rgb(8 13 62 / 20%);
+    width: 90%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.banner2 .image-box img {
+    /* margin-left: -100px;
+    margin-top: -75px; */
+    box-shadow: 0px 10px 40px 0px rgb(8 13 62 / 20%);
+}
 
 
 
+.banner2 .box-container .DetailsBox {
+    margin-left: 40%;
+}
+
+.banner2 .box-container .DetailsBox .name h3 {
+    z-index: 12;
+    font-family: Barlow;
+    height: auto;
+    color: #232323;
+    white-space: normal;
+    line-height: 55px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.banner2 .box-container .DetailsBox .name p {
+    color: #bd6f29;
+    font-size: 16px;
+}
+
+.banner2 .box-container .DetailsBox .text p {
+    color: #333;
+    font-size: 16px;
+}
+
+.banner2 .social li {
+    display: inline-block;
+}
+
+.banner2 .social li a {
+
+    background: #bd6f29;
+    border-radius: 100px;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 55px;
+    line-height: 55px;
+    margin-right: 5px;
+    text-align: center;
+    width: 55px;
+}
+
+.banner2 .social li a:hover {
+    background: #3fb698 none repeat scroll 0 0;
+    color: #fff;
+}
 
 
+.banner2 .inner-box .border-box {
+    position: absolute;
+    right: 16px;
+    bottom: 45px;
+    width: 50px;
+    height: 50px;
+
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+    transition: all 600ms ease;
+
+}
+
+.banner2 .person-details:hover .border-box {
+    width: 87%;
+    height: 72%;
+}
+
+/* ***********************************END:-Team SECTION **************************** */
+
+/* *********************************** START:-Locations SECTION **************************** */
+
+.banner3 .section-title h1 {
+    font-size: 45px;
+    line-height: 52px;
+    position: relative;
+    display: block;
+    color: #232323;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.banner3 .section-title p {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
 
 
+.locations-section {
+    position: relative;
+    padding: 120px 0px;
+}
+
+.locations-section .map-box {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.locations-section .map-box .map-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
 
 
+.locations-section .map-box .map-image img {
+    display: block;
+    width: 100%;
+}
+
+.locations-section .map-box .location-point {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bd6f29;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.locations-section .map-box .location-point:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    background: #bd6f29;
+    margin: -3px 0px 0px -3px;
+    border-radius: 50%;
+}
+
+.locations-section .map-box .location-point .inner {
+    position: absolute;
+    left: 7px;
+    bottom: 100%;
+    margin-bottom: 25px;
+    width: 200px;
+    padding: 15px 20px;
+    line-height: 24px;
+    color: #fff;
+    background: #3fb698;
+    -ms-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05), 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05), 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.locations-section .map-box .location-point .inner:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border: 7px solid transparent;
+    border-top: 7px solid #3fb698;
+    border-left: 7px solid #3fb698;
+}
+
+.locations-section .map-box .location-point:hover .inner {
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+.locations-section .map-box .loc-one {
+    left: 11%;
+    top: 17%;
+}
+
+.locations-section .map-box .loc-two {
+    left: 20%;
+    top: 23%;
+}
+
+.locations-section .map-box .loc-three {
+    left: 26%;
+    top: 62%;
+}
 
 
+.locations-section .map-box .loc-eleven.location-point .inner,
+.locations-section .map-box .loc-two.location-point .inner,
+.locations-section .map-box .loc-six.location-point .inner,
+.locations-section .map-box .loc-five.location-point .inner,
+.locations-section .map-box .loc-seven.location-point .inner {
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.locations-section .map-box .loc-four {
+    left: 23%;
+    top: 80%;
+}
+
+.locations-section .map-box .loc-five {
+    left: 43%;
+    top: 18%;
+}
+
+.locations-section .map-box .loc-six {
+    left: 44%;
+    top: 19%;
+}
+
+.locations-section .map-box .loc-seven {
+    left: 71%;
+    top: 46%;
+}
+
+.locations-section .map-box .loc-eight {
+    left: 52%;
+    top: 70%;
+}
+
+.locations-section .map-box .loc-nine {
+    left: 60%;
+    top: 15%;
+}
+
+.locations-section .map-box .loc-ten {
+    left: 80%;
+    top: 16%;
+}
+
+.locations-section .map-box .loc-eleven {
+    left: 71%;
+    top: 34%;
+}
 
 
+.locations-section .map-box .loc-twelve {
+    left: 90%;
+    top: 77%;
+}
 
 
+/* *********************************** END:-Locations Maps SECTION **************************** */
 
 
+/* *********************************** START:-Locations SECTION **************************** */
 
+.locations1 .left-m-50 {
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.locations1 .located h1 {
+    font-size: 45px;
+    line-height: 52px;
+    position: relative;
+    display: block;
+    color: #232323;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.locations1 .located-details h2 {
+    font-size: 20px;
+    line-height: 42px;
+    position: relative;
+    display: block;
+    color: #232323;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.locations1 .located-details p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    width: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.locations1 .located-details span {
+    font-size: 18px;
+    line-height: 20px;
+    color: #232323;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* *********************************** START:- Contact  SECTION *********************************************  */
+
+.banner4 {
+    background-image: url(../images/contact-banner-img.jpg);
+    height: 35rem;
+    width: 100%;
+
+}
+
+.banner4 .top-m-30 {
+    margin-top: 50px;
+}
+
+.banner4 .contact-img img {
+    width: 100%;
+    height: auto;
+}
+
+.banner4 .information {
+    margin-left: 25%;
+}
+
+.banner4 .information .text p {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.banner4 .information .icon {
+    font-size: 50px;
+    margin-right: 20px;
+    /* width: 54px; */
+    font-weight: 700;
+    color: #bd6f29;
+}
+
+.banner4 .information .icon span {
+    transform: rotate(265deg);
+    margin-right: 20px;
+}
+
+.banner4 .information .icon i {
+    margin-right: 20px;
+}
+
+.banner4 .information .main-content {
+    margin-left: 60px;
+    margin-top: -75px;
+}
+
+.banner4 .information .main-content .heading {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    color: #232323;
+    font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.banner4 .information .main-content p {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    color: #3fb698;
+    font-size: 30px;
+    line-height: 1.7em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/*  *********************************** START:- Contact  SECTION *********************************************  */
 
 
 /********************* START:-BANNER MOBILE SECTION ******************************** */
@@ -356,7 +881,7 @@ div.navbar {
 
 /************************* START:- Write_Us SECTION ***************************** */
 
-.banner1 {
+/* .banner1 {
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -377,7 +902,7 @@ div.navbar {
 }
 
 .banner1 .h_bch .appointment .form-group .btn {
-    /* width: 100%; */
+   
     display: block !important;
 }
 
@@ -385,7 +910,7 @@ div.navbar {
     background: #3fb698 !important;
     border: 1px solid #3fb698 !important;
     color: #fff !important;
-}
+} */
 
 
 /************************* END:- Write_Us SECTION ***************************** */
@@ -424,27 +949,7 @@ div.navbar {
     font-family: "Poppins", sans-serif;
 }
 
-.social li {
-    display: inline-block;
-}
 
-.social li a {
-    background: #fff none repeat scroll 0 0;
-    border-radius: 100px;
-    color: #3fb698;
-    display: block;
-    font-size: 16px;
-    height: 40px;
-    line-height: 40px;
-    margin-right: 8px;
-    text-align: center;
-    width: 40px;
-}
-
-.social li a:hover {
-    background: #3fb698 none repeat scroll 0 0;
-    color: #fff;
-}
 
 .f_pa {
     /* font white color on p and a */
@@ -531,7 +1036,7 @@ div.navbar {
     font-size: 16px;
 }
 
-.footer-color .footer-list ul li a {
+.footer-color .footer-list li a {
     color: azure;
     text-decoration: none;
     font-size: 16px;

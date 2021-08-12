@@ -172,7 +172,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.7rem !important;
+        font-size: 1.5rem !important;
     }
 
     .top-marg-10 {
@@ -283,6 +283,11 @@ div.navbar {
 
 }
 
+
+.banner1 .left-m-50 {
+    margin-left: 50%;
+}
+
 .banner1 .section-title {
     width: 50%;
 }
@@ -306,6 +311,7 @@ div.navbar {
     margin-bottom: 40px;
     font-weight: 400;
 }
+
 
 
 
@@ -489,7 +495,7 @@ div.navbar {
 
 
 .banner2 .image2 {
-    width: 360px;
+    width: 100%;
     height: 310px;
     margin-top: 15px;
 }
@@ -522,9 +528,9 @@ div.navbar {
 }
 
 .banner2 .blog-gallery .block-image2 {
-    background-image: url(../../images/image-1.jpg);
-    width: 300px;
-    height: 385px;
+    background-image: url(../../images/SIDE-IMG.jpg);
+    width: 100%;
+    height: 360px;
 }
 
 .banner2 .block-color {
@@ -535,7 +541,7 @@ div.navbar {
     /* top: 910px; */
     right: 64px;
     /* bottom: 787px; */
-    background-color: rgba(0, 0, 0, 0.40);
+    /* background-color: rgba(0, 0, 0, 0.40); */
 }
 
 .banner2 .blog-gallery .block-image2 h6 {
@@ -610,7 +616,8 @@ div.navbar {
 
 .banner3 {
     background-image: url(../../images/banking-&-fn-Ser-sec-03-img01.jpg);
-    height: 70rem;
+    /* height: 70rem; */
+    height: auto;
     position: relative;
     overflow: hidden;
     padding: 160px 0px 160px;
@@ -723,7 +730,7 @@ div.navbar {
     }
 
     .left-m-25 {
-        margin-left: 25px;
+        margin-left: 5px;
     }
 
     .digit_text {
@@ -758,8 +765,68 @@ div.navbar {
 
 /************************* END:- BANNER SECTION ***************************** */
 
+/* ************************ START:- Responsive 1st SECTION ***************************** * */
 
-/********************* END:-BANNER MOBILE SECTION ******************************** */
+@media screen and (max-width: 768px) {
+    .banner1 .section-title {
+        width: 100%;
+    }
+
+    .banner1 .left-m-50 {
+        margin-left: 0px;
+    }
+
+    .banner1 .section-title .text p {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .banner1 .section-title {
+        width: 45%;
+    }
+
+    .banner1 .section-title {
+        margin-left: 0px;
+    }
+}
+
+
+/* ************************ START:- Responsive 1st SECTION ***************************** * */
+/* ************************ START:- Responsive 2nd SECTION ***************************** * */
+
+
+@media screen and (max-width: 768px) {
+
+
+    .banner2 .image2 {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        border-radius: 20px;
+    }
+
+}
+
+
+/* ************************ END:- Responsive 2nd SECTION ***************************** * */
+/* ************************ START:- Responsive 3rd SECTION ***************************** * */
+
+@media screen and (max-width: 768px) {
+
+    .banner3 .section3-block .box-container p {
+        position: relative;
+        color: #232323;
+        font-size: 14px;
+        line-height: 1.7em;
+        font-weight: 400;
+        width: 100%;
+        right: 10px;
+    }
+}
+
+
+/* ************************ END:- Responsive 3rd SECTION ***************************** * */
 
 /************************* START:- FOOTER SECTION ***************************** */
 
@@ -1096,6 +1163,10 @@ div.navbar {
 
     .footer-color .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 10%;
     }
 }
 

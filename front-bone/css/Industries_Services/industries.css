@@ -163,7 +163,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.7rem !important;
+        font-size: 1.4rem !important;
     }
 
     .top-marg-10 {
@@ -481,7 +481,7 @@ div.navbar {
 }
 
 /*************************** END:- 1ST SECTION ********************************/
-/********************* START:- MOBILE 1ST SECTION ******************************** */
+/********************* START:- MOBILE  SECTION ******************************** */
 @media screen and (max-width: 768px) {
 
     .banner1 .image1 {
@@ -520,7 +520,7 @@ div.navbar {
         right: 64px;
         /* bottom: 787px; */
         background-color: rgba(0, 0, 0, 0.40);
-        width: 71% !important;
+        width: 40% !important;
     }
 
     .banner2 .image1 {
@@ -542,7 +542,7 @@ div.navbar {
 }
 
 
-/********************* END:-  MOBILE 1ST SECTION ******************************** */
+/********************* END:-  MOBILE SECTION ******************************** */
 /*************************** START:- 2nd SECTION ********************************/
 
 
@@ -1140,6 +1140,10 @@ div.navbar {
 
     .footer-color .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 10%;
     }
 }
 

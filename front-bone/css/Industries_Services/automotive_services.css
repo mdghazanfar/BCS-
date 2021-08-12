@@ -172,7 +172,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.7rem !important;
+        font-size: 1.4rem !important;
     }
 
     .top-marg-10 {
@@ -457,8 +457,10 @@ div.navbar {
 
 
 .banner1 .image2 {
-    width: 360px;
-    height: 310px;
+    /* width: 360px;
+    height: 310px; */
+    width: 100%;
+    height: auto;
     margin-top: 15px;
 }
 
@@ -606,7 +608,7 @@ div.navbar {
     /* box-shadow: 0 7px 20px 0 rgb(42 22 139 / 8%) ; */
     /* box-shadow: 0 0 20px 0 rgb(153 153 153); */
     box-shadow: 0 0 5px #666666;
-    width: 100%;
+    width: 96%;
     max-width: 100%;
 }
 
@@ -858,7 +860,7 @@ div.navbar {
     }
 
     .first_text {
-        color: #fff;
+        /* color: #fff; */
         z-index: 12;
         font-family: 'Oswald', sans-serif;
         width: 100%;
@@ -877,6 +879,42 @@ div.navbar {
 }
 
 /********************* END:-BANNER MOBILE SECTION ******************************** */
+/*************************** START:- Responsive 1st SECTION ********************************/
+@media screen and (max-width: 768px) {
+
+
+
+    .banner1 .text {
+        margin: 10px;
+    }
+
+    .banner1 h2 {
+        margin: 10px;
+    }
+}
+
+/*************************** END:- Responsive 1st SECTION ********************************/
+
+/*************************** START:- Responsive 2nd SECTION ********************************/
+@media screen and (max-width: 768px) {
+    .banner2 .banner2-image img {
+        margin-bottom: 30px;
+    }
+
+    .banner2 .box-container {
+        width: 92%;
+    }
+
+
+}
+
+/*************************** END:- Responsive 2nd SECTION ********************************/
+/*************************** START:- Responsive 3rd SECTION ********************************/
+@media screen and (max-width: 768px) {}
+
+
+
+/*************************** END:- Responsive 3rd SECTION ********************************/
 
 /************************* START:- FOOTER SECTION ***************************** */
 
@@ -1212,6 +1250,10 @@ div.navbar {
 
     .footer-color .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 15%;
     }
 }
 

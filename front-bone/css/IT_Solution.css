@@ -167,7 +167,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.7rem !important;
+        font-size: 1.6rem !important;
     }
 
     .top-marg-10 {
@@ -430,6 +430,7 @@ div.navbar {
     position: relative;
     padding: 20px 0px 70px;
     background-color: #302c38;
+    margin-top: -60px;
 
 }
 
@@ -1392,6 +1393,10 @@ div.navbar {
 
     .footer-color .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 10%;
     }
 }
 

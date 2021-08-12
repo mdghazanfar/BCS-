@@ -106,7 +106,8 @@ button.navbar-toggler:hover {
 }
 
 .header .fa {
-    transform: rotate(45deg);
+    transform: rotate(19deg);
+    margin-right: 10px;
 }
 
 .nav li a {
@@ -193,7 +194,7 @@ div.navbar {
 
 /************************* START:- BANNER SECTION ***************************** */
 .banner {
-    background-image: url(../images/image-1.jpg);
+    background-image: url(../images/troops_bannner.jpg);
     height: 60rem;
     position: relative;
     overflow: hidden;
@@ -1144,6 +1145,10 @@ div.navbar {
 
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 10%;
     }
 }
 
