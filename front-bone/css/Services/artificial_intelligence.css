@@ -279,13 +279,15 @@ div.navbar {
 
 }
 
+.banner1 .left-m-360 {
+    margin-left: 360px;
+}
+
 .banner1 .content-title h2 {
     margin-bottom: 30px;
-    /* position: relative; */
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2em;
-    /* color: #232323; */
     color: #fff;
     font-family: 'Oswald', sans-serif;
 }
@@ -316,7 +318,7 @@ div.navbar {
 .banner1 .services-section h6 a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     line-height: 32px;
     letter-spacing: 0px;
     font-weight: 600;
@@ -343,6 +345,7 @@ div.navbar {
     position: absolute;
     left: 0;
     top: 8px;
+    overflow: hidden;
 }
 
 
@@ -357,16 +360,17 @@ div.navbar {
     font-size: 14px;
     line-height: 1.7em;
     font-weight: 400;
+    overflow: hidden;
 }
 
-.banner1 .services-grid .grid {
-    width: calc(33.33% - 30px);
-    float: left;
-    margin: 0 15px 40px;
+.banner1 .grid {
+    /* margin: 0 15px 40px; */
     position: relative;
     padding-left: 60px;
-    padding-right: 30px;
 }
+
+
+/********************* END:-1st SECTION ******************************** */
 
 /* ***********************************START:- 2ND SECTION **************************** */
 
@@ -736,7 +740,7 @@ div.navbar {
     }
 
     .first_text {
-        color: #fff;
+        color: #333;
         z-index: 12;
         font-family: 'Oswald', sans-serif;
         width: 100%;
@@ -755,21 +759,52 @@ div.navbar {
 }
 
 /************************* END:- BANNER SECTION ***************************** */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /********************* END:-BANNER MOBILE SECTION ******************************** */
+/********************* START:- Responsive 1st SECTION ******************************** */
+@media screen and (max-width: 768px) {
+    .banner .banner_img img {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .banner1 .icon .fa {
+        left: 12px;
+    }
+
+    .banner1 .left-m-360 {
+        margin-left: 10px;
+    }
+
+    .banner1 .services-section {
+        margin-top: 30px;
+    }
+
+    .banner1 .grid {
+        padding-left: 80px;
+    }
+}
+
+
+
+
+/********************* END:- Responsive 1st  SECTION ******************************** */
+/********************* START:- Responsive 2nd  SECTION ******************************** */
+
+@media screen and (max-width: 768px) {}
+
+
+
+
+
+
+
+
+
+
+/*********************END:- Responsive 2nd  SECTION ******************************** */
 
 /************************* START:- FOOTER SECTION ***************************** */
 

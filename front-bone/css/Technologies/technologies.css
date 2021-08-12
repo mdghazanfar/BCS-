@@ -321,6 +321,8 @@ div.navbar {
 .banner1 .image1 {
     width: 100%;
     height: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
 
 }
 
@@ -448,14 +450,6 @@ div.navbar {
     color: #fff;
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
 
 
 
