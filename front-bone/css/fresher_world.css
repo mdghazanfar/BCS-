@@ -536,8 +536,8 @@ div.navbar {
     }
 
     .main_btn {
-        margin-top: 10px;
-        margin-left: 26px;
+        margin-top: 45px;
+        margin-left: 0px;
         font-size: 12px;
 
     }
@@ -607,8 +607,9 @@ div.navbar {
 
     .banner1 .side-bar-area {
         text-decoration: none;
-        border: 1px solid #bbbbbb;
-        padding: 20px;
+        /* border: 1px solid #bbbbbb; */
+        /* padding: 20px; */
+        padding: 0px;
 
     }
 

@@ -668,7 +668,7 @@ div.navbar {
 
     .first_text {
         line-height: 50px;
-        font-size: 5rem;
+        font-size: 4.5rem;
         margin-bottom: 30px;
     }
 
@@ -681,8 +681,8 @@ div.navbar {
     }
 
     .main_btn {
-        margin-top: 10px;
-        margin-left: 26px;
+        margin-top: 45px;
+        margin-left: 0px;
         font-size: 12px;
 
     }

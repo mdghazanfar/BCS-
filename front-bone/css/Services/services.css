@@ -171,7 +171,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.7rem !important;
+        font-size: 1.6rem !important;
     }
 
     .top-marg-10 {
@@ -585,6 +585,17 @@ div.navbar {
         margin-top: 30px;
     }
 
+    .banner1 .right-m {
+        margin-right: 0px;
+    }
+
+    .banner1 .icon .fa {
+        left: 12px;
+    }
+
+    .banner1 .grid {
+        padding-left: 80px;
+    }
 
 }
 

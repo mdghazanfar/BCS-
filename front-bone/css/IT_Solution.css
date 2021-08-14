@@ -598,7 +598,7 @@ div.navbar {
     /* box-shadow: 0 7px 20px 0 rgb(42 22 139 / 8%) ; */
     box-shadow: 0 0 20px 0 rgb(153 153 153);
     width: 333px;
-    max-width: 333px;
+
 }
 
 .top-m-80 {
@@ -663,6 +663,10 @@ div.navbar {
     height: 480px;
 }
 
+.banner2 .top-left-m {
+    margin-left: 75px;
+    margin-top: -70px;
+}
 
 /******************************** END:- 2ND SECTION ***************************** * */
 /*************************** START:- 3RD SECTION ********************************/
@@ -953,7 +957,7 @@ div.navbar {
     .digit_text {
         z-index: 12;
         font-family: Barlow;
-        max-width: 100%;
+        width: 100%;
         line-height: 45px;
         letter-spacing: 0px;
         font-weight: 700;
@@ -973,8 +977,8 @@ div.navbar {
     }
 
     .main_btn {
-        margin-top: 10px;
-        margin-left: 26px;
+        margin-top: 4rem;
+        margin-left: 0px;
         font-size: 12px;
 
     }
@@ -996,6 +1000,7 @@ div.navbar {
         font-family: 'Oswald', sans-serif;
     }
 
+
 }
 
 
@@ -1015,6 +1020,15 @@ div.navbar {
     .banner2 .left-mm-15 {
         margin-left: 15px !important;
 
+    }
+
+    .banner2 .box-section .box-container {
+        width: 90%;
+    }
+
+    .banner2 .top-left-m {
+        margin-left: 75px;
+        margin-top: -60px;
     }
 }
 

@@ -126,6 +126,16 @@ div.navbar {
 
 }
 
+.separator {
+    margin-bottom: 15px;
+    position: relative;
+    width: 250px;
+    height: 5px;
+    background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
+}
+
+/* *********************************** START: 1st SECTION ********************************************* --> */
+
 .banner {
     background-image: url(../images/image-1.jpg);
     height: 36rem;
@@ -148,15 +158,9 @@ div.navbar {
 
 }
 
-.separator {
-    margin-bottom: 15px;
-    position: relative;
-    width: 250px;
-    height: 5px;
-    background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
-}
 
-.digit_text {
+
+.banner .digit_text {
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -166,7 +170,7 @@ div.navbar {
 
 }
 
-.first_text {
+.banner .first_text {
     color: #fff;
     z-index: 12;
     font-family: Barlow;
@@ -180,7 +184,7 @@ div.navbar {
 
 }
 
-.second_text {
+.banner .second_text {
     color: #fff;
     font-family: 'Oswald', sans-serif;
     visibility: inherit;
@@ -205,6 +209,11 @@ div.navbar {
     background-color: #bd6f29 !important;
     color: azure;
 }
+
+/*  *********************************** END: 1st SECTION ********************************************* --> */
+
+/*  *********************************** START: 2ND SECTION ********************************************* --> */
+
 
 .our_company {
 
@@ -357,7 +366,7 @@ div.navbar {
 
 
 
-.s_h {
+.banner2 .s_h {
     font-size: 26px;
     color: #232323;
     font-family: "GilroyBold";
@@ -380,6 +389,22 @@ div.navbar {
     z-index: 2;
 }
 
+/* *********************************** END: 2ND SECTION ********************************************* --> */
+
+
+/*  *********************************** START: 3RD SECTION ********************************************* --> */
+
+.banner3 {
+    background: #eceff3;
+    height: 350px;
+}
+
+
+.top-left-m {
+    margin-top: 270px;
+    margin-left: 260px;
+}
+
 .text_p {
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -389,6 +414,7 @@ div.navbar {
 }
 
 .text_p a {
+    text-decoration: none;
     color: #bd6f29 !important;
 }
 
@@ -396,56 +422,14 @@ div.navbar {
     color: #3fb698 !important;
 }
 
-.border-box2 {
-    position: absolute;
-    top: -1px;
-    left: 12px;
-    width: 50px;
-    height: 50px;
-    border-top: 5px solid #bd6f29;
-    border-left: 5px solid #bd6f29;
-    transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
+/*  *********************************** END: 3RD SECTION *********************************************  */
+
+/*  *********************************** START: 4TH SECTION ********************************************* --> */
+
+.banner4 {
+    background: #fff;
+    height: 550px;
 }
-
-.border-box3 {
-    position: absolute;
-    right: -1px;
-    bottom: -2px;
-    width: 50px;
-    height: 50px;
-    border-right: 5px solid #bd6f29;
-    border-bottom: 5px solid #bd6f29;
-    transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
-}
-
-.banner7 .text-box:hover .border-box2 {
-    width: 96%;
-    height: 101%;
-}
-
-.text-box:hover .border-box3 {
-    width: 96%;
-    height: 101%;
-
-}
-
-.banner7 .text-box {
-    border: 1px solid #3fb698;
-    padding: 40px;
-    margin: 0px 0px 0px;
-    width: 270px;
-    height: 270px;
-    align-items: center;
-}
-
 
 .mission_img .company_about {
     background: #bd6f29;
@@ -488,20 +472,12 @@ div.navbar {
     margin-bottom: 33px;
 }
 
-.banner3 {
-    background: #eceff3;
-    height: 350px;
-}
+/*  *********************************** END: 4TH SECTION ********************************************* --> */
 
-.banner4 {
-    background: #fff;
-    height: 550px;
-}
 
-.b3_text {
-    margin-top: 270px;
-    margin-left: 260px;
-}
+
+
+/* *********************************** START: 5TH SECTION ********************************************* --> */
 
 .banner5 {
     background: #eceff3;
@@ -528,13 +504,9 @@ div.navbar {
     z-index: 3;
 }
 
-.banner7 {
-    background: #eceff3;
-    height: 800px;
-    margin-top: -150px;
-}
+/* *********************************** END: 5TH SECTION ********************************************* --> */
 
-
+/* *********************************** START: 6TH SECTION *********************************************  */
 
 .section-title {
     text-align: center;
@@ -611,6 +583,60 @@ div.navbar {
     line-height: 20px;
 }
 
+/*  *********************************** END: 6TH SECTION ********************************************* */
+
+/*  *********************************** START: 7TH SECTION *********************************************  */
+
+.banner7 {
+    background: #eceff3;
+    height: 800px;
+    margin-top: -150px;
+}
+
+.banner7 .text-box:hover .border-box2 {
+    width: 96%;
+    height: 101%;
+}
+
+.text-box:hover .border-box3 {
+    width: 96%;
+    height: 101%;
+
+}
+
+.banner7 .text-box {
+    border: 1px solid #3fb698;
+    padding: 40px;
+    margin: 0px 0px 0px;
+    width: 270px;
+    height: 270px;
+    align-items: center;
+}
+
+.border-box2 {
+    position: absolute;
+    top: -1px;
+    left: 12px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
+    transition: all 600ms ease;
+
+}
+
+.border-box3 {
+    position: absolute;
+    right: -1px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+    transition: all 600ms ease;
+
+}
+
 .icon {
     border: 1px dashed #7c95a1;
     border-radius: 100px;
@@ -631,11 +657,37 @@ div.navbar {
     color: #3fb698 !important;
 }
 
+/*  *********************************** END: 7TH SECTION *********************************************  */
+
+/*  *********************************** START: 8TH SECTION *********************************************  */
+
 .banner8 {
     margin-bottom: 50px;
     width: 100%;
     height: 100%;
     background-image: url(../images/solution-bg.jpg);
+}
+
+.first_text {
+    color: #fff;
+    z-index: 12;
+    font-family: Barlow;
+    height: auto;
+    white-space: normal;
+    max-width: 75rem;
+    line-height: 85px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 4.7rem;
+
+}
+
+.second_text {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    visibility: inherit;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .solution-box {
@@ -652,6 +704,10 @@ div.navbar {
     padding: 17px 14px 12px;
     margin-right: 70px;
 }
+
+/*  *********************************** END: 8TH SECTION *********************************************  */
+
+/* *********************************** START: 9TH SECTION *********************************************  */
 
 .services-title-area {
     margin-top: -235px;
@@ -671,6 +727,17 @@ div.navbar {
     font-family: "GilroyBold";
     font-weight: 700;
 }
+
+.banner9 .second_text {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    visibility: inherit;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* *********************************** END: 9TH SECTION ********************************************* */
+
 
 /************************* START:- 10th SECTION ***************************** */
 
@@ -718,22 +785,22 @@ div.company_text:hover .border-box {
     width: 91%;
     height: 101%;
     transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
+
 }
 
 
+.banner10 .s_h {
+    font-size: 26px;
+    color: #232323;
+    font-family: "GilroyBold";
+    font-weight: 700;
+}
 
 div.company_text:hover .border-box1 {
     width: 91%;
     height: 101%;
     transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
+
 
 }
 

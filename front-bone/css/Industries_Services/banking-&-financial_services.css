@@ -158,7 +158,7 @@ div.navbar {
 
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:768px) {
     .margin-right-40 {
         margin-right: 100% !important;
     }
@@ -776,6 +776,17 @@ div.navbar {
         margin-left: 0px;
     }
 
+    .banner1 {
+
+        padding: 54px 0px 13px;
+        background-size: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (min-device-width:470px) and (max-device-width: 768px) {
     .banner1 .section-title .text p {
         width: 60%;
     }
@@ -791,13 +802,26 @@ div.navbar {
     }
 }
 
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .banner1 .left-m-50 {
+        margin-left: 63%;
+    }
+}
 
 /* ************************ START:- Responsive 1st SECTION ***************************** * */
 /* ************************ START:- Responsive 2nd SECTION ***************************** * */
 
 
 @media screen and (max-width: 768px) {
+    .banner2 .top-m-80 {
+        margin-top: 0px;
+    }
 
+    .banner2 .text-p {
+
+        width: 200%;
+
+    }
 
     .banner2 .image2 {
         width: 100%;
@@ -813,6 +837,11 @@ div.navbar {
 /* ************************ START:- Responsive 3rd SECTION ***************************** * */
 
 @media screen and (max-width: 768px) {
+    .banner3 .section3-block .content-title h2 {
+        margin-bottom: 10px;
+        position: relative;
+        font-size: 35px;
+    }
 
     .banner3 .section3-block .box-container p {
         position: relative;
@@ -822,6 +851,10 @@ div.navbar {
         font-weight: 400;
         width: 100%;
         right: 10px;
+    }
+
+    .banner3 {
+        padding: 100px 0px 60px;
     }
 }
 

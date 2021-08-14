@@ -104,7 +104,7 @@ button.navbar-toggler:hover {
     z-index: 2;
     font-weight: 300;
     font-size: 15px;
-    line-height: 4.4rem;
+    line-height: 3.4rem;
 }
 
 .header .fa {
@@ -155,7 +155,7 @@ div.navbar {
 
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:768px) {
     .margin-right-40 {
         margin-right: 100% !important;
     }
@@ -169,7 +169,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.7rem !important;
+        font-size: 14px !important;
     }
 
     .top-marg-10 {
@@ -179,8 +179,8 @@ div.navbar {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 1px;
-        margin-left: 80%;
+        top: 10px;
+        margin-left: 75%;
 
     }
 
@@ -748,6 +748,10 @@ div.navbar {
     margin-top: 50px;
 }
 
+.bannner4 .top-100 {
+    margin-top: 100px;
+}
+
 .banner4 .contact-img img {
     width: 100%;
     height: auto;
@@ -767,47 +771,51 @@ div.navbar {
     margin-bottom: 35px;
 }
 
-.banner4 .information .icon {
-    font-size: 50px;
+.banner4 .information .icon h6 {
+    font-size: 15px;
     margin-right: 20px;
     /* width: 54px; */
-    font-weight: 700;
+    /* font-weight: 700; */
     color: #bd6f29;
 }
 
 .banner4 .information .icon span {
-    transform: rotate(265deg);
-    margin-right: 20px;
+    transform: rotate(19deg);
+    margin-right: 10px;
 }
 
 .banner4 .information .icon i {
-    margin-right: 20px;
+    margin-right: 10px;
 }
+
 
 .banner4 .information .main-content {
     margin-left: 60px;
-    margin-top: -75px;
+    /* margin-top: -45px; */
+
 }
 
 .banner4 .information .main-content .heading {
     position: relative;
     font-family: 'Oswald', sans-serif;
-    color: #232323;
+    /* color: #232323; */
+    color: #3fb698;
     font-size: 20px;
-    line-height: 1.7em;
+    /* line-height: 1.7em; */
     font-weight: 400;
-    margin-bottom: 10px;
+    /* margin-bottom: 0px; */
     text-transform: uppercase;
 }
 
 .banner4 .information .main-content p {
     position: relative;
     font-family: 'Oswald', sans-serif;
-    color: #3fb698;
-    font-size: 30px;
-    line-height: 1.7em;
-    font-weight: 700;
-    margin-bottom: 10px;
+    /* color: #3fb698; */
+    color: #232323;
+    font-size: 15px;
+    /* line-height: 1.7em; */
+    /* font-weight: 700; */
+    /* margin-bottom: 10px; */
 }
 
 /*  *********************************** START:- Contact  SECTION *********************************************  */
@@ -833,7 +841,8 @@ div.navbar {
 
     /* END */
     .ban-img {
-        height: 50rem;
+        height: auto;
+        width: 100%;
     }
 
     .left-m-25 {
@@ -871,6 +880,134 @@ div.navbar {
 }
 
 /************************* END:- BANNER SECTION ***************************** */
+
+/* ************************ START:- Responsive  About_Us SECTION ***************************** * */
+@media screen and (max-width: 768px) {
+    .banner1 .top-m-100 {
+        margin-top: 5rem;
+    }
+
+    .banner1 .section-img img {
+        margin-bottom: 30px;
+    }
+
+    .banner1 .section-text h6 {
+        margin-top: 30px;
+        font-size: 1.3rem;
+    }
+
+    .banner1 .section-text h1 {
+        font-size: 35px;
+    }
+}
+
+/* ************************ END:- Responsive  About_Us SECTION ***************************** * */
+
+/* *********************************** START:- Responsive Team  SECTION ********************************************* */
+@media screen and (max-width: 425px) {
+    .banner2 .subtitle h3 {
+        font-family: "Oswald", sans-serif;
+        font-size: 30px;
+    }
+
+    .banner2 .top-m-50 {
+        margin-top: 10px;
+    }
+
+    .banner2 .image-box img {
+        margin-left: 25%;
+    }
+
+    .banner2 .box-container {
+
+        width: 85%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-left: 36px;
+    }
+
+    .banner2 .box-container .DetailsBox {
+        margin-top: 150px;
+        margin-left: 0%;
+    }
+
+    .banner2 .social li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .banner2 .inner-box .border-box {
+        position: absolute;
+        right: 32px;
+    }
+
+    .banner2 .person-details:hover .border-box {
+        width: 81%;
+        height: 71%;
+    }
+}
+
+@media only screen and (min-device-width: 450px) and (max-device-width: 1024px) {
+    .banner2 .inner-box .border-box {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+
+
+    .banner2 .social li a {
+
+        font-size: 18px;
+        height: 44px;
+        line-height: 44px;
+
+        width: 44px;
+    }
+}
+
+@media only screen and (min-device-width: 820px) and (max-device-width: 990px) {
+    .banner2 .margin-top-100 {
+        margin-top: 100px;
+    }
+}
+
+
+/* *********************************** END:- Responsive Team  SECTION ********************************************* */
+
+/* ************************ START:- Responsive  LOCATIONS-MAPs ***************************** * */
+@media screen and (max-width: 425px) {
+    .locations-section .map-box .map-image {
+        margin-top: 100px;
+    }
+
+    .locations-section .map-box .location-point .inner {
+        width: 100px;
+        margin-bottom: 8px;
+    }
+
+    .banner3 .section-title h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}
+
+/* ************************ END:- Responsive LOCATIONS-MAPs ***************************** * */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1018,8 +1155,8 @@ div.navbar {
     padding: 0rem;
 }
 
-.left-m-10 {
-    margin-left: 1px;
+.footer-color .left-m-10 {
+    margin-left: 10px;
 }
 
 .auto-hide-downcursor {
@@ -1058,6 +1195,7 @@ div.navbar {
 }
 
 .footer-color .footer-section li a {
+    margin-right: 7px;
     color: azure;
     /* width: 2px; */
     font-weight: 300;
@@ -1082,8 +1220,9 @@ div.navbar {
     line-height: 30px;
     height: 50px;
     opacity: 1;
-    right: 0rem;
+    right: -.3rem;
     margin-right: 4px;
+
 
 }
 
@@ -1219,8 +1358,8 @@ div.navbar {
     }
 
     .f_ms {
-        font-size: 1.20px;
-        margin-left: -.20px;
+        font-size: 10px;
+
     }
 
 }
@@ -1240,6 +1379,10 @@ div.navbar {
 
     .footer-color .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 10%;
     }
 }
 

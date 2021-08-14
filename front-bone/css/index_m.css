@@ -26,8 +26,20 @@
     color: azure !important;
 }
 
-
 @media screen and (max-width:1200px) {
+    .navbar-brand .mid {
+        float: none;
+        display: block;
+
+    }
+
+
+}
+
+/* <!-- *********************************** START: 1st SECTION ********************************************* --> */
+
+
+@media screen and (max-width:768px) {
 
     /* START */
     .margin-right-40 {
@@ -67,32 +79,24 @@
 
     .second_text {
 
-        font-size: 18px;
+        font-size: 16px;
         padding-left: 24px;
         padding-right: 32px;
     }
 
     .main_btn {
-        margin-top: 10px;
-        margin-left: 26px;
+        margin-top: 40px;
+        margin-left: 0px;
         font-size: 12px;
 
     }
 }
 
+/* <!-- *********************************** END: 1st SECTION ********************************************* --> */
 
 
 
 
-@media screen and (max-width:1200px) {
-    .navbar-brand .mid {
-        float: none;
-        display: block;
-
-    }
-
-
-}
 
 @media screen and (max-width:1200px) {
 
@@ -542,6 +546,10 @@
 
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 10%;
     }
 }
 

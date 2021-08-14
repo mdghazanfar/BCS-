@@ -68,7 +68,9 @@ html {
     padding: 10px;
 }
 
-
+.remove-line a {
+    text-decoration: none;
+}
 
 /* *******************************************Resusable************************************************** */
 
@@ -286,7 +288,7 @@ div.navbar {
     font-weight: 600;
     font-size: 13px;
     margin-top: 5rem;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .main_btn:hover {
@@ -377,7 +379,8 @@ div.navbar {
     color: #ffffff;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 525px;
+    /* width: 525px; */
+    width: 100%;
 }
 
 .banner1 .text {
@@ -386,7 +389,7 @@ div.navbar {
     font-size: 16px;
     line-height: 1.7em;
     margin-bottom: 20px;
-    width: 525px;
+    width: 100%;
     font-weight: 400;
 }
 
@@ -673,7 +676,7 @@ div.navbar {
 /************************* START:- BANNER SECTION ***************************** */
 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
 
     /* START */
     .margin-right-40 {
@@ -701,7 +704,7 @@ div.navbar {
         z-index: 12;
         font-family: Barlow;
 
-        max-width: 40rem;
+        width: 100%;
         line-height: 45px;
         letter-spacing: 0px;
         font-weight: 700;
@@ -713,7 +716,7 @@ div.navbar {
         color: #fff;
         z-index: 12;
         font-family: 'Oswald', sans-serif;
-        width: 375px;
+        width: 100%;
         line-height: 26px;
         font-weight: 700;
         font-size: 16px;
@@ -721,8 +724,8 @@ div.navbar {
     }
 
     .main_btn {
-        margin-top: 10px;
-        margin-left: 26px;
+        margin-top: 45px;
+        margin-left: 0px;
         font-size: 12px;
 
     }

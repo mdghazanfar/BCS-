@@ -8,6 +8,10 @@ html {
     font-size: 10px;
 }
 
+p {
+    font-size: 16px;
+}
+
 .top-m-100 {
     margin-top: 10rem;
 
@@ -102,7 +106,7 @@ button.navbar-toggler:hover {
 }
 
 .header .fa {
-    transform: rotate(105deg);
+    transform: rotate(19deg);
     margin-right: 10px;
 }
 
@@ -259,69 +263,6 @@ div.navbar {
 
 /************************* END:- BANNER SECTION ***************************** */
 
-/********************* START:-BANNER MOBILE SECTION ******************************** */
-
-/* ************************ START:- BANNER SECTION ***************************** * */
-@media screen and (max-width: 768px) {
-
-    /* START */
-    .margin-right-40 {
-        margin-right: 125px !important;
-    }
-
-    .dropdown-menu {
-        background-color: #100f13 !important;
-    }
-
-    .dropdown-menu a {
-        color: azure !important;
-    }
-
-    /* END */
-    .ban-img {
-        height: 50rem;
-    }
-
-    .left-m-25 {
-        margin-left: 25px;
-    }
-
-    .banner .left-m-10 {
-        margin-left: 10px;
-    }
-
-    .digit_text {
-        z-index: 12;
-        font-family: Barlow;
-        max-width: 100%;
-        line-height: 45px;
-        letter-spacing: 0px;
-        font-weight: 700;
-        font-size: 3.7rem;
-
-    }
-
-    .first_text {
-        color: #fff;
-        z-index: 12;
-        font-family: 'Oswald', sans-serif;
-        width: 100%;
-        line-height: 26px;
-        font-weight: 700;
-        font-size: 16px;
-
-    }
-
-    .main_btn {
-        margin-top: 10px;
-        margin-left: 26px;
-        font-size: 12px;
-
-    }
-}
-
-/************************* END:- BANNER SECTION ***************************** */
-/********************* END:-BANNER MOBILE SECTION ******************************** */
 
 /*************************** START:- 1ST SECTION ********************************/
 
@@ -481,68 +422,9 @@ div.navbar {
 }
 
 /*************************** END:- 1ST SECTION ********************************/
-/********************* START:- MOBILE  SECTION ******************************** */
-@media screen and (max-width: 768px) {
-
-    .banner1 .image1 {
-        width: 100%;
-        height: auto;
-        margin-top: -150px;
-        margin-left: 0px;
-        border-radius: 20px;
-        margin-bottom: 30px;
-    }
-
-    .banner1 h2 {
-        position: relative;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 4rem;
-        color: #232323;
-        margin-top: 0px;
-        margin-bottom: 30px;
-        width: 100%;
-        font-family: 'Oswald', sans-serif;
-    }
-
-    .banner1 .text {
-
-        line-height: 1.5em;
-        width: 100%;
-    }
-
-    .banner2 .block-color {
-        position: absolute;
-        height: 32.2% !important;
-        content: '';
-        left: 35px;
-        /* top: 910px; */
-        right: 64px;
-        /* bottom: 787px; */
-        background-color: rgba(0, 0, 0, 0.40);
-        width: 40% !important;
-    }
-
-    .banner2 .image1 {
-        margin-top: 50px;
-    }
-
-    .banner2 .text {
-        width: 100% !important;
-        font-family: 'Oswald', sans-serif;
-    }
-}
-
-@media screen and (min-width: 425px) and (max-width:767px) {
-
-    .banner2 .block-color {
-        position: absolute;
-        width: 39% !important;
-    }
-}
 
 
-/********************* END:-  MOBILE SECTION ******************************** */
+
 /*************************** START:- 2nd SECTION ********************************/
 
 
@@ -740,8 +622,8 @@ div.navbar {
 }
 
 .banner2 .blog-gallery .block-image2 {
-    background-image: url(../../images/image-1.jpg);
-    width: 300px;
+    background-image: url(../../images/SIDE-IMG.jpg);
+    width: 100%;
     height: 385px;
 }
 
@@ -753,8 +635,7 @@ div.navbar {
     left: 35px;
     /* top: 910px; */
     right: 64px;
-    /* bottom: 787px; */
-    background-color: rgba(0, 0, 0, 0.40);
+
 }
 
 .banner2 .blog-gallery .block-image2 h6 {
@@ -771,7 +652,7 @@ div.navbar {
 }
 
 .banner2 .blog-gallery .block-image2 .fa {
-    transform: rotate(105deg);
+    transform: rotate(19deg);
     margin-right: 10px;
 }
 
@@ -939,7 +820,7 @@ div.navbar {
     font-size: 1.6rem;
 }
 
-.footer-color .footer-list ul li a {
+.footer-color .footer-list li a {
     color: azure;
     text-decoration: none;
     font-size: 16px;
@@ -987,6 +868,132 @@ div.navbar {
     right: -.4rem;
 
 }
+
+
+
+
+
+/********************* START:-BANNER MOBILE SECTION ******************************** */
+
+/* ************************ START:- BANNER SECTION ***************************** * */
+@media screen and (max-width: 768px) {
+
+    /* START */
+    .margin-right-40 {
+        margin-right: 125px !important;
+    }
+
+    .dropdown-menu {
+        background-color: #100f13 !important;
+    }
+
+    .dropdown-menu a {
+        color: azure !important;
+    }
+
+    /* END */
+    .ban-img {
+        height: 50rem;
+    }
+
+    .left-m-25 {
+        margin-left: 25px;
+    }
+
+    .banner .left-m-10 {
+        margin-left: 10px;
+    }
+
+    .digit_text {
+        z-index: 12;
+        font-family: Barlow;
+        max-width: 100%;
+        line-height: 45px;
+        letter-spacing: 0px;
+        font-weight: 700;
+        font-size: 3.7rem;
+
+    }
+
+    .first_text {
+        color: #fff;
+        z-index: 12;
+        font-family: 'Oswald', sans-serif;
+        width: 100%;
+        line-height: 26px;
+        font-weight: 700;
+        font-size: 16px;
+
+    }
+
+    .main_btn {
+        margin-top: 10px;
+        margin-left: 26px;
+        font-size: 12px;
+
+    }
+}
+
+/************************* END:- BANNER SECTION ***************************** */
+/********************* END:-BANNER MOBILE SECTION ******************************** */
+/********************* START:- Responsive 1st  SECTION ******************************** */
+
+
+@media screen and (max-width: 768px) {
+
+    .banner1 .image1 {
+        width: 100%;
+        height: auto;
+        margin-top: -150px;
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    .banner1 h2 {
+        position: relative;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 4rem;
+        color: #232323;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .banner1 .text {
+
+        line-height: 1.5em;
+        width: 100%;
+    }
+
+}
+
+/********************* END:- Responsive 1st  SECTION ******************************** */
+/********************* START:- Responsive 2nd SECTION ******************************** */
+
+@media screen and (max-width: 768px) {
+
+
+    .banner2 .image1 {
+        margin-top: 50px;
+    }
+
+    .banner2 .text {
+        width: 100% !important;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .banner2 .icon-border li {
+        font-size: 14px;
+    }
+}
+
+
+/********************* END:- Responsive 2nd SECTION ******************************** */
+
+
 
 /********************* START:- FOOTER MOBILE SECTION ******************************** */
 .footer-color .dropdown {
