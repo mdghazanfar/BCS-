@@ -15,6 +15,15 @@
         width: 60% !important;
     }
 
+    /* .size-15 {
+        font-size: 1vw;
+    } */
+
+    .nav li a {
+
+        font-size: 15px;
+    }
+
 
 }
 
@@ -61,14 +70,14 @@
         margin-left: 10px;
     }
 
-    .digit_text {
+    .banner .digit_text {
         letter-spacing: 3.2px;
         margin-left: 28px;
         font-size: 12px;
         font-weight: 800 !important;
     }
 
-    .first_text {
+    .banner .first_text {
         line-height: 40px;
         font-size: 35px;
         min-width: 0px;
@@ -77,14 +86,14 @@
 
     }
 
-    .second_text {
+    .banner .second_text {
 
         font-size: 16px;
         padding-left: 24px;
         padding-right: 32px;
     }
 
-    .main_btn {
+    .banner .main_btn {
         margin-top: 40px;
         margin-left: 0px;
         font-size: 12px;
@@ -110,12 +119,11 @@
         padding-bottom: 24px;
     }
 
-    .mobile-m {
-        margin-top: 20px;
-        height: 456px;
-        width: 370px;
-        margin-left: 20px;
-        margin-bottom: 20px;
+    .banner2 .mobile-m {
+        margin-top: 140px;
+        /* height: 456px;
+        width: 370px; */
+        /* margin-bottom: 20px; */
     }
 
     .company_item .width_height {
@@ -163,7 +171,7 @@
     .banner3 {
         /* margin-top: 2070px; */
         background: #eceff3;
-        height: 1850px;
+        height: 650px;
     }
 
     .b3_text {
@@ -397,6 +405,14 @@
     .read-btn {
         margin-left: 95px;
     }
+
+    .banner10 .mobile-m {
+        margin-top: -50px;
+        /* height: 456px;
+        width: 370px; */
+        margin-bottom: 90px;
+    }
+
 }
 
 

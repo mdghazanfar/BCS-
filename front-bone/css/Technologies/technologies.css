@@ -225,7 +225,7 @@ div.navbar {
     line-height: 85px;
     letter-spacing: 0px;
     font-weight: 700;
-    font-size: 6.7rem;
+    font-size: 5.7rem;
     text-transform: capitalize;
 }
 
@@ -239,7 +239,7 @@ div.navbar {
     white-space: normal;
     /* width: 650px; */
     line-height: 26px;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
 
 }
@@ -486,12 +486,12 @@ div.navbar {
 .banner2 .sec-title h2 {
     margin-bottom: 30px;
     position: relative;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 1.2em;
     color: #fff;
     margin-top: 10px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -574,7 +574,7 @@ div.navbar {
 .banner2 .content-column .text p {
     position: relative;
     color: #bbbbbb;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.7em;
     margin-bottom: 20px;
 }

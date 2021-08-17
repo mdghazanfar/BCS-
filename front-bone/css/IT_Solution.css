@@ -340,13 +340,16 @@ div.navbar {
 .banner1 h2 {
     position: relative;
     font-weight: 700;
-    font-size: 33px;
+    font-size: 35px;
     line-height: 1.5;
     color: #ffffff;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
     font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+
 }
 
 .banner1 .text {
@@ -412,10 +415,13 @@ div.navbar {
 
 .banner1 .subtitle h3 {
     font-family: "Oswald", sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 40px;
     color: #fff;
     font-weight: 700;
+    text-transform: capitalize;
+
+
 }
 
 
@@ -444,10 +450,6 @@ div.navbar {
     /* text-align: center; */
     padding: 50px 40px 50px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
     border: 2px solid rgba(255, 255, 255, 0.20);
 }
 
@@ -474,10 +476,7 @@ div.navbar {
     position: relative;
     color: #fff;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
+
 }
 
 .service-block .inner-box .text {
@@ -508,10 +507,7 @@ div.navbar {
     border-right: 5px solid #bd6f29;
     border-bottom: 5px solid #bd6f29;
     transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
+
 }
 
 .border-box1 {
@@ -523,10 +519,7 @@ div.navbar {
     border-top: 5px solid #bd6f29;
     border-left: 5px solid #bd6f29;
     transition: all 600ms ease;
-    -moz-transition: all 600ms ease;
-    -webkit-transition: all 600ms ease;
-    -ms-transition: all 600ms ease;
-    -o-transition: all 600ms ease;
+
 }
 
 .service-block .inner-box:hover .border-box {
@@ -576,7 +569,7 @@ div.navbar {
     font-weight: 700;
     font-style: normal;
     color: #fff;
-    font-size: 36px;
+    font-size: 35px;
     margin-top: 20px;
 
 }
@@ -1000,7 +993,9 @@ div.navbar {
         font-family: 'Oswald', sans-serif;
     }
 
-
+    .banner1 .top-m-50 {
+        margin-top: 20px;
+    }
 }
 
 

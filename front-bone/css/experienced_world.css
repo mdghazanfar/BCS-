@@ -255,11 +255,11 @@ div.navbar {
     height: auto;
     color: rgb(255, 255, 255);
     white-space: normal;
-    width: 650px;
+    width: 100%;
     line-height: 85px;
     letter-spacing: 0px;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 70px;
 
 }
 

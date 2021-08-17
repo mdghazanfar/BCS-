@@ -4,9 +4,9 @@
     font-family: 'Oswald', sans-serif;
 }
 
-/* html {
+html {
     font-family: 'Oswald', sans-serif;
-} */
+}
 
 .navbar-toggler.custom-btn {
     position: absolute;
@@ -47,6 +47,10 @@ button.navbar-toggler:hover {
     border: #bd6f29 2px solid !important;
 }
 
+.header .size-15 {
+    /* font-size: 1.1vw; */
+    font-size: 20px;
+}
 
 .header {
 
@@ -55,7 +59,6 @@ button.navbar-toggler:hover {
     z-index: 2;
     font-weight: 300;
     font-size: 16px;
-
     line-height: 44px;
 
 }
@@ -64,7 +67,8 @@ button.navbar-toggler:hover {
     color: azure;
     width: 2px;
     font-weight: 300;
-    font-size: 16px;
+    /* font-size: 1.1vw; */
+    font-size: 20px;
     margin-right: 12px;
     border-radius: 50%;
     text-decoration: none;
@@ -114,10 +118,9 @@ div.navbar {
     /* font white color on p and a */
     text-decoration: none;
     color: azure;
-    margin-left: 1rem;
+    margin-left: 10px;
     font-weight: 500;
-    /* font-size: 20px; */
-    font-size: 1.3rem;
+    font-size: 20px;
 }
 
 .navbar-nav a:hover {
@@ -137,15 +140,15 @@ div.navbar {
 /* *********************************** START: 1st SECTION ********************************************* --> */
 
 .banner {
-    background-image: url(../images/image-1.jpg);
-    height: 36rem;
+    width: 100%;
+    height: auto;
     position: relative;
     overflow: hidden;
-    padding: 160px 0px 160px;
+    padding: 280px 0px 360px;
     background-size: cover;
+    background-image: url(../images/image-1.jpg);
 
 }
-
 
 .banner-color {
     position: absolute;
@@ -168,6 +171,7 @@ div.navbar {
     font-weight: bold !important;
     letter-spacing: 3.2px;
 
+
 }
 
 .banner .first_text {
@@ -176,11 +180,13 @@ div.navbar {
     font-family: Barlow;
     height: auto;
     white-space: normal;
-    max-width: 75rem;
-    line-height: 85px;
+    max-width: 75%;
+    /* line-height: 100px; */
     letter-spacing: 0px;
     font-weight: 700;
-    font-size: 4.7rem;
+    font-size: 4.5vw;
+    /* font-size: 6.7rem; */
+    margin-bottom: 40px;
 
 }
 
@@ -190,9 +196,10 @@ div.navbar {
     visibility: inherit;
     font-size: 20px;
     line-height: 20px;
+    margin-top: 20px;
 }
 
-.main_btn {
+.banner .main_btn {
     background: #3fb698;
     color: #fff;
     display: inline-block;
@@ -205,7 +212,7 @@ div.navbar {
 
 }
 
-.main_btn:hover {
+.banner .main_btn:hover {
     background-color: #bd6f29 !important;
     color: azure;
 }
@@ -215,10 +222,10 @@ div.navbar {
 /*  *********************************** START: 2ND SECTION ********************************************* --> */
 
 
-.our_company {
-
-    content: "";
-    height: 485px;
+.banner2 {
+    /* content: ""; */
+    /* height: 480px; */
+    height: auto;
     background: #302c38;
     left: 0px;
     top: 0px;
@@ -227,7 +234,7 @@ div.navbar {
     padding-top: 100px;
 }
 
-.company_sub_title h5 {
+.banner2 .company_sub_title h5 {
     color: #bd6f29;
     font-family: 'Oswald', sans-serif;
     font-style: italic;
@@ -236,7 +243,7 @@ div.navbar {
     margin-bottom: 20px;
 }
 
-.company_sub_title h4 {
+.banner2 .company_sub_title h4 {
     color: #fff;
     font-size: 26px;
     font-family: 'Oswald', sans-serif;
@@ -245,12 +252,12 @@ div.navbar {
     margin-bottom: 56px;
 }
 
-.p-c {
+.banner2 .p-c {
     text-align: center;
     padding: 32px 20px 10px 20px;
 }
 
-.our_company_inner .company_desc p {
+.banner2 .our_company_inner .company_desc p {
     color: #fff;
     opacity: .6;
     font-size: 16px;
@@ -261,90 +268,70 @@ div.navbar {
     margin-bottom: 0px;
 }
 
-.video_icon {
-    text-align: center;
-    margin-top: -130px;
-    margin-left: 70px;
+
+
+.banner2 .border-box {
+    position: absolute;
+    right: 12px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+
 }
 
-.video_icon a {
-    color: #bd6f29;
-    position: relative;
-    max-width: 272px;
+.banner2 .border-box1 {
+    position: absolute;
+    top: -2px;
+    left: 12px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
+
+}
+
+.banner2 .company_text:hover .border-box {
+    width: 91%;
+    height: 101%;
+    transition: all 600ms ease;
+
+}
+
+.banner2 .company_text:hover .border-box1 {
+    width: 91%;
+    height: 101%;
+    transition: all 600ms ease;
+
+
+}
+
+.banner2 .company_img img {
     width: 100%;
-    display: inline-block;
-
+    height: auto;
 }
 
-.video_icon i {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    text-align: center;
-    background: #fff;
-    font-size: 45px;
-    line-height: 100px;
-
+.banner2 .mobile-m {
+    margin-top: 50px;
 }
 
-.video_icon a:before {
-    content: "";
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, .45);
-    position: absolute;
-    left: 25px;
-    top: -60px;
-    animation: animate 2s linear infinite
-}
-
-.video_icon a:after {
-    content: "";
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, .45);
-    position: absolute;
-    left: 56px;
-    top: -30px;
-    animation: animate 2s linear infinite
-}
-
-
-.video_icon:after {
-    animation-delay: 1s;
-}
-
-@keyframes animate {
-    100% {
-        transform: scale(1.0);
-    }
-
-    0% {
-        transform: scale(0.5);
-    }
-}
-
-.company_text a {
-    text-decoration: none;
-}
-
+/* 
 .company_text a h4:hover {
     color: #bd6f29 !important;
     -webkit-transition: all 300ms linear 0s;
     -o-transition: all 300ms linear 0s;
     transition: all 300ms linear 0s;
-}
+} */
 
-.company_item .company_text h4 {
+.banner2 .company_item .company_text h4 {
     color: #232323;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 15px;
 }
 
-.more_btn {
+.banner2 .more_btn {
     color: #bd6f29;
     text-transform: uppercase;
     font-size: 13px;
@@ -353,12 +340,12 @@ div.navbar {
     margin-bottom: 0px;
 }
 
-.more_btn:hover {
+.banner2 .more_btn:hover {
     color: #3fb698 !important;
     text-decoration: none;
 }
 
-.card-world {
+.banner2 .card-world {
     background: #fff;
     border: 1px solid #3fb698;
 }
@@ -373,21 +360,21 @@ div.navbar {
     font-weight: 700;
 }
 
-.center-details {
+.banner2 .center-details {
     margin-left: 30%;
     padding-bottom: 22px;
 }
 
-.company_item .width_height {
-    width: 255px;
+.banner2 .company_item .width_height {
+    width: 100%;
     height: 193px;
 }
 
-.area {
+/* .area {
     background: #eceff3 !important;
     position: relative;
     z-index: 2;
-}
+} */
 
 /* *********************************** END: 2ND SECTION ********************************************* --> */
 
@@ -395,30 +382,32 @@ div.navbar {
 /*  *********************************** START: 3RD SECTION ********************************************* --> */
 
 .banner3 {
-    background: #eceff3;
-    height: 350px;
+    background: azure;
+    /* height: 350px; */
+    height: auto;
+    margin-top: -240px;
 }
 
 
-.top-left-m {
+.banner3 .top-left-m {
     margin-top: 270px;
     margin-left: 260px;
 }
 
-.text_p {
+.banner3 .text_p {
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     /* font-weight: 600; */
     color: #766e86;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
 
-.text_p a {
+.banner3 .text_p a {
     text-decoration: none;
     color: #bd6f29 !important;
 }
 
-.text_p a:hover {
+.banner3 .text_p a:hover {
     color: #3fb698 !important;
 }
 
@@ -428,10 +417,11 @@ div.navbar {
 
 .banner4 {
     background: #fff;
-    height: 550px;
+    /* height: 550px; */
+    height: auto;
 }
 
-.mission_img .company_about {
+.banner4 .mission_img .company_about {
     background: #bd6f29;
     position: absolute;
     right: 0px;
@@ -441,7 +431,7 @@ div.navbar {
     padding: 35px 30px 35px 30px;
 }
 
-.mission_img .company_about h4 {
+.banner4 .mission_img .company_about h4 {
     color: #fff;
     margin-bottom: 15px;
     font-size: 20px;
@@ -449,13 +439,13 @@ div.navbar {
     font-weight: 500;
 }
 
-.mission_img .company_about p {
+.banner4 .mission_img .company_about p {
     margin-bottom: 0px;
     color: #fff !important;
 
 }
 
-.mission_text h3 {
+.banner4 .mission_text h3 {
     font-size: 32px;
     line-height: 40px;
     color: #232323;
@@ -464,7 +454,7 @@ div.navbar {
     margin-bottom: 18px;
 }
 
-.mission_text h5 {
+.banner4 .mission_text h5 {
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
     line-height: 26px;
@@ -482,10 +472,11 @@ div.navbar {
 .banner5 {
     background: #eceff3;
     background-image: url(../images/what-we-are-shape-1.png);
-    height: 550px;
+    height: auto;
+    width: 100%;
 }
 
-.case_item .case_text h4 {
+.banner5 .case_item .case_text h4 {
     font-size: 16px;
     color: #bd6f29;
     font-family: 'Oswald', sans-serif;
@@ -493,27 +484,78 @@ div.navbar {
     margin-top: 25px;
 }
 
-.case-items_p {
+.banner5 .case_img img {
+    width: 100%;
+    height: auto;
+}
+
+.banner5 .margin-top {
+    margin-top: 100px;
+}
+
+.banner5 .case-items_p {
     color: #797979;
     margin-top: 10px;
 }
 
-.case_item .case_img {
+.banner5 .case_item .case_img {
     position: relative;
     overflow: hidden;
     z-index: 3;
 }
 
+.banner5 .mission_text h3 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #232323;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-bottom: 18px;
+    padding: 10px;
+}
+
+.banner5 .mission_text p {
+    color: #797979;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.banner5 .h2-single-case-study {
+    -webkit-box-shadow: 0 0 8px 0 rgb(153 153 153);
+    box-shadow: 0 0 8px 0 rgb(153 153 153);
+    margin: 0 0 30px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.banner5 .h2-single-case-study::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: .5;
+    position: absolute;
+    width: 103%;
+}
+
+
+
 /* *********************************** END: 5TH SECTION ********************************************* --> */
 
 /* *********************************** START: 6TH SECTION *********************************************  */
 
-.section-title {
+.banner6 {
+    width: 100%;
+    height: auto;
+}
+
+.banner6 .section-title {
     text-align: center;
     margin: 0 0 54px;
 }
 
-.section-title h6 {
+.banner6 .section-title h6 {
     color: #3fb698;
     font-size: 16px;
     font-style: italic;
@@ -524,7 +566,7 @@ div.navbar {
     font-family: 'Oswald', sans-serif;
 }
 
-.section-title h2 {
+.banner6 .section-title h2 {
     margin-bottom: 25px;
     font-weight: bold;
     color: #232323;
@@ -535,14 +577,19 @@ div.navbar {
     font-family: 'Oswald', sans-serif;
 }
 
-.section-title p {
+.banner6 .section-title p {
     /* color: #333333; */
     color: #797979;
     font-size: 20px;
     line-height: 24px;
 }
 
-.h2-single-case-study {
+.banner6 .img img {
+    width: 100%;
+    height: auto;
+}
+
+.banner6 .h2-single-case-study {
     -webkit-box-shadow: 0 0 8px 0 rgb(153 153 153);
     box-shadow: 0 0 8px 0 rgb(153 153 153);
     margin: 0 0 30px;
@@ -551,7 +598,7 @@ div.navbar {
     transition: all 0.3s ease 0s;
 }
 
-.h2-single-case-study::before {
+.banner6 .h2-single-case-study::before {
     background: #000 none repeat scroll 0 0;
     content: "";
     height: 100%;
@@ -560,7 +607,7 @@ div.navbar {
     width: 103%;
 }
 
-.h2-single-case-study .content {
+.banner6 .h2-single-case-study .content {
     bottom: 20px;
     left: 18px;
     position: absolute;
@@ -568,15 +615,15 @@ div.navbar {
     z-index: 8;
 }
 
-.content .name {
+.banner6 .content .name {
     color: #fff;
     font-weight: 300;
     line-height: 18px;
     margin: 0 0 4px;
 }
 
-.content .link,
-.content .link a {
+.banner6 .content .link,
+.banner6 .content .link a {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
@@ -589,31 +636,80 @@ div.navbar {
 
 .banner7 {
     background: #eceff3;
-    height: 800px;
-    margin-top: -150px;
+    /* height: 800px; */
+    height: auto;
+    /* margin-top: -150px; */
 }
 
-.banner7 .text-box:hover .border-box2 {
-    width: 96%;
-    height: 101%;
+.banner7 .section-title {
+    text-align: center;
+    margin: 0 0 54px;
 }
 
-.text-box:hover .border-box3 {
-    width: 96%;
-    height: 101%;
+.banner7 .icon img {
+    width: 60%;
 
 }
 
 .banner7 .text-box {
+    margin-bottom: 30px;
+
+}
+
+.banner7 .section-title h6 {
+    color: #3fb698;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 0 0 4px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner7 .section-title h2 {
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #232323;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 44px;
+    margin: 0 0 26px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner7 .section-title p {
+
+    /* color: #333333; */
+    color: #797979;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.banner7 .graphics:hover .border-box2 {
+    width: 90%;
+    height: 92%;
+}
+
+.banner7 .graphics:hover .border-box3 {
+    width: 90%;
+    height: 92%;
+
+}
+
+.banner7 .graphics {
     border: 1px solid #3fb698;
     padding: 40px;
     margin: 0px 0px 0px;
-    width: 270px;
-    height: 270px;
+    /* width: 270px; */
+    /* height: 270px; */
+    width: 100%;
+    height: 100%;
     align-items: center;
+
 }
 
-.border-box2 {
+.banner7 .border-box2 {
     position: absolute;
     top: -1px;
     left: 12px;
@@ -625,10 +721,11 @@ div.navbar {
 
 }
 
-.border-box3 {
+
+.banner7 .border-box3 {
     position: absolute;
-    right: -1px;
-    bottom: -2px;
+    right: 13px;
+    bottom: 25px;
     width: 50px;
     height: 50px;
     border-right: 5px solid #bd6f29;
@@ -637,7 +734,7 @@ div.navbar {
 
 }
 
-.icon {
+.banner7 .icon {
     border: 1px dashed #7c95a1;
     border-radius: 100px;
     font-size: 38px;
@@ -649,11 +746,12 @@ div.navbar {
 }
 
 
-.bi-color {
+.banner7 .bi-color {
+    margin-left: 50px;
     padding-bottom: center;
 }
 
-.icon-img {
+.banner7 .icon-img {
     color: #3fb698 !important;
 }
 
@@ -662,27 +760,27 @@ div.navbar {
 /*  *********************************** START: 8TH SECTION *********************************************  */
 
 .banner8 {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     width: 100%;
-    height: 100%;
+    height: auto;
     background-image: url(../images/solution-bg.jpg);
 }
 
-.first_text {
+.banner8 .first_text {
     color: #fff;
     z-index: 12;
     font-family: Barlow;
     height: auto;
     white-space: normal;
     max-width: 75rem;
-    line-height: 85px;
+    /* line-height: 85px; */
     letter-spacing: 0px;
     font-weight: 700;
-    font-size: 4.7rem;
+    font-size: 4vw;
 
 }
 
-.second_text {
+.banner8 .second_text {
     color: #fff;
     font-family: 'Oswald', sans-serif;
     visibility: inherit;
@@ -690,19 +788,89 @@ div.navbar {
     line-height: 20px;
 }
 
-.solution-box {
+.banner8 .solution-box {
     margin-top: -150px;
 }
 
-.b-col {
+.banner8 .b-col {
     background: rgba(16, 16, 40, 0.8);
-    padding: 320px;
+    padding: 275px;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+
 }
 
-.solution-box .solution-content {
+.banner8 .solution-box .solution-content {
     border: 10px solid rgba(255, 255, 255, 0.15);
     padding: 17px 14px 12px;
     margin-right: 70px;
+}
+
+.banner8 .video_icon {
+    text-align: center;
+    margin-top: -130px;
+    margin-left: 70px;
+}
+
+.banner8 .video_icon a {
+    color: #bd6f29;
+    position: relative;
+    max-width: 272px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.banner8 .video_icon i {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    font-size: 45px;
+    line-height: 100px;
+
+}
+
+.banner8 .video_icon a:before {
+    content: "";
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .45);
+    position: absolute;
+    left: 25px;
+    top: -60px;
+    animation: animate 2s linear infinite
+}
+
+.banner8 .video_icon a:after {
+    content: "";
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .45);
+    position: absolute;
+    left: 56px;
+    top: -30px;
+    animation: animate 2s linear infinite
+}
+
+
+.banner8 .video_icon:after {
+    animation-delay: 1s;
+}
+
+@keyframes animate {
+    100% {
+        transform: scale(1.0);
+    }
+
+    0% {
+        transform: scale(0.5);
+    }
 }
 
 /*  *********************************** END: 8TH SECTION *********************************************  */
@@ -718,14 +886,16 @@ div.navbar {
     background-image: url(../images/bg-banner-home5.png);
 }
 
-.services-title-area .services-title-item .title {
-    font-size: 55px;
-    line-height: 65px;
+.banner9 .services-title-item .title {
+    font-size: 3.5vw;
+    height: auto;
+    /* line-height: 65px; */
     color: #fff;
-    padding: 0 210px;
+    /* padding: 0 210px; */
     padding-top: 15px;
     font-family: "GilroyBold";
     font-weight: 700;
+
 }
 
 .banner9 .second_text {
@@ -734,14 +904,32 @@ div.navbar {
     visibility: inherit;
     font-size: 20px;
     line-height: 20px;
+    font-weight: 600;
 }
 
 /* *********************************** END: 9TH SECTION ********************************************* */
 
 
 /************************* START:- 10th SECTION ***************************** */
+.banner10 .company_sub_title h5 {
+    color: #bd6f29;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
 
-.company_item .read-btn a {
+.banner10 .company_sub_title h4 {
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-right: -14px;
+    margin-bottom: 56px;
+}
+
+.banner10 .company_item .read-btn a {
     font-weight: 700;
     color: #232323;
     line-height: 50px;
@@ -753,13 +941,29 @@ div.navbar {
     text-decoration: none;
 }
 
-.company_item .read-btn a:hover {
+.banner10 .our_company_inner .company_desc p {
+    color: #fff;
+    opacity: .6;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    line-height: 28px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.banner10 .p-c {
+    text-align: center;
+    padding: 32px 20px 10px 20px;
+}
+
+.banner10 .company_item .read-btn a:hover {
     background: #3fb698;
     color: #fff;
     border-color: #3fb698;
 }
 
-.border-box {
+.banner10 .border-box {
     position: absolute;
     right: 12px;
     bottom: -2px;
@@ -770,7 +974,7 @@ div.navbar {
 
 }
 
-.border-box1 {
+.banner10 .border-box1 {
     position: absolute;
     top: -2px;
     left: 12px;
@@ -781,13 +985,22 @@ div.navbar {
 
 }
 
-div.company_text:hover .border-box {
+.banner10 .mobile-m {
+    margin-top: 50px;
+}
+
+.banner10 .company_text:hover .border-box {
     width: 91%;
     height: 101%;
     transition: all 600ms ease;
 
 }
 
+
+.banner10 .company_img img {
+    width: 100%;
+    height: auto;
+}
 
 .banner10 .s_h {
     font-size: 26px;
@@ -796,7 +1009,7 @@ div.company_text:hover .border-box {
     font-weight: 700;
 }
 
-div.company_text:hover .border-box1 {
+.banner10 .company_text:hover .border-box1 {
     width: 91%;
     height: 101%;
     transition: all 600ms ease;
@@ -804,12 +1017,48 @@ div.company_text:hover .border-box1 {
 
 }
 
+.banner10 .company_item .company_text h4 {
+    color: #232323;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 15px;
+}
+
+.banner10 .more_btn {
+    color: #bd6f29;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner10 .more_btn:hover {
+    color: #3fb698 !important;
+    text-decoration: none;
+}
+
+.banner10 .center-details {
+    margin-left: 30%;
+    padding-bottom: 22px;
+}
+
+.banner10 .company_item .width_height {
+    width: 255px;
+    height: 193px;
+}
+
+.banner10 .card-world {
+    background: #fff;
+    border: 1px solid #3fb698;
+}
+
 
 /************************* END:- 10th SECTION ***************************** */
 
 /************************* START:- 11TH SECTION ***************************** */
 
-.header11 {
+/* .header11 {
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -830,7 +1079,7 @@ div.company_text:hover .border-box1 {
 }
 
 .appointment .form-group .btn {
-    /* width: 100%; */
+    
     display: block !important;
 }
 
@@ -838,7 +1087,7 @@ div.company_text:hover .border-box1 {
     background: #3fb698 !important;
     border: 1px solid #3fb698 !important;
     color: #fff !important;
-}
+} */
 
 /************************* END:- 11th SECTION ***************************** */
 
@@ -847,7 +1096,7 @@ div.company_text:hover .border-box1 {
 
 .footer-color {
     background: #302c38;
-    height: 400px;
+    height: 350px;
     margin-top: -20px;
 }
 

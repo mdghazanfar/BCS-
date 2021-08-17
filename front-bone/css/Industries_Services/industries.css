@@ -336,7 +336,8 @@ div.navbar {
     color: #232323;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: livvic, sans-serif;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .banner1 h2 {
@@ -349,6 +350,8 @@ div.navbar {
     margin-bottom: 30px;
     /* width: 525px; */
     width: 100%;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .banner1 .text {
@@ -360,6 +363,8 @@ div.navbar {
     /* width: 525px; */
     width: 100%;
     font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .banner1 .icon li {
@@ -499,7 +504,7 @@ div.navbar {
     color: #fff;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: livvic, sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .banner2 h2 {
@@ -510,6 +515,9 @@ div.navbar {
     color: #fff;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .banner2 .text {
@@ -521,6 +529,8 @@ div.navbar {
     /* width: 756px; */
     width: 100%;
     font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .banner2 .icon li {
@@ -532,6 +542,8 @@ div.navbar {
     margin-bottom: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .banner2 .icon-border li {
@@ -543,6 +555,8 @@ div.navbar {
     margin-bottom: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .banner2 .icon-border li i {

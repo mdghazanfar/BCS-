@@ -387,7 +387,7 @@ div.navbar {
 .banner2 .sec-title h1 {
     position: relative;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 1.2em;
     color: #fff;
     margin-top: 30px;
@@ -406,7 +406,7 @@ div.navbar {
 .banner2 h2 {
     position: relative;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.2em;
     color: #fff;
     /* margin-top: 30px; */
@@ -730,7 +730,7 @@ div.navbar {
     }
 
     .left-m-25 {
-        margin-left: 5px;
+        margin-left: 15px;
     }
 
     .digit_text {
