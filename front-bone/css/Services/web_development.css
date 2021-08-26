@@ -199,7 +199,7 @@ div.navbar {
 /************************* START:- BANNER SECTION ***************************** */
 
 .ban-img {
-    background-image: url(../../images/webservices.jpg);
+    background-image: url(../webservices.jpg);
     /* height: 60rem; */
     height: 100%;
     position: relative;

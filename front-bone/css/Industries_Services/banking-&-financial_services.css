@@ -23,7 +23,7 @@ html {
 }
 
 .size-15 {
-    font-size: 2rem !important;
+    font-size: 1.6rem;
 }
 
 .top-m-20 {
@@ -119,7 +119,7 @@ button.navbar-toggler:hover {
     color: azure;
     width: .2rem;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-right: 1.2rem;
     border-radius: 50%;
 
@@ -172,7 +172,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.5rem !important;
+        font-size: 1.2rem !important;
     }
 
     .top-marg-10 {
@@ -182,13 +182,13 @@ div.navbar {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 1rem;
+        top: 1.6rem;
         margin-left: 80%;
 
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50% !important;
     }
 
     .header {
@@ -199,7 +199,7 @@ div.navbar {
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
-    background-image: url(../../images/banking-f-s-slider1-home3.png);
+    background-image: url(../banking-f-s-slider1-home3.png);
     height: 60rem;
     position: relative;
     overflow: hidden;
@@ -236,7 +236,7 @@ div.navbar {
 
 
 .first_text {
-
+    max-width: 75rem;
     z-index: 11;
     font-family: 'Oswald', sans-serif;
     height: auto;
@@ -272,47 +272,39 @@ div.navbar {
 /*************************** START:- 1ST SECTION ********************************/
 
 .banner1 {
-    background-image: url(../../images/banking-&-f-S-banner1-home1.jpg);
-    height: 60rem;
+    height: auto;
     position: relative;
     overflow: hidden;
-    padding: 160px 0px 160px;
-    background-size: cover;
+    background-color: #232323;
+}
+
+.banner1 .section-img img {
     width: 100%;
-    height: 100%;
-
+    height: auto;
+    margin-bottom: 30px;
 }
 
-
-.banner1 .left-m-50 {
-    margin-left: 50%;
-}
-
-.banner1 .section-title {
-    width: 50%;
-}
 
 .banner1 .section-title h2 {
+    color: #fff;
     margin-bottom: 30px;
     position: relative;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.2em;
-    color: #232323;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 }
 
 .banner1 .section-title .text p {
+    color: #bbbbbb;
     position: relative;
-    color: #333333;
+
     font-size: 16px;
     line-height: 1.7em;
     margin-bottom: 40px;
     font-weight: 400;
 }
-
-
 
 
 /*************************** END:- 1ST SECTION ********************************/
@@ -375,6 +367,14 @@ div.navbar {
 
 }
 
+.banner2 .left-20 {
+    margin-left: 20px;
+}
+
+.banner2 .left-15 {
+    margin-left: 15px;
+}
+
 .banner2 .sec-title .icon {
     position: relative;
     font-size: 70px;
@@ -406,7 +406,7 @@ div.navbar {
 .banner2 h2 {
     position: relative;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.2em;
     color: #fff;
     /* margin-top: 30px; */
@@ -528,7 +528,7 @@ div.navbar {
 }
 
 .banner2 .blog-gallery .block-image2 {
-    background-image: url(../../images/SIDE-IMG.jpg);
+    background-image: url(../SIDE-IMG.jpg);
     width: 100%;
     height: 360px;
 }
@@ -615,12 +615,12 @@ div.navbar {
 
 
 .banner3 {
-    background-image: url(../../images/banking-&-fn-Ser-sec-03-img01.jpg);
+    background-image: url(../banking-&-fn-Ser-sec-03-img01.jpg);
     /* height: 70rem; */
     height: auto;
     position: relative;
     overflow: hidden;
-    padding: 160px 0px 160px;
+    padding: 100px 0px 100px;
     background-size: cover;
     /* width: 100%; */
     /* height: 100%; */
@@ -633,7 +633,7 @@ div.navbar {
 .banner3 .section3-block .content-title h2 {
     margin-bottom: 30px;
     position: relative;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.2em;
     color: #232323;
@@ -709,11 +709,17 @@ div.navbar {
 /********************* START:-BANNER MOBILE SECTION ******************************** */
 
 /* ************************ START:- BANNER SECTION ***************************** * */
+@media screen and (max-width: 990px) {
+    .margin-right-40 {
+        margin-right: 100% !important;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     /* START */
     .margin-right-40 {
-        margin-right: 125px !important;
+        margin-right: 100% !important;
     }
 
     .dropdown-menu {
@@ -772,41 +778,12 @@ div.navbar {
         width: 100%;
     }
 
-    .banner1 .left-m-50 {
-        margin-left: 0px;
-    }
-
-    .banner1 {
-
-        padding: 54px 0px 13px;
-        background-size: auto;
-        width: 100%;
-        height: 100%;
-    }
-
-}
-
-@media only screen and (min-device-width:470px) and (max-device-width: 768px) {
-    .banner1 .section-title .text p {
-        width: 60%;
+    .banner1 .section-img img {
+        border-radius: 20px;
     }
 }
 
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
-    .banner1 .section-title {
-        width: 45%;
-    }
 
-    .banner1 .section-title {
-        margin-left: 0px;
-    }
-}
-
-@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .banner1 .left-m-50 {
-        margin-left: 63%;
-    }
-}
 
 /* ************************ START:- Responsive 1st SECTION ***************************** * */
 /* ************************ START:- Responsive 2nd SECTION ***************************** * */
@@ -1048,7 +1025,7 @@ div.navbar {
 .footer-color .dropdown {
     position: relative;
     display: inline-block;
-    width: 36.5rem;
+    /* width: 36.5rem; */
 }
 
 
@@ -1205,7 +1182,7 @@ div.navbar {
 
 /************************* END:- FOOTER SECTION ***************************** */
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 
     .digit_text {
         max-width: 100%;
@@ -1231,9 +1208,28 @@ div.navbar {
     .mar-img2 {
         margin-left: -34px;
     }
+
+    .footer-color .dropdown {
+        width: 300px !important;
+
+    }
+
+    .banner2 .left-20 {
+        margin-left: 5px !important;
+    }
+
+    .banner2 .left-15 {
+        margin-left: 5px !important;
+    }
+
+    .banner2 .side-bar-area {
+        margin-left: 0px;
+        width: 282px;
+    }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
+
     .block-image img {
 
         width: 240%;
@@ -1249,6 +1245,85 @@ div.navbar {
 
     .btn-border {
         width: 95%;
+    }
+
+    .banner2 .sec-title h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer-color .left-m-40 {
+        margin-left: 2%;
+    }
+
+    .footer-color .dropdown {
+        width: 350px;
+
+    }
+
+    .digit_text {
+        font-size: 3rem;
+    }
+
+    .first_text {
+        font-size: 14px;
+    }
+
+    .navbar-toggler.custom-btn {
+        position: absolute;
+        cursor: pointer;
+        top: .8rem;
+        margin-left: 80%;
+
+    }
+
+    .f_ms {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        width: 60% !important;
+    }
+
+    .banner2 h2 {
+        font-size: 24px;
+    }
+
+    .banner3 .section3-block .content-title h2 {
+        font-size: 28px !important;
+    }
+
+    .banner1 .section-title h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+
+    .banner2 .left-15 {
+        margin-left: 5px !important;
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 500px !important;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 549px) {
+    .footer-color .left-m-40 {
+        margin-left: 0%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 400px !important;
     }
 
 }

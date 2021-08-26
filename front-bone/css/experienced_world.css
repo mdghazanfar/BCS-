@@ -105,7 +105,7 @@ html {
 }
 
 .size-15 {
-    font-size: 2rem !important;
+    font-size: 1.6rem !important;
 }
 
 button.custom-btn div.line-menubar {
@@ -189,6 +189,7 @@ div.navbar {
 }
 
 @media screen and (max-width:740px) {
+
     .margin-right-40 {
         margin-right: 100% !important;
     }
@@ -226,9 +227,28 @@ div.navbar {
     }
 }
 
+@media screen and (max-width:425px) {
+    .size-15 {
+        font-size: 1.2rem !important;
+    }
+
+    .digit_text {
+        font-size: 3rem !important;
+    }
+
+    .banner1 .sec-title h1 {
+        font-size: 24px !important;
+    }
+
+    .banner1 h2 {
+        font-size: 18px !important;
+
+    }
+}
+
 /************************* START:- BANNER SECTION ***************************** */
 .banner {
-    background-image: url(../images/expiance2.jpg);
+    background-image: url(expiance2.jpg);
     height: 60rem;
     position: relative;
     overflow: hidden;
@@ -775,8 +795,17 @@ div.navbar {
 /********************* END:- 1ST SECTION ********************************** */
 /********************* START:- 2nd SECTION ********************************** */
 
-@media screen and (max-width: 1200px) {
 
+
+@media screen and (max-width: 425px) {
+
+
+    .banner2 .case-details .text-box p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
 
     .banner2 .case-details .text-box {
         border: 1px solid #3fb698;
@@ -1213,5 +1242,15 @@ div.navbar {
 
     .footer-color .left-m-40 {
         margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .dropdown {
+        width: 300px;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 4%;
     }
 }

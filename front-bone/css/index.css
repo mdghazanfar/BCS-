@@ -49,7 +49,7 @@ button.navbar-toggler:hover {
 
 .header .size-15 {
     /* font-size: 1.1vw; */
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .header {
@@ -68,7 +68,7 @@ button.navbar-toggler:hover {
     width: 2px;
     font-weight: 300;
     /* font-size: 1.1vw; */
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 12px;
     border-radius: 50%;
     text-decoration: none;
@@ -137,16 +137,20 @@ div.navbar {
     background: linear-gradient(to right, #3fb698 25%, #9aecd8 100%);
 }
 
+.centered {
+    text-align: center !important;
+}
+
 /* *********************************** START: 1st SECTION ********************************************* --> */
 
 .banner {
     width: 100%;
     height: auto;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 280px 0px 360px;
     background-size: cover;
-    background-image: url(../images/image-1.jpg);
+    background-image: url(image-1.jpg);
 
 }
 
@@ -162,6 +166,10 @@ div.navbar {
 }
 
 
+.banner .responsive {
+    width: 100%;
+    height: auto;
+}
 
 .banner .digit_text {
     color: #fff;
@@ -230,7 +238,7 @@ div.navbar {
     left: 0px;
     top: 0px;
     width: 100%;
-    background-image: url(../images/choose-dot.png);
+    background-image: url(choose-dot.png);
     padding-top: 100px;
 }
 
@@ -304,7 +312,6 @@ div.navbar {
     height: 101%;
     transition: all 600ms ease;
 
-
 }
 
 .banner2 .company_img img {
@@ -316,19 +323,12 @@ div.navbar {
     margin-top: 50px;
 }
 
-/* 
-.company_text a h4:hover {
-    color: #bd6f29 !important;
-    -webkit-transition: all 300ms linear 0s;
-    -o-transition: all 300ms linear 0s;
-    transition: all 300ms linear 0s;
-} */
-
 .banner2 .company_item .company_text h4 {
     color: #232323;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 .banner2 .more_btn {
@@ -350,25 +350,15 @@ div.navbar {
     border: 1px solid #3fb698;
 }
 
-
-
-
-.banner2 .s_h {
-    font-size: 26px;
-    color: #232323;
-    font-family: "GilroyBold";
-    font-weight: 700;
-}
-
 .banner2 .center-details {
-    margin-left: 30%;
+    /* margin-left: 30%; */
     padding-bottom: 22px;
 }
 
-.banner2 .company_item .width_height {
+/* .banner2 .company_item .width_height {
     width: 100%;
     height: 193px;
-}
+} */
 
 /* .area {
     background: #eceff3 !important;
@@ -431,6 +421,11 @@ div.navbar {
     padding: 35px 30px 35px 30px;
 }
 
+.banner4 .mission_img img {
+    width: 100%;
+    height: auto;
+}
+
 .banner4 .mission_img .company_about h4 {
     color: #fff;
     margin-bottom: 15px;
@@ -471,7 +466,7 @@ div.navbar {
 
 .banner5 {
     background: #eceff3;
-    background-image: url(../images/what-we-are-shape-1.png);
+    background-image: url(what-we-are-shape-1.png);
     height: auto;
     width: 100%;
 }
@@ -604,7 +599,7 @@ div.navbar {
     height: 100%;
     opacity: .5;
     position: absolute;
-    width: 103%;
+    width: 100%;
 }
 
 .banner6 .h2-single-case-study .content {
@@ -668,6 +663,7 @@ div.navbar {
 }
 
 .banner7 .section-title h2 {
+    width: 98%;
     margin-bottom: 25px;
     font-weight: bold;
     color: #232323;
@@ -763,7 +759,7 @@ div.navbar {
     /* margin-bottom: 50px; */
     width: 100%;
     height: auto;
-    background-image: url(../images/solution-bg.jpg);
+    background-image: url(solution-bg.jpg);
 }
 
 .banner8 .first_text {
@@ -816,7 +812,7 @@ div.navbar {
 
 .banner8 .video_icon a {
     color: #bd6f29;
-    position: relative;
+    position: absolute;
     max-width: 272px;
     width: 100%;
     display: inline-block;
@@ -883,7 +879,7 @@ div.navbar {
     height: 535px;
     margin-left: 70px;
     margin-right: 70px;
-    background-image: url(../images/bg-banner-home5.png);
+    background-image: url(bg-banner-home5.png);
 }
 
 .banner9 .services-title-item .title {
@@ -911,14 +907,11 @@ div.navbar {
 
 
 /************************* START:- 10th SECTION ***************************** */
-.banner10 .company_sub_title h5 {
-    color: #bd6f29;
-    font-family: 'Oswald', sans-serif;
-    font-style: italic;
-    font-size: 22px;
-    font-weight: normal;
-    margin-bottom: 20px;
+
+.banner10 .margin-top-172 {
+    margin-top: -172px;
 }
+
 
 .banner10 .company_sub_title h4 {
     color: #fff;
@@ -941,15 +934,8 @@ div.navbar {
     text-decoration: none;
 }
 
-.banner10 .our_company_inner .company_desc p {
-    color: #fff;
-    opacity: .6;
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
-    line-height: 28px;
-    margin-top: 18px;
-    margin-bottom: 0px;
+.banner10 .company_text p {
+    font-size: 14px;
 }
 
 .banner10 .p-c {
@@ -1002,12 +988,7 @@ div.navbar {
     height: auto;
 }
 
-.banner10 .s_h {
-    font-size: 26px;
-    color: #232323;
-    font-family: "GilroyBold";
-    font-weight: 700;
-}
+
 
 .banner10 .company_text:hover .border-box1 {
     width: 91%;
@@ -1019,9 +1000,10 @@ div.navbar {
 
 .banner10 .company_item .company_text h4 {
     color: #232323;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 .banner10 .more_btn {
@@ -1039,7 +1021,7 @@ div.navbar {
 }
 
 .banner10 .center-details {
-    margin-left: 30%;
+    /* margin-left: 30%; */
     padding-bottom: 22px;
 }
 
@@ -1064,7 +1046,7 @@ div.navbar {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/counter-bg.jpg);
+    background-image: url(counter-bg.jpg);
 }
 
 .h_bch {

@@ -45,33 +45,32 @@
     cursor: pointer;
     top: 1rem;
     margin-left: 80%;
-
 }
-
 button.custom-btn div.line-menubar {
     height: .3rem;
     width: 3rem;
     margin: .5rem 0rem;
     background-color: #bd6f29;
 }
-
 button.navbar-toggler {
     border: azure .2rem solid !important;
 }
-
 button.navbar-toggler:hover {
     border: #bd6f29 .2rem solid !important;
 }
-
 .dropdown-menu {
     background-color: #302c38 !important;
 }
-
 .dropdown-menu a {
     color: azure !important;
 } */
 
+@media screen and (max-width:425px) {
+    .navbar-brand {
+        width: 65% !important;
+    }
 
+}
 
 
 
@@ -90,8 +89,12 @@ button.navbar-toggler:hover {
         color: azure !important;
     }
 
+    .nav li a {
+        font-size: 14px;
+    }
+
     .size-15 {
-        font-size: 16px !important;
+        font-size: 13px !important;
     }
 
     /* .top-marg-10 {
@@ -101,13 +104,12 @@ button.navbar-toggler:hover {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 1rem;
         margin-left: 80%;
 
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50% !important;
     }
 
     .header {
@@ -165,13 +167,82 @@ button.navbar-toggler:hover {
         font-size: 12px;
 
     }
+
+    .banner {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        background-image: url(index-banner-img.jpg);
+
+    }
+
+    .banner-color {
+        background-color: rgba(0, 0, 0, 0.70);
+
+    }
 }
 
 /************************* END:- BANNER SECTION ***************************** */
+
+/*************************Start:- 4th SECTION ***************************** */
+
+@media screen and (max-width:425px) {
+
+    .banner2 .company_sub_title h5 {
+        font-size: 18px;
+    }
+
+    .banner2 .company_sub_title h4 {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .banner4 .mission_text h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+
+
+/*************************End:- 4th SECTION ***************************** */
+/*************************Start:- 6th SECTION ***************************** */
+@media screen and (max-width:425px) {
+
+    .banner6 .section-title h2 {
+        font-size: 25px;
+        letter-spacing: 0;
+        line-height: 35px;
+    }
+
+}
+
+@media screen and (min-width:720px) and (max-width:959px) {
+    .banner2 .width_height {
+        /* width: 239px; */
+        height: 430px;
+    }
+
+}
+
+
+/************************ End:- 6th SECTION ***************************** */
+/*************************Start:- 7th SECTION ***************************** */
+@media screen and (max-width:425px) {
+
+    .banner7 .section-title h2 {
+
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
+/*************************End:- 7th SECTION ***************************** */
+
 /* *********************************** START: 8TH SECTION ********************************************* --> */
 
-
-@media screen and (max-width:990px) {
+@media screen and (max-width:768px) {
     /* .banner8 {
         height: 800px;
 
@@ -203,32 +274,72 @@ button.navbar-toggler:hover {
         font-size: 20px !important;
     }
 
-    /* .banner8 .b-col {
-        height: 800px;
+    .banner8 .b-col {
+        height: 600px;
         padding: 20px;
-    } */
+    }
 
     .banner8 .video_icon {
-        margin-left: 0px;
+        margin-left: -210px;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 0px;
     }
 }
 
 
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .banner8 .top-m-365 {
+        margin-top: -230px !important;
+    }
+
+    content {
+        border: 10px solid rgba(255, 255, 255, 0.15);
+        padding: 8px 7px 169px !important;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .banner8 .video_icon {
+        margin-left: -268px !important;
+        text-align: center;
+        margin-top: 30px !important;
+    }
+}
+
 /*  *********************************** END: 8TH SECTION ********************************************* --> */
 
+/* *********************************** START: 9TH SECTION ********************************************* --> */
+@media screen and (max-width:425px) {
+    .services-title-area {
+        margin-top: -10px !important;
+    }
+
+    .services-title-area {
+        height: 440px;
+    }
+
+    .banner10 .margin-top-172 {
+        /* margin-top: -276px !important; */
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .services-title-area {
+        margin-top: -110px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .banner10 .margin-top-172 {
+        margin-top: -274px;
+    }
+}
 
 
 
-
-
-
-
-
-
-
-
+/* *********************************** END: 9TH SECTION ********************************************* --> */
 
 
 
@@ -238,9 +349,8 @@ button.navbar-toggler:hover {
 .footer-color .dropdown {
     position: relative;
     display: inline-block;
-    width: 36.5rem;
+    /* width: 36.5rem; */
 }
-
 
 
 @media screen and (max-width: 1200px) {
@@ -277,7 +387,7 @@ button.navbar-toggler:hover {
     }
 
     .btn-border {
-        max-width: 65%;
+        /* max-width: 65%; */
         /* margin: auto; */
         /* background-color: inherit; */
         border: 1px solid #3fb698;
@@ -327,7 +437,7 @@ button.navbar-toggler:hover {
         padding: 0rem;
     }
 
-    .left-m-10 {
+    /* .left-m-10 {
         margin-left: 1rem;
     }
 
@@ -354,7 +464,7 @@ button.navbar-toggler:hover {
 
     .left-m-275 {
         margin-left: 27.5rem;
-    }
+    } */
 
     .separator {
         margin-left: 2rem;
@@ -380,10 +490,10 @@ button.navbar-toggler:hover {
         margin-top: 20px;
     }
 
-    .footer-color.dropdown {
-        position: relative;
-        display: inline-block;
-        width: 365px;
+    .footer-color .dropdown {
+        /* position: absolute; */
+        /* display: inline-block; */
+        width: 550px;
     }
 
     .footer-color .dropdown:hover .dropdown-content {
@@ -395,52 +505,97 @@ button.navbar-toggler:hover {
     }
 }
 
+@media screen and (max-width:425px) {
+
+    .footer-color .dropdown {
+        width: 295px !important;
+    }
+
+    .navbar-toggler.custom-btn {
+
+        margin-left: 70% !important;
+    }
+
+    .size-15 {
+        font-size: 12px !important;
+        margin-top: 10px;
+    }
+
+    .nav li a {
+        color: azure;
+        width: 2px;
+        font-weight: 300;
+        /* font-size: 1.1vw; */
+        font-size: 12px;
+    }
+
+    .navbar-toggler.custom-btn {
+        margin-top: 1px !important;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 4% !important;
+    }
+
+    .banner .first_text {
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+    .banner4 .mission_img .company_about {
+        bottom: -90px;
+    }
+
+    .banner4 .mission_img .company_about h4 {
+        font-size: 18px;
+
+    }
+
+    .banner4 .mission_img .company_about p {
+        font-size: 15px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    /* .footer-color .left-m-40 {
+        margin-left: 16% !important;
+    } */
+}
+
 /************************* END:- FOOTER SECTION ***************************** */
 
 /* @media screen and (min-width: 320px) {
-
     .digit_text {
         max-width: 100%;
     }
-
     .first_text {
         max-width: 100%;
     }
-
     .btn-border {
         width: 80%;
     }
-
     .block-image img {
-
         width: 200%;
     }
-
     .mar-img1 {
         margin-left: -17px;
     }
-
     .mar-img2 {
         margin-left: -34px;
     }
 }
-
 @media screen and (min-width: 375px) {
     .block-image img {
-
         width: 240%;
     }
-
     .mar-img1 {
         margin-left: 5px;
     }
-
     .mar-img2 {
         margin-left: 10px;
     }
-
     .btn-border {
         width: 95%;
     }
-
 } */

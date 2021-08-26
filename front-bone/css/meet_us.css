@@ -196,7 +196,7 @@ div.navbar {
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
-    background-image: url(../images/Meets_us-banner-img.jpg);
+    background-image: url(Meets_us-banner-img.jpg);
     height: auto;
     position: relative;
     overflow: hidden;
@@ -738,7 +738,7 @@ div.navbar {
 /* *********************************** START:- Contact  SECTION *********************************************  */
 
 .banner4 {
-    background-image: url(../images/contact-banner-img.jpg);
+    background-image: url(contact-banner-img.jpg);
     height: 35rem;
     width: 100%;
 
@@ -1025,7 +1025,7 @@ div.navbar {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/counter-bg.jpg);
+    background-image: url(counter-bg.jpg);
 }
 
 .banner1 .h_bch {

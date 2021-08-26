@@ -22,7 +22,7 @@ html {
 }
 
 .size-15 {
-    font-size: 2rem !important;
+    font-size: 1.6rem;
 }
 
 .top-m-20 {
@@ -118,7 +118,7 @@ button.navbar-toggler:hover {
     color: azure;
     width: .2rem;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-right: 1.2rem;
     border-radius: 50%;
 
@@ -157,7 +157,7 @@ div.navbar {
 
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:768px) {
     .margin-right-40 {
         margin-right: 100% !important;
     }
@@ -171,7 +171,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.6rem !important;
+        font-size: 1.2rem !important;
     }
 
     .top-marg-10 {
@@ -187,7 +187,7 @@ div.navbar {
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50% !important;
     }
 
     .header {
@@ -199,7 +199,7 @@ div.navbar {
 /************************* START:- BANNER SECTION ***************************** */
 
 .ban-img {
-    background-image: url(../../images/Servies\ -banner-\ img-01.jpg);
+    background-image: url(../Servies\ -banner-\ img-01.jpg);
     /* height: 60rem; */
     height: 100%;
     position: relative;
@@ -514,11 +514,19 @@ div.navbar {
 /********************* START:-BANNER MOBILE SECTION ******************************** */
 
 /* ************************ START:- BANNER SECTION ***************************** * */
+@media screen and (max-width: 990px) {
+
+    /* START */
+    .margin-right-40 {
+        margin-right: 100% !important;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     /* START */
     .margin-right-40 {
-        margin-right: 125px !important;
+        margin-right: 100% !important;
     }
 
     .dropdown-menu {
@@ -568,6 +576,17 @@ div.navbar {
     }
 }
 
+@media screen and (max-width: 425px) {
+    .digit_text {
+        font-size: 3rem;
+    }
+
+    .first_text {
+        font-size: 15px;
+    }
+
+}
+
 /************************* END:- BANNER SECTION ***************************** */
 /********************* END:-BANNER MOBILE SECTION ******************************** */
 /* ************************ START:- Responsive 1st SECTION ***************************** * */
@@ -599,6 +618,13 @@ div.navbar {
 
 }
 
+@media screen and (max-width: 425px) {
+
+    .banner1 .content-title h2 {
+        font-size: 30px;
+    }
+}
+
 /* ************************ END:- Responsive 1st SECTION ***************************** * */
 /* ************************ START:- Responsive 2nd SECTION ***************************** * */
 
@@ -608,7 +634,19 @@ div.navbar {
     }
 }
 
+@media screen and (max-width: 425px) {
+    .banner2 .section-text h1 {
+        font-size: 3rem;
+    }
 
+    .banner2 .section2-block {
+        background-color: #fff;
+        padding: 25px 25px;
+        box-shadow: 0px 0px 35.77px 13.23px rgb(11 91 224 / 20%);
+        border-radius: 5px;
+        margin-right: 0px;
+    }
+}
 
 
 
@@ -806,7 +844,7 @@ div.navbar {
 .footer-color .dropdown {
     position: relative;
     display: inline-block;
-    width: 36.5rem;
+    /* width: 36.5rem; */
 }
 
 
@@ -991,7 +1029,7 @@ div.navbar {
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .block-image img {
 
         width: 240%;
@@ -1007,6 +1045,61 @@ div.navbar {
 
     .btn-border {
         width: 95%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 300px !important;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .footer-color .left-m-40 {
+        margin-left: 4%;
+    }
+
+    .f_ms {
+        font-size: 1rem;
+        margin-left: -.2rem;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 375px;
+    }
+
+    .navbar-brand {
+        width: 65% !important;
+    }
+
+    .navbar-toggler.custom-btn {
+        margin-left: 75% !important;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 500px !important;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 549px) {
+    .footer-color .left-m-40 {
+        margin-left: 0%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 400px !important;
     }
 
 }

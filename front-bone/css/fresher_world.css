@@ -81,7 +81,7 @@ html {
 }
 
 .size-15 {
-    font-size: 1.9rem !important;
+    font-size: 1.6rem !important;
 }
 
 button.custom-btn div.line-menubar {
@@ -180,7 +180,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.6rem !important;
+        font-size: 1.2rem !important;
     }
 
     .top-marg-10 {
@@ -190,13 +190,13 @@ div.navbar {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 1rem;
+        top: 1rem !important;
         margin-left: 80%;
 
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50% !important;
     }
 
     .header {
@@ -207,7 +207,7 @@ div.navbar {
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
-    background-image: url(../images/FRESHER_WORLD.jpg);
+    background-image: url(FRESHER_WORLD.jpg);
     height: 60rem;
     position: relative;
     overflow: hidden;
@@ -408,16 +408,6 @@ div.navbar {
     border-radius: 10px;
 }
 
-/* .banner1 .icon li:hover {
-    position: relative;
-    font-size: 20px;
-    color: #3fb698;
-    display: block;
-    line-height: 1em;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
 
 .banner1 .side-bar-area .icon li i {
     width: 24px;
@@ -819,11 +809,30 @@ div.navbar {
 }
 
 /********************* START:- FOOTER MOBILE SECTION ******************************** */
-.dropdown {
-    position: relative;
-    display: inline-block;
-    width: 36.5rem;
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 500px;
+    }
+
 }
+
+@media screen and (min-width: 426px) and (max-width: 549px) {
+    .footer-color .left-m-40 {
+        margin-left: 0%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 400px;
+    }
+
+}
+
 
 
 
@@ -949,7 +958,7 @@ div.navbar {
     }
 
     .f_ms {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-left: -.2rem;
     }
 
@@ -960,12 +969,6 @@ div.navbar {
         display: none;
         position: relative;
         margin-top: 20px;
-    }
-
-    .dropdown {
-        position: relative;
-        display: inline-block;
-        width: 365px;
     }
 
     .dropdown:hover .dropdown-content {
@@ -980,7 +983,28 @@ div.navbar {
 /************************* END:- FOOTER SECTION ***************************** */
 
 
-@media screen and (min-width: 320px) {
+
+@media screen and (max-width: 425px) {
+    .navbar-toggler.custom-btn {
+        top: 6px !important;
+    }
+
+    .navbar-brand {
+        width: 65% !important;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 304px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .footer-color .left-m-40 {
+        margin-left: 3%;
+    }
 
     .digit_text {
         max-width: 100%;
@@ -1027,58 +1051,3 @@ div.navbar {
     }
 
 }
-
-
-/* @media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .top-m-150 {
-
-        margin-top: 40px;
-        margin-left: -650px;
-    }
-
-    .scr-1024 {
-
-        margin-top: 2100px;
-        margin-left: -650px;
-    }
-
-    .banner1 .top-m-100 {
-        margin-left: -650px;
-    }
-} */
-
-/* @media screen and (max-width: 1024px) {
-    .top-m-150 {
-
-        margin-top: 40px;
-        margin-left: 0px;
-    }
-
-    .scr-1024 {
-
-        margin-top: 2100px;
-        margin-left: 0px;
-    }
-
-    .banner1 .top-m-100 {
-        margin-left: 0px;
-    }
-} */
-
-/* @media screen and (max-width: 768px) {
-    .top-m-150 {
-
-        margin-top: 40px;
-        margin-left: 0px;
-    }
-
-    .scr-1024 {
-
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-
-    .banner1 .top-m-100 {
-        margin-left: 0px;
-    }
-} */

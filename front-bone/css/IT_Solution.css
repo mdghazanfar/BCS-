@@ -18,7 +18,7 @@ html {
 }
 
 .size-15 {
-    font-size: 2rem !important;
+    font-size: 1.6rem !important;
 }
 
 .top-m-20 {
@@ -114,7 +114,7 @@ button.navbar-toggler:hover {
     color: azure;
     width: .2rem;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-right: 1.2rem;
     border-radius: 50%;
 
@@ -194,7 +194,7 @@ div.navbar {
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
-    background-image: url(../images/IT\ Solution.jpg);
+    background-image: url(IT\ Solution.jpg);
     height: 60rem;
     position: relative;
     overflow: hidden;
@@ -776,6 +776,7 @@ div.navbar {
 }
 
 .banner3 .icon-border li {
+
     position: relative;
     font-size: 16px;
     color: #bbbbbb;
@@ -796,16 +797,9 @@ div.navbar {
     border-radius: 10px;
 }
 
-/* .banner1 .icon li:hover {
-    position: relative;
-    font-size: 20px;
-    color: #3fb698;
-    display: block;
-    line-height: 1em;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
+.banner3 .margin-left-20 {
+    margin-left: 20px;
+}
 
 .banner3 .side-bar-area .icon li i {
     width: 24px;
@@ -862,7 +856,7 @@ div.navbar {
 }
 
 .banner3 .blog-gallery .block-image2 {
-    background-image: url(../images/SIDE-IMG.jpg);
+    background-image: url(SIDE-IMG.jpg);
     width: 100%;
     height: 385px;
 }
@@ -901,10 +895,10 @@ div.navbar {
 
 .banner3 .side-bar-area {
     margin-top: 50px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border: 1px solid #bbbbbb;
     /* box-shadow: 0 7px 20px 0 rgb(42 22 139 / 8%); */
-    width: 300px;
+    width: 275px;
 
 }
 
@@ -924,10 +918,14 @@ div.navbar {
 
 /* ************************ START:- BANNER SECTION ***************************** * */
 @media screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 50% !important;
+        height: auto;
+    }
 
     /* START */
     .margin-right-40 {
-        margin-right: 125px !important;
+        margin-right: 100% !important;
     }
 
     .dropdown-menu {
@@ -944,7 +942,7 @@ div.navbar {
     }
 
     .left-m-25 {
-        margin-left: 25px;
+        margin-left: 12px;
     }
 
     .digit_text {
@@ -1003,6 +1001,9 @@ div.navbar {
 /********************* END:-1ST SECTION ******************************** */
 /********************* START:-2nd SECTION ******************************** */
 
+.banner2 .left-15 {
+    margin-left: 15px;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -1018,14 +1019,48 @@ div.navbar {
     }
 
     .banner2 .box-section .box-container {
-        width: 90%;
+        width: 70%;
     }
 
     .banner2 .top-left-m {
         margin-left: 75px;
         margin-top: -60px;
     }
+
+    .banner2 .heading-title p {
+        font-size: 15px !important;
+    }
 }
+
+@media screen and (max-width: 425px) {
+
+    .banner2 .box-section .box-container {
+        width: 95%;
+    }
+
+    .banner2 .box-section .box-container {
+        color: #fff;
+        margin: 0 0 0 0;
+        padding: 9px 12px 17px 20px;
+        border-radius: 4px 4px 4px 4px;
+        /* box-shadow: 0 7px 20px 0 rgb(42 22 139 / 8%); */
+        box-shadow: 0 0 20px 0 rgb(153 153 153);
+        /* width: 333px; */
+    }
+
+    .banner2 .left-mm-15 {
+        margin-left: 0px !important;
+    }
+
+    .banner2 .left-15 {
+        margin-left: 0px !important;
+    }
+}
+
+
+
+
+
 
 /********************* END:-2nd SECTION ******************************** */
 
@@ -1052,12 +1087,32 @@ div.navbar {
         margin-bottom: 30px;
         border-radius: 25px;
     }
+
+    .size-15 {
+        font-size: 1.2rem !important;
+    }
+
+    .banner3 .margin-left-20 {
+        margin-left: 0px !important;
+    }
 }
 
+@media screen and (max-width: 425px) {
 
+    .banner3 .icon-border li {
 
+        position: relative;
+        font-size: 13px !important;
+    }
 
+    .banner3 .margin-left-20 {
+        margin-left: 0px !important;
+    }
 
+    .size-15 {
+        font-size: 1.2rem !important;
+    }
+}
 
 
 /********************* END:-3RD SECTION ******************************** */
@@ -1251,9 +1306,32 @@ div.navbar {
 .footer-color .dropdown {
     position: relative;
     display: inline-block;
-    width: 36.5rem;
+    width: 300px;
 }
 
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 500px !important;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 549px) {
+    .footer-color .left-m-40 {
+        margin-left: 0%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 400px !important;
+    }
+
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -1408,7 +1486,7 @@ div.navbar {
 
 /************************* END:- FOOTER SECTION ***************************** */
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 
     .digit_text {
         max-width: 100%;
@@ -1434,9 +1512,13 @@ div.navbar {
     .mar-img2 {
         margin-left: -34px;
     }
+
+    .navbar-toggler.custom-btn {
+        top: .5rem !important;
+    }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .block-image img {
 
         width: 240%;
@@ -1451,7 +1533,23 @@ div.navbar {
     }
 
     .btn-border {
-        width: 95%;
+        width: 90% !important;
     }
 
+    .footer-color .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 305px !important;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .digit_text {
+
+        line-height: 38px;
+        font-size: 3rem;
+
+    }
 }

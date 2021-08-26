@@ -31,7 +31,7 @@ html {
 }
 
 .size-15 {
-    font-size: 2rem !important;
+    font-size: 1.6rem !important;
 }
 
 .h4 {
@@ -114,7 +114,7 @@ button.navbar-toggler:hover {
     color: azure;
     width: .2rem;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-right: 1.2rem;
     border-radius: 50%;
     text-decoration: none;
@@ -154,7 +154,7 @@ div.navbar {
 
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:768px) {
     .margin-right-40 {
         margin-right: 100% !important;
     }
@@ -168,7 +168,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.6rem !important;
+        font-size: 1.2rem !important;
     }
 
     .top-marg-10 {
@@ -178,7 +178,7 @@ div.navbar {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 1rem;
+        top: 3rem;
         margin-left: 80%;
 
     }
@@ -192,9 +192,41 @@ div.navbar {
     }
 }
 
+@media screen and (max-width:425px) {
+    .size-15 {
+        font-size: 1.2rem !important;
+    }
+
+    .sec-title h2 {
+        margin-bottom: 10px;
+        font-size: 24px !important;
+    }
+
+    .service-block .inner-box {
+        padding: 30px 0px 50px !important;
+    }
+
+    .footer-color .left-m-40 {
+        margin-left: 2% !important;
+    }
+
+    .first_text {
+        line-height: 50px;
+        font-size: 3.2rem !important;
+    }
+
+    .navbar-toggler.custom-btn {
+        position: absolute;
+        cursor: pointer;
+        top: 1rem !important;
+        margin-left: 80%;
+
+    }
+}
+
 /************************* START:- BANNER SECTION ***************************** */
 .banner {
-    background-image: url(../images/troops_bannner.jpg);
+    background-image: url(troops_bannner.jpg);
     height: 60rem;
     position: relative;
     overflow: hidden;
@@ -1154,7 +1186,7 @@ div.navbar {
 
 /************************* END:- FOOTER SECTION ***************************** */
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 
     .digit_text {
         max-width: 100%;
@@ -1180,6 +1212,14 @@ div.navbar {
     .mar-img2 {
         margin-left: -34px;
     }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 300px !important;
+    }
+
+
 }
 
 @media screen and (min-width: 375px) {
