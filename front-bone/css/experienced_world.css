@@ -188,7 +188,7 @@ div.navbar {
 
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:768px) {
 
     .margin-right-40 {
         margin-right: 100% !important;
@@ -203,7 +203,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 1.6rem !important;
+        font-size: 1.2rem !important;
     }
 
     .top-marg-10 {
@@ -219,7 +219,7 @@ div.navbar {
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50%;
     }
 
     .header {
@@ -243,6 +243,10 @@ div.navbar {
     .banner1 h2 {
         font-size: 18px !important;
 
+    }
+
+    .navbar-brand {
+        width: 65% !important;
     }
 }
 
@@ -511,13 +515,13 @@ div.navbar {
     font-family: "Montserrat", sans-serif;
 }
 
-.banner2 .case-details .text-box p {
+/* .banner2 .case-details .text-box p {
     font-size: 20px;
     line-height: 28px;
     color: #72839a;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
-}
+} */
 
 .banner2 .case-details .padding-2 {
     /* padding-right: 0px; */
@@ -695,13 +699,13 @@ div.navbar {
 
 /************************* START:- BANNER SECTION ***************************** */
 
+@media screen and (max-width: 990px) {
+    .margin-right-40 {
+        margin-right: 100% !important;
+    }
+}
 
 @media screen and (max-width: 768px) {
-
-    /* START */
-    .margin-right-40 {
-        margin-right: 125px !important;
-    }
 
     .dropdown-menu {
         background-color: #302c38 !important;
@@ -894,6 +898,9 @@ div.navbar {
         margin-right: 15px;
     }
 
+    .banner2 .case-details .text h2 {
+        font-size: 3rem;
+    }
 }
 
 /*************************** END:- MOBILE RESPONSIVE  ********************************/

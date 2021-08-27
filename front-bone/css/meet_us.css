@@ -19,7 +19,7 @@ html {
 }
 
 .size-15 {
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 
 .top-m-20 {
@@ -67,13 +67,13 @@ html {
 
 }
 
-.navbar-toggler.custom-btn {
+/* .navbar-toggler.custom-btn {
     position: absolute;
     cursor: pointer;
     top: 1px;
     margin-left: 80%;
 
-}
+} */
 
 button.custom-btn div.line-menubar {
     height: .30px;
@@ -116,11 +116,21 @@ button.navbar-toggler:hover {
     color: azure;
     width: .20px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 1.20px;
     border-radius: 50%;
 
 }
+
+.navbar-toggler {
+    padding: 2px 7px !important;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
 
 .navbar-brand {
     width: 35%;
@@ -169,7 +179,7 @@ div.navbar {
     }
 
     .size-15 {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 
     .top-marg-10 {
@@ -179,13 +189,13 @@ div.navbar {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 10px;
+        top: 20px;
         margin-left: 75%;
 
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50% !important;
     }
 
     .header {
@@ -193,6 +203,12 @@ div.navbar {
     }
 }
 
+@media screen and (max-width:425px) {
+
+    .navbar-brand {
+        width: 65% !important;
+    }
+}
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
@@ -205,16 +221,6 @@ div.navbar {
     width: 100%;
 
 }
-
-/* .banner-color {
-    position: absolute;
-    content: '';
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
-} */
 
 
 .digit_text {
@@ -252,21 +258,6 @@ div.navbar {
     color: #fff;
     left: -7px;
 }
-
-/* 
-.first_text {
-
-    z-index: 11;
-    font-family: 'Oswald', sans-serif;
-    height: auto;
-    color: #fff;
-    white-space: normal;
-    line-height: 26px;
-    font-size: 20px;
-    margin-top: 20px;
-
-} */
-
 
 
 
@@ -687,7 +678,7 @@ div.navbar {
 /* *********************************** START:-Locations SECTION **************************** */
 
 .locations1 .left-m-50 {
-    margin-left: 80px;
+    /* margin-left: 80px; */
     margin-bottom: 50px;
 }
 
@@ -703,7 +694,7 @@ div.navbar {
 }
 
 .locations1 .located-details h2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 42px;
     position: relative;
     display: block;
@@ -711,7 +702,7 @@ div.navbar {
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 5px;
-    width: 250px;
+    width: 100%;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -720,7 +711,7 @@ div.navbar {
     line-height: 20px;
     color: #333;
     margin-bottom: 20px;
-    width: 200px;
+    width: 100%;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -730,7 +721,7 @@ div.navbar {
     color: #232323;
     font-weight: 400;
     margin-bottom: 20px;
-    width: 200px;
+    width: 100%;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -739,9 +730,8 @@ div.navbar {
 
 .banner4 {
     background-image: url(contact-banner-img.jpg);
-    height: 35rem;
+    height: auto;
     width: 100%;
-
 }
 
 .banner4 .top-m-30 {
@@ -753,13 +743,14 @@ div.navbar {
 }
 
 .banner4 .contact-img img {
-    width: 100%;
+    width: 85%;
     height: auto;
+    margin-bottom: 40px;
 }
 
-.banner4 .information {
+/* .banner4 .information {
     margin-left: 25%;
-}
+} */
 
 .banner4 .information .text p {
     position: relative;
@@ -770,6 +761,12 @@ div.navbar {
     font-weight: 400;
     margin-bottom: 35px;
 }
+
+
+.banner4 .top-100 {
+    margin-top: 150px;
+}
+
 
 .banner4 .information .icon h6 {
     font-size: 15px;
@@ -824,12 +821,14 @@ div.navbar {
 /********************* START:-BANNER MOBILE SECTION ******************************** */
 
 /* ************************ START:- BANNER SECTION ***************************** * */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
 
-    /* START */
     .margin-right-40 {
-        margin-right: 125px !important;
+        margin-right: 100% !important;
     }
+}
+
+@media screen and (max-width: 768px) {
 
     .dropdown-menu {
         background-color: #302c38 !important;
@@ -901,13 +900,40 @@ div.navbar {
     }
 }
 
+@media screen and (max-width: 320px) {
+
+    .banner2 .image-box img {
+        margin-left: 20% !important;
+    }
+
+    .banner2 .subtitle h3 {
+        font-family: "Oswald", sans-serif;
+        font-size: 24px !important;
+    }
+
+    .banner2 .inner-box .border-box {
+        position: absolute;
+        right: 18px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .banner2 .social li a {
+        width: 32px !important;
+        height: 32px !important;
+        line-height: 32px !important;
+        font-size: 14px !important;
+    }
+}
+
 /* ************************ END:- Responsive  About_Us SECTION ***************************** * */
 
 /* *********************************** START:- Responsive Team  SECTION ********************************************* */
 @media screen and (max-width: 425px) {
     .banner2 .subtitle h3 {
         font-family: "Oswald", sans-serif;
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .banner2 .top-m-50 {
@@ -947,13 +973,29 @@ div.navbar {
         width: 81%;
         height: 71%;
     }
+
+    .banner2 .box-container .DetailsBox .name h3 {
+        font-size: 25px;
+    }
 }
 
-@media only screen and (min-device-width: 450px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 450px) and (max-width: 1024px) {
     .banner2 .inner-box .border-box {
         display: none;
     }
 
+    .banner4 .top-100 {
+        margin-top: 80px !important;
+    }
+
+    .locations1 .located-details h2 {
+        font-size: 15px !important;
+
+    }
+
+    .locations1 .located-details p {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
@@ -985,36 +1027,32 @@ div.navbar {
     }
 
     .locations-section .map-box .location-point .inner {
-        width: 100px;
+        width: 90px;
         margin-bottom: 8px;
     }
 
     .banner3 .section-title h1 {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 40px;
+    }
+
+    .banner4 .top-100 {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+
+    .locations-section .map-box .location-point .inner {
+        padding: 16px 0px;
+    }
+
+    .locations1 .located h1 {
+        font-size: 35px;
     }
 
 }
 
 /* ************************ END:- Responsive LOCATIONS-MAPs ***************************** * */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /************************* START:- Write_Us SECTION ***************************** */
@@ -1052,10 +1090,6 @@ div.navbar {
 
 
 /************************* END:- Write_Us SECTION ***************************** */
-
-
-
-
 
 /********************* END:-BANNER MOBILE SECTION ******************************** */
 
@@ -1416,22 +1450,59 @@ div.navbar {
     }
 }
 
-@media screen and (min-width: 375px) {
-    .block-image img {
-
-        width: 240%;
-    }
-
-    .mar-img1 {
-        margin-left: 5px;
-    }
-
-    .mar-img2 {
-        margin-left: 10px;
-    }
+@media screen and (max-width: 375px) {
 
     .btn-border {
         width: 95%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .footer-color .left-m-40 {
+        margin-left: 4%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 375px;
+    }
+
+    .navbar-brand {
+        width: 65% !important;
+    }
+
+    .navbar-toggler.custom-btn {
+        margin-left: 75% !important;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 500px !important;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 549px) {
+    .footer-color .left-m-40 {
+        margin-left: 0%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 400px !important;
     }
 
 }

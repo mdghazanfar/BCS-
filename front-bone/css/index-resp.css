@@ -109,7 +109,7 @@ button.navbar-toggler:hover {
     }
 
     .navbar-brand {
-        width: 50% !important;
+        width: 50%;
     }
 
     .header {
@@ -118,11 +118,19 @@ button.navbar-toggler:hover {
 }
 
 /* ************************ START:- BANNER SECTION ***************************** * */
+
+@media screen and (max-width: 990px) {
+
+    .margin-right-40 {
+        margin-right: 100% !important;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     /* START */
     .margin-right-40 {
-        margin-right: 125px !important;
+        margin-right: 100% !important;
     }
 
     .dropdown-menu {
@@ -221,9 +229,13 @@ button.navbar-toggler:hover {
 @media screen and (min-width:720px) and (max-width:959px) {
     .banner2 .width_height {
         /* width: 239px; */
-        height: 430px;
+        /* height: 430px; */
     }
 
+    .banner2 .p-c {
+        text-align: center;
+        padding: 32px 20px 10px 20px;
+    }
 }
 
 
@@ -242,7 +254,7 @@ button.navbar-toggler:hover {
 
 /* *********************************** START: 8TH SECTION ********************************************* --> */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     /* .banner8 {
         height: 800px;
 
@@ -333,11 +345,27 @@ button.navbar-toggler:hover {
     }
 
     .banner10 .margin-top-172 {
-        margin-top: -274px;
+        margin-top: -213px;
     }
 }
 
+@media screen and (max-width:1200px) {
 
+    .banner10 .company_item .company_text h4 {
+        color: #232323;
+        font-size: 14px;
+
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .banner2 .p-c {
+        text-align: center;
+        padding: 20px 0px 0px 8px !important;
+    }
+
+}
 
 /* *********************************** END: 9TH SECTION ********************************************* --> */
 
@@ -525,12 +553,11 @@ button.navbar-toggler:hover {
         color: azure;
         width: 2px;
         font-weight: 300;
-        /* font-size: 1.1vw; */
         font-size: 12px;
     }
 
     .navbar-toggler.custom-btn {
-        margin-top: 1px !important;
+        margin-top: -10px !important;
     }
 
     .footer-color .left-m-40 {

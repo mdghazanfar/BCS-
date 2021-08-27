@@ -166,6 +166,12 @@ div.navbar {
 
 }
 
+@media screen and (max-width: 990px) {
+    .margin-right-40 {
+        margin-right: 100% !important;
+    }
+}
+
 @media screen and (max-width:768px) {
     .margin-right-40 {
         margin-right: 100% !important;
@@ -480,12 +486,6 @@ div.navbar {
 
 
 @media screen and (max-width: 768px) {
-
-    /* START */
-    .margin-right-40 {
-        margin-right: 125px !important;
-    }
-
     .dropdown-menu {
         background-color: #302c38 !important;
     }

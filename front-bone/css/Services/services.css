@@ -585,6 +585,10 @@ div.navbar {
         font-size: 15px;
     }
 
+    .ban-img {
+        background-image: url(../services-imge\ banner2-img.jpg);
+    }
+
 }
 
 /************************* END:- BANNER SECTION ***************************** */
@@ -614,6 +618,12 @@ div.navbar {
 
     .banner1 .grid {
         padding-left: 80px;
+    }
+
+    .banner2 .section-text h1 {
+        margin-bottom: 30px;
+        position: relative;
+        font-size: 3.5rem;
     }
 
 }

@@ -11,7 +11,7 @@ html {
 .navbar-toggler.custom-btn {
     position: absolute;
     cursor: pointer;
-    top: 15px;
+    top: 20px;
     margin-left: 70%;
 }
 
@@ -95,6 +95,15 @@ button.navbar-toggler:hover {
     opacity: .5;
     right: -.4rem;
 
+}
+
+.navbar-toggler {
+    padding: 2px 7px !important;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 
 .navbar-brand {
@@ -472,7 +481,7 @@ div.navbar {
 }
 
 .banner5 .case_item .case_text h4 {
-    font-size: 16px;
+    font-size: 15px;
     color: #bd6f29;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
@@ -874,7 +883,7 @@ div.navbar {
 /* *********************************** START: 9TH SECTION *********************************************  */
 
 .services-title-area {
-    margin-top: -235px;
+    margin-top: -155px;
     background: #302c38;
     height: 535px;
     margin-left: 70px;
@@ -909,7 +918,7 @@ div.navbar {
 /************************* START:- 10th SECTION ***************************** */
 
 .banner10 .margin-top-172 {
-    margin-top: -172px;
+    margin-top: -220px;
 }
 
 

@@ -178,13 +178,13 @@ div.navbar {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 3rem;
+        top: 1.5rem;
         margin-left: 80%;
 
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50%;
     }
 
     .header {
@@ -222,6 +222,11 @@ div.navbar {
         margin-left: 80%;
 
     }
+
+    .navbar-brand {
+        width: 65% !important;
+    }
+
 }
 
 /************************* START:- BANNER SECTION ***************************** */

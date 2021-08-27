@@ -182,13 +182,13 @@ div.navbar {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 1rem;
+        top: 1.5rem;
         margin-left: 80%;
 
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50%;
     }
 
     .header {
@@ -196,6 +196,17 @@ div.navbar {
     }
 }
 
+@media screen and (max-width:425px) {
+
+    .navbar-brand {
+        width: 65% !important;
+    }
+
+    .navbar-toggler.custom-btn {
+        top: 1rem;
+        margin-left: 77%;
+    }
+}
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
@@ -318,10 +329,9 @@ div.navbar {
 }
 
 .banner1 .image1 {
-    width: 120%;
-    height: 740px;
+    width: 100%;
+    height: 680px;
     margin-top: -182px;
-    margin-left: -140px;
 }
 
 .banner1 .sec-title .icon {
@@ -388,10 +398,6 @@ div.navbar {
 }
 
 .banner1 .icon li i {
-    /* background-color: #bd6f29;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 16px; */
     background-color: #bd6f29;
     color: #fff;
     margin-right: 20px;
@@ -1023,12 +1029,9 @@ div.navbar {
 .footer-color .dropdown {
     position: relative;
     display: inline-block;
-    /* width: 300px; */
 }
 
 @media screen and (min-width: 550px) and (max-width: 1200px) {
-
-
     .dropdown {
         position: relative;
         display: inline-block;

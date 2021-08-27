@@ -153,7 +153,7 @@ div.navbar {
 
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:768px) {
     .margin-right-40 {
         margin-right: 100% !important;
     }
@@ -177,13 +177,13 @@ div.navbar {
     .navbar-toggler.custom-btn {
         position: absolute;
         cursor: pointer;
-        top: 1rem;
+        top: 1.5rem;
         margin-left: 80%;
 
     }
 
     .navbar-brand {
-        width: 60% !important;
+        width: 50%;
     }
 
     .header {
@@ -191,6 +191,18 @@ div.navbar {
     }
 }
 
+@media screen and (max-width:425px) {
+
+    .navbar-brand {
+        width: 65% !important;
+    }
+
+    .navbar-toggler.custom-btn {
+        position: absolute;
+        cursor: pointer;
+        top: 1rem;
+    }
+}
 
 /************************* START:- BANNER SECTION ***************************** */
 .ban-img {
@@ -917,13 +929,14 @@ div.navbar {
 /********************* START:- MOBILE Responsive ******************************** */
 
 /* ************************ START:- BANNER SECTION ***************************** * */
-@media screen and (max-width: 768px) {
-    .navbar-brand {
-        width: 50% !important;
-        height: auto;
-    }
 
-    /* START */
+@media screen and (max-width: 990px) {
+    .margin-right-40 {
+        margin-right: 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .margin-right-40 {
         margin-right: 100% !important;
     }
