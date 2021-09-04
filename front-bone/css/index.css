@@ -287,40 +287,22 @@ div.navbar {
 
 
 
-.banner2 .border-box {
-    position: absolute;
-    right: 12px;
-    bottom: -2px;
-    width: 50px;
-    height: 50px;
-    border-right: 5px solid #bd6f29;
-    border-bottom: 5px solid #bd6f29;
-
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
 }
 
-.banner2 .border-box1 {
-    position: absolute;
-    top: -2px;
-    left: 12px;
-    width: 50px;
-    height: 50px;
-    border-top: 5px solid #bd6f29;
-    border-left: 5px solid #bd6f29;
 
+
+.banner2 .services-section {
+    position: relative;
 }
 
-.banner2 .company_text:hover .border-box {
-    width: 91%;
-    height: 101%;
-    transition: all 600ms ease;
-
-}
-
-.banner2 .company_text:hover .border-box1 {
-    width: 91%;
-    height: 101%;
-    transition: all 600ms ease;
-
+.banner2 .service-block {
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .banner2 .company_img img {
@@ -328,52 +310,126 @@ div.navbar {
     height: auto;
 }
 
-.banner2 .mobile-m {
-    margin-top: 50px;
-}
-
-.banner2 .company_item .company_text h4 {
-    color: #232323;
-    font-size: 18px;
-    font-family: 'Oswald', sans-serif;
-    margin-bottom: 15px;
-    font-weight: 700;
+.banner2 .center-details {
+    margin-top: 20px;
 }
 
 .banner2 .more_btn {
-    color: #bd6f29;
+    color: #bd6f29 !important;
     text-transform: uppercase;
     font-size: 13px;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+
 }
 
-.banner2 .more_btn:hover {
-    color: #3fb698 !important;
+
+.banner2 .service-block .inner-box {
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    /* padding: 50px 40px 50px; */
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    border: 1px solid #3fb698;
+
+}
+
+.banner2 .service-block .inner-box .icon {
+    position: relative;
+    font-size: 70px;
+    color: #bd6f29;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.banner2 .service-block .inner-box h4,
+.banner2 .service-block .inner-box h6 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+.banner2 .service-block .inner-box h4 a,
+.banner2 .service-block .inner-box h6 a {
+    position: relative;
+    color: #232323;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.banner2 .service-block .inner-box .text {
+    position: relative;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+.banner2 .service-block .inner-box:hover {
+    border-color: #bd6f29;
     text-decoration: none;
 }
 
-.banner2 .card-world {
-    background: #fff;
-    border: 1px solid #3fb698;
+.banner2 .service-block .inner-box:hover h4 a,
+.banner2 .service-block .inner-box:hover h6 a {
+    color: #bd6f29;
+    text-decoration: none;
+
 }
 
-.banner2 .center-details {
-    /* margin-left: 30%; */
-    padding-bottom: 22px;
+
+.banner2 .service-block .inner-box .border-box {
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
 }
 
-/* .banner2 .company_item .width_height {
-    width: 100%;
-    height: 193px;
-} */
+.banner2 .border-box1 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
 
-/* .area {
-    background: #eceff3 !important;
-    position: relative;
-    z-index: 2;
-} */
+.banner2 .service-block .inner-box:hover .border-box {
+    width: 101%;
+    height: 101%;
+}
+
+.banner2 .service-block .inner-box:hover .border-box1 {
+    width: 101%;
+    height: 101%;
+}
 
 /* *********************************** END: 2ND SECTION ********************************************* --> */
 
@@ -917,11 +973,11 @@ div.navbar {
 
 /************************* START:- 10th SECTION ***************************** */
 
-.banner10 .margin-top-172 {
+/* .banner10 .margin-top-172 {
     margin-top: -220px;
-}
+} */
 
-
+/* 
 .banner10 .company_sub_title h4 {
     color: #fff;
     font-size: 26px;
@@ -958,6 +1014,45 @@ div.navbar {
     border-color: #3fb698;
 }
 
+
+
+.banner10 .mobile-m {
+    margin-top: 50px;
+}
+
+.banner10 .company_img img {
+    width: 100%;
+    height: auto;
+}
+
+.banner10 .more_btn:hover {
+    color: #3fb698 !important;
+    text-decoration: none;
+}
+
+.banner10 .center-details {
+    padding-bottom: 22px;
+}
+
+.banner10 .more_btn {
+    color: #bd6f29;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner10 .company_item .width_height {
+    width: 255px;
+    height: 193px;
+}
+
+.banner10 .card-world {
+    background: #fff;
+    border: 1px solid #3fb698;
+}
+
 .banner10 .border-box {
     position: absolute;
     right: 12px;
@@ -980,24 +1075,12 @@ div.navbar {
 
 }
 
-.banner10 .mobile-m {
-    margin-top: 50px;
-}
-
 .banner10 .company_text:hover .border-box {
     width: 91%;
     height: 101%;
     transition: all 600ms ease;
 
 }
-
-
-.banner10 .company_img img {
-    width: 100%;
-    height: auto;
-}
-
-
 
 .banner10 .company_text:hover .border-box1 {
     width: 91%;
@@ -1013,74 +1096,159 @@ div.navbar {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 15px;
     font-weight: 700;
+} */
+
+
+
+
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+
+.banner10 .services-section {
+    position: relative;
+    margin-top: -182px;
+}
+
+.banner10 .service-block {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner10 .company_img img {
+    width: 100%;
+    height: auto;
+}
+
+.banner10 .center-details {
+    margin-top: 20px;
 }
 
 .banner10 .more_btn {
-    color: #bd6f29;
+    color: #bd6f29 !important;
     text-transform: uppercase;
     font-size: 13px;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
-.banner10 .more_btn:hover {
-    color: #3fb698 !important;
+
+.banner10 .service-block .inner-box {
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    border: 1px solid #3fb698;
+
+}
+
+.banner10 .service-block .inner-box .icon {
+    position: relative;
+    font-size: 70px;
+    color: #bd6f29;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.banner10 .service-block .inner-box h4,
+.banner10 .service-block .inner-box h6 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.banner10 .service-block .inner-box h4 a,
+.banner10 .service-block .inner-box h6 a {
+    position: relative;
+    color: #232323;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+
+}
+
+.banner10 .service-block .inner-box .text {
+    position: relative;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+.banner10 .service-block .inner-box:hover {
+    border-color: #bd6f29;
     text-decoration: none;
 }
 
-.banner10 .center-details {
-    /* margin-left: 30%; */
-    padding-bottom: 22px;
+.banner10 .service-block .inner-box:hover h4 a,
+.banner10 .service-block .inner-box:hover h6 a {
+    color: #bd6f29;
+    text-decoration: none;
+
 }
 
-.banner10 .company_item .width_height {
-    width: 255px;
-    height: 193px;
+
+.banner10 .service-block .inner-box .border-box {
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+    border-right: 5px solid #bd6f29;
+    border-bottom: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
 }
 
-.banner10 .card-world {
-    background: #fff;
-    border: 1px solid #3fb698;
+.banner10 .border-box1 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #bd6f29;
+    border-left: 5px solid #bd6f29;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+.banner10 .service-block .inner-box:hover .border-box {
+    width: 101%;
+    height: 101%;
+}
+
+.banner10 .service-block .inner-box:hover .border-box1 {
+    width: 101%;
+    height: 101%;
 }
 
 
 /************************* END:- 10th SECTION ***************************** */
 
-/************************* START:- 11TH SECTION ***************************** */
-
-/* .header11 {
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(counter-bg.jpg);
-}
-
-.h_bch {
-    background: rgba(16, 16, 40, 0.8);
-    height: 700px;
-}
-
-.m_cf {
-    color: #fff;
-    font-size: 40px;
-    margin-left: 25%;
-}
-
-.appointment .form-group .btn {
-    
-    display: block !important;
-}
-
-.btn.btn-primary {
-    background: #3fb698 !important;
-    border: 1px solid #3fb698 !important;
-    color: #fff !important;
-} */
-
-/************************* END:- 11th SECTION ***************************** */
 
 /************************* START:- FOOTER SECTION ***************************** */
 

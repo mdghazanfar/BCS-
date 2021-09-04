@@ -1,4 +1,3 @@
-
 require('rootpath')();
 const express = require('express');
 const path = require('path');
@@ -13,16 +12,16 @@ const cors = require('cors');
 
 
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname+'/../','front-bone/templates/')));
-app.use(express.static(path.join(__dirname+'/../','front-bone/css/')));
-app.use(express.static(path.join(__dirname+'/../','front-bone/images/')));
-app.use(express.static(path.join(__dirname+'/../','front-bone/icons/')));
+app.use(express.static(path.join(__dirname + '/../', 'front-bone/templates/')));
+app.use(express.static(path.join(__dirname + '/../', 'front-bone/css/')));
+app.use(express.static(path.join(__dirname + '/../', 'front-bone/images/')));
+app.use(express.static(path.join(__dirname + '/../', 'front-bone/icons/')));
 
 
 console.log("__dirname: ", path.join(__dirname + '/../front-bone/'))
 
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
     var oneof = false;
     if (req.headers.origin) {
         res.header('Access-Control-Allow-Origin', req.headers.origin);
@@ -60,7 +59,7 @@ app.use(function(req, res, next) {
  * END ROUTING
  */
 
-app.get("/", function(req, res) {
+app.get("/", function (req, res) {
 
     res.sendFile('index.html')
 
